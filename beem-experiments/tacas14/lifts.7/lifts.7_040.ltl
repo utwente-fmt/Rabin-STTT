@@ -1,0 +1,1 @@
+!((Environment=="in") || !(Lift_3\.pos>30) || (((Lift_0=="passive") && (Lift_2!="p_send")) R !(Lift_0=="p_msg")))

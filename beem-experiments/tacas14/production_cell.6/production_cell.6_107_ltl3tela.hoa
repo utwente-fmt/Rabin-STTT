@@ -1,0 +1,15 @@
+HOA: v1
+States: 2
+Start: 0
+AP: 4 "Robot!='Apress'" "Plate_5!='wait_belt'" "Robot.A!=2" "Plate_2=='wait_deposit'"
+acc-name: Rabin 1
+Acceptance: 2 Fin(0) & Inf(1)
+properties: trans-labels explicit-labels trans-acc deterministic
+--BODY--
+State: 0
+[0 | !1&3 | 2&3] 0 {1}
+[!0&1&!2&3] 1
+State: 1
+[!1&3 | 2&3] 0 {1}
+[1&!2&3] 1
+--END--

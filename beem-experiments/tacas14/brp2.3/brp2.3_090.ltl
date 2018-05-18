@@ -1,0 +1,1 @@
+!(<>((!(L!="BAD") R (!(L!="BAD") || (Sender!="idle"))) R ((!(K=="BAD") U (!(K=="BAD") && !(Sender\.i<3))) || (!(L!="BAD") R (!(L!="BAD") || (Sender!="idle"))))))

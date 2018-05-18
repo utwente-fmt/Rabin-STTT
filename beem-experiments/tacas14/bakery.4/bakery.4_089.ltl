@@ -1,0 +1,1 @@
+!((<>!(choosing\[2\]<=1) && <>(!(P_1=="wait") || (<>(P_1!="choose") U ((P_2!="wait") && <>(P_1!="choose"))))) || []((P_1=="wait") && (choosing\[2\]<=1) && ([]!(P_1!="choose") R (!(P_2!="wait") || []!(P_1!="choose")))))

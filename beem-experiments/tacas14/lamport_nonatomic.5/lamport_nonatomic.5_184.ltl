@@ -1,0 +1,1 @@
+!((!(NonatomicVar_4=="q") && ((!(NonatomicVar_1=="q") && !(P_1=="w2")) || ((NonatomicVar_1=="q") && (P_1=="w2")))) || ((NonatomicVar_4=="q") && ((!(NonatomicVar_1=="q") && (P_1=="w2")) || ((NonatomicVar_1=="q") && !(P_1=="w2")))))

@@ -1,0 +1,1 @@
+!(((Elevator=="choose_next") R ((Elevator=="choose_next") || (current<0))) R ([](Person_0=="waiting") U ((Person_2=="out") && (floor_queue_0_act<1))))

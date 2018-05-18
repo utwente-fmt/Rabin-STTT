@@ -1,0 +1,1 @@
+!((!(IOP=="active") && !(ap_interrupt>2)) || (!(LSL_Driver=="up_down_received") && []<>!(some_running!=26)) || ((LSL_Driver=="up_down_received") && <>[](some_running!=26)))

@@ -1,0 +1,1 @@
+!(((Lift_1\.count<13) R !(Lift_2\.nos<26)) || (((Environment=="pressed_down_0") && (Lift_0=="p_send")) R (Lift_1\.pos<=31)))

@@ -1,0 +1,43 @@
+HOA: v1
+name: "TGBA"
+States: 8
+Start: 0
+AP: 4 "floor_queue_1_act!=0" "Servis=='r'" "floor_queue_2[0]<=3" "Person_2!='out'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc stutter-invariant
+--BODY--
+State: 0
+[!0&1&!3 | 0&1&2&3] 1
+[!0&!3 | 0&2&3] 2
+[!0&!2&3] 3
+[!0&2&3 | 0&!3] 4
+[!0&!2&3] 5
+[0&!2&3] 6
+[0&1&!2&3] 7
+State: 1
+[1] 1 {0}
+State: 2
+[1] 1
+[t] 2
+State: 3
+[1&!3] 1
+[!3] 2
+[!2&3] 3
+State: 4
+[!1] 4 {0}
+[1] 4
+State: 5
+[2&3] 4
+[!1&!2&3] 5 {0}
+[1&!2&3] 5
+State: 6
+[1&2&3] 1
+[2&3] 2
+[!3] 4
+[!2&3] 6
+[1&!2&3] 7
+State: 7
+[1&2&3] 1
+[1&!2&3] 7 {0}
+--END--

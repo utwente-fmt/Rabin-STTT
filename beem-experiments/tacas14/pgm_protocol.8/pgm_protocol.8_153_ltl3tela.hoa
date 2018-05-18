@@ -1,0 +1,18 @@
+HOA: v1
+States: 3
+Start: 0
+AP: 2 "NS_time[2]<5" "SN.buf_2[0]>7"
+acc-name: generalized-Rabin 2 0 1
+Acceptance: 3 Fin(0) | (Fin(1) & Inf(2))
+properties: trans-labels explicit-labels trans-acc deterministic
+--BODY--
+State: 0
+[0] 1
+[!0] 2
+State: 1
+[0&1] 1
+[0&!1] 1 {0 1}
+State: 2
+[!0&1] 2 {0}
+[!0&!1] 2 {2}
+--END--

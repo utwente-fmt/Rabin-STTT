@@ -1,0 +1,1 @@
+!(<>([]!(NR_time\[3\]<2) R ((RXW_LEAD<5) || []!(NR_time\[3\]<2))) U (((SN_time\[0\]>11) || (receiver\.RXW\[4\]!=2)) && <>([]!(NR_time\[3\]<2) R ((RXW_LEAD<5) || []!(NR_time\[3\]<2)))))

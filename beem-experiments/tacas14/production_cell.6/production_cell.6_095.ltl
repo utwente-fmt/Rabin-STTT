@@ -1,0 +1,1 @@
+!(((Robot\.B<=7) && []<>!(Deposit!="wait")) || (!(Robot\.B<=7) && <>[](Deposit!="wait")))

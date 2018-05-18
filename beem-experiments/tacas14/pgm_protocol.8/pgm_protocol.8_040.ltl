@@ -1,0 +1,1 @@
+!(<>!(receiver==r_out) U ((NR_size>5) || <>(SN\.buf_0\[6\]<1)))

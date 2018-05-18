@@ -1,0 +1,1 @@
+!(((!(floor_queue_1_act!=0) && !(floor_queue_2\[3\]>3)) || ((floor_queue_1_act!=0) && (floor_queue_2\[3\]>3))) U ((!(Person_3\.at_floor<=0) || (floor_queue_1\[0\]!=1)) && [](Person_2=="out")))

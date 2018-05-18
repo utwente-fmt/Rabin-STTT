@@ -1,0 +1,1 @@
+!(((Plate_3!="wait_table") || <>(Plate_0=="wait_table")) U ([](Plate_4=="wait_press") && ((Plate_3!="wait_table") || <>(Plate_0=="wait_table"))))

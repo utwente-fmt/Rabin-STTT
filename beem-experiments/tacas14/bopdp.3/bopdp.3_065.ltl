@@ -1,0 +1,1 @@
+!([]((AP_Interrupt_Handler=="insert_noop") || <>((IOP=="wait_init_response") R ((IOP=="wait_init_response") || ((Interrupt_Generator!="generate") U ((Interrupt_Generator!="generate") && [](Calc=="calc_data")))))))

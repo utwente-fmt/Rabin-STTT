@@ -1,0 +1,1 @@
+!((Lift_0!="q3") U ((Lift_0!="q3") && ((<>!(Lift_1=="error_state") && (!(Lift_1=="r2") U (!(Lift_1=="r2") && ((!(Lift_1\.status!=0) && !(Lift_3!="p_send")) || ((Lift_1\.status!=0) && (Lift_3!="p_send")))))) || ([](Lift_1=="error_state") && ((Lift_1=="r2") R ((Lift_1=="r2") || ((Lift_1\.status!=0) && !(Lift_3!="p_send")) || (!(Lift_1\.status!=0) && (Lift_3!="p_send"))))))))

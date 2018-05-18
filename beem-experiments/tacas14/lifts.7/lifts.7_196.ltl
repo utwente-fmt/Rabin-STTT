@@ -1,0 +1,1 @@
+!([](Lift_1\.count<13) && ((!(Lift_0=="passive") && ([](Lift_3!="q5") R ((Lift_3\.pos>30) || [](Lift_3!="q5")))) || ((Lift_0=="passive") && (<>!(Lift_3!="q5") U (!(Lift_3\.pos>30) && <>!(Lift_3!="q5"))))))

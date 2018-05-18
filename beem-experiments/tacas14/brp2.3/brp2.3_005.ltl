@@ -1,0 +1,1 @@
+!((!(K!="start") && <>((!(Sender\.ab<20) && ((K\.triple<=17) || (Z>2))) || (!(K\.triple<=17) && (Sender\.ab<20) && !(Z>2)))) || ((K!="start") && []((!(K\.triple<=17) && !(Sender\.ab<20) && !(Z>2)) || ((Sender\.ab<20) && ((K\.triple<=17) || (Z>2))))))

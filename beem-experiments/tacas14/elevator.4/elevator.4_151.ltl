@@ -1,0 +1,1 @@
+!(<>([]((!(Person_2=="out") && (floor_queue_0_act<3)) || ((Person_2=="out") && !(floor_queue_0_act<3))) R ((!(Elevator\.who<3) && <>(Elevator=="transporting")) || ((Elevator\.who<3) && []!(Elevator=="transporting")) || []((!(Person_2=="out") && (floor_queue_0_act<3)) || ((Person_2=="out") && !(floor_queue_0_act<3))))))

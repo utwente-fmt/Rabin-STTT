@@ -1,0 +1,1 @@
+!(((!(W<=5) R ((L=="start") || (RClient!="inc"))) && <>!(Receiver!="frame_reported")) || ([](Receiver!="frame_reported") && ((W<=5) U (!(L=="start") && !(RClient!="inc")))))

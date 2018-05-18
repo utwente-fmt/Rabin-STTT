@@ -1,0 +1,1 @@
+!([]((IOP!="re_enable_lsl_interrupt") U ((IOP!="re_enable_lsl_interrupt") && ((!(IOP=="disable_lsl_interrupt") && !(IOP=="down_expected") && ((Calc!="calc_running") R ((AP!="prepare_ack") || (Calc!="calc_running")))) || (((IOP=="disable_lsl_interrupt") || (IOP=="down_expected")) && (!(Calc!="calc_running") U (!(AP!="prepare_ack") && !(Calc!="calc_running"))))))))

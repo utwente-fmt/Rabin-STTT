@@ -1,0 +1,1 @@
+!(((!(sleep_op<10) || <>[]!(IOP!="stand_by")) && ((Calc=="idle") R ((Calc=="idle") || (lsl_interrupt_ex<25)))) || ((sleep_op<10) && []<>(IOP!="stand_by") && (!(Calc=="idle") U (!(Calc=="idle") && !(lsl_interrupt_ex<25)))))

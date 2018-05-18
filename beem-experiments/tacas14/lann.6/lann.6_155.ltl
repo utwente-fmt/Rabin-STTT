@@ -1,0 +1,1 @@
+!([]((!(P_0\.v!=4) && (P_2!="wait") && ((P_2\.status<1) R (channel_link_1!="tr"))) || (!(P_2!="wait") && ((P_0\.v!=4) || (!(P_2\.status<1) U !(channel_link_1!="tr"))))))

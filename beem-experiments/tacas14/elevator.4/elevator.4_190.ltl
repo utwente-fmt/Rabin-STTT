@@ -1,0 +1,1 @@
+!(<>(!(floor_queue_2\[1\]>2) || ((Person_0!="in_elevator") && (Person_1\.at_floor<=2))) || (!(Elevator!="transporting") R (!(Elevator!="transporting") || !(floor_queue_0\[3\]>0))))

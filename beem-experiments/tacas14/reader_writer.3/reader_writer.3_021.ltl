@@ -1,0 +1,1 @@
+!((!(control!="q_error") && <>(reader_2=="idle")) || ((control!="q_error") && []!(reader_2=="idle")) || (!(reader_3!="idle") && ((reader_4=="idle") U ((reader_4!="idle") && (reader_4=="idle")))) || ((reader_3!="idle") && (!(reader_4=="idle") R (!(reader_4!="idle") || !(reader_4=="idle")))))

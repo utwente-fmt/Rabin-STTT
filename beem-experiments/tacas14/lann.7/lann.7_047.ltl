@@ -1,0 +1,1 @@
+!([](channel_link_4=="ready") && (!(P_1=="wait") R !(channel_link_0=="tr")))

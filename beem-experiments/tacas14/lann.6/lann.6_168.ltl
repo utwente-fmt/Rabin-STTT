@@ -1,0 +1,1 @@
+!((P_3=="CS") || (!(P_3\.v>7) && !(P_3=="CS") && ([](channel_link_1=="tr") R (P_2\.status<1))) || (((P_3\.v>7) || (P_3=="CS")) && (<>!(channel_link_1=="tr") U !(P_2\.status<1))))

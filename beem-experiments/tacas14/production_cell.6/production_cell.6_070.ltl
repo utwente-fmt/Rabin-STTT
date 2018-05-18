@@ -1,0 +1,1 @@
+!(<>(Plate_8!="new") && <>((Plate_4!="wait_press") || (Sensor=="q")))

@@ -1,0 +1,1 @@
+!((!(control=="writer_active") && !(writer_7=="writing") && <>[](writer_2!="idle")) || ((control=="writer_active") && ((writer_7=="writing") || []<>!(writer_2!="idle"))))

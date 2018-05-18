@@ -1,0 +1,1 @@
+!(((!(Environment!="pressed_down_0") || (Lift_3!="q4")) && (!(Lift_0!="q3") U [](Lift_3!="a_msg"))) || ((Environment!="pressed_down_0") && !(Lift_3!="q4") && ((Lift_0!="q3") R <>!(Lift_3!="a_msg"))))

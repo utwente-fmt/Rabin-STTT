@@ -1,0 +1,1 @@
+!((!(phil_15!="finish") && ((phil_4=="eat") || (phil_9=="eat") || [](fork\[14\]<=2))) || (!(phil_4=="eat") && !(phil_9=="eat") && (phil_15!="finish") && <>!(fork\[14\]<=2)))

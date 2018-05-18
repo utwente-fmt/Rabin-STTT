@@ -1,0 +1,1 @@
+!((((sleeping<14) R (AP_Interrupt_Handler!="awake")) U ((IOP!="issue_lsl_up") && ((sleeping<14) R (AP_Interrupt_Handler!="awake")))) R ((IOP=="enable_lsl_interrupt") || <>!(IOP!="issue_down_lsl") || (((sleeping<14) R (AP_Interrupt_Handler!="awake")) U ((IOP!="issue_lsl_up") && ((sleeping<14) R (AP_Interrupt_Handler!="awake"))))))

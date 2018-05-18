@@ -1,0 +1,1 @@
+!(((SClient!="nok") && (([]!(K!="in_transit") && <>!(Sender\.rc<23)) || (<>(K!="in_transit") && [](Sender\.rc<23)))) || (!(SClient!="nok") && ((<>!(Sender\.rc<23) && <>(K!="in_transit")) || [](!(K!="in_transit") && (Sender\.rc<23)))))

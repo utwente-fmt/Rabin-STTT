@@ -1,0 +1,1 @@
+!((receiver\.trail!=7) U ((NS\.buf_0\[0\]<=2) && ((receiver\.RXW\[4\]!=2) || ((RN_time\[0\]!=10) R <>(NS==q_in_1)))))

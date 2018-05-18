@@ -1,0 +1,1 @@
+!(([](NR\.buf_0\[2\]>11) R (SN\.buf_0\[2\]<4)) U ((NS_size<0) || (!(RN\.buf_0\[1\]!=5) && !(element\.rs_len>6)) || ((RN\.buf_0\[1\]!=5) && (element\.rs_len>6))))

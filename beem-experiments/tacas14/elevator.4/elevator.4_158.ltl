@@ -1,0 +1,1 @@
+!(<>(!(Elevator!="q") || ((floor_queue_1\[1\]<1) && (floor_queue_3\[2\]<1)) || [](floor_queue_3\[3\]<=1)))

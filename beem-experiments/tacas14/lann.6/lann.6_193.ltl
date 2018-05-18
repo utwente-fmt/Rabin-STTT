@@ -1,0 +1,1 @@
+!((((P_0!="wait") && (channel_link_2\.v!=19)) || (!(P_0!="wait") && !(channel_link_2\.v!=19))) U ((channel_link_0!="ready") && (((P_0!="wait") && (channel_link_2\.v!=19)) || (!(P_0!="wait") && !(channel_link_2\.v!=19))) && ([](channel_link_2!="tr") U ((P_2\.status<1) && [](channel_link_2!="tr")))))

@@ -1,0 +1,24 @@
+HOA: v1
+name: "TGBA"
+States: 4
+Start: 0
+AP: 3 "clock!='time'" "RClient=='ok'" "Sender!='next_frame'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc deterministic
+properties: stutter-invariant
+--BODY--
+State: 0
+[1&2] 1
+[!1&!2] 2
+[1&!2] 3
+State: 1
+[!0] 1
+[0] 1 {0}
+State: 2
+[!0&!2] 2
+[0&!2] 2 {0}
+State: 3
+[2] 1
+[!2] 3
+--END--

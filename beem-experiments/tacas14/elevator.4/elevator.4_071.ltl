@@ -1,0 +1,1 @@
+!(((floor_queue_2\[0\]<=3) R ((Person_1=="in_elevator") R ((Elevator=="q") || (Person_1=="in_elevator")))) R <>((Person_1=="out") && (floor_queue_2\[3\]>3)))

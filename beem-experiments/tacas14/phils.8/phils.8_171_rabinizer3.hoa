@@ -1,0 +1,34 @@
+HOA: v1
+States: 5
+Start: 0
+AP: 3 "fork[13]!=2" "phil_3=='eat'" "fork[13]<=1"
+acc-name: Rabin 4
+Acceptance: 8 (Fin(0) & Inf(1)) | (Fin(2) & Inf(3)) | (Fin(4) & Inf(5)) | (Fin(6) & Inf(7))
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0&2] 0 {1 2 4 6}
+[!0&1&!2] 1 {2 6}
+[0&1&!2] 2 {2 5 6}
+[!0&!1&!2 | 0&2] 0 {0 2 4 6}
+[0&!1&!2] 0 {1 2 5 6}
+State: 1
+[!0&2] 0 {1 2 4 6}
+[!0&1&!2] 1 {2 6}
+[0&2 | !1&!2] 0 {0 2 4 6}
+[0&1&!2] 4 {2 7}
+State: 2
+[!0&1&!2] 3 {2}
+[!0&!1 | 2] 0 {0 2 4 6}
+[0&1&!2] 2 {2 7}
+[0&!1&!2] 0 {1 2 7}
+State: 3
+[!0&1&!2] 3 {2}
+[0&1&!2] 3 {3}
+[!1 | 2] 0 {0 2 4 6}
+State: 4
+[!0&1&!2] 4 {2 6}
+[0&1&!2] 4 {3}
+[!1 | 2] 0 {0 2 4 6}
+--END--

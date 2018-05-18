@@ -1,0 +1,1 @@
+!((((SN_time\[1\]!=6) || (element\.rs\[5\]<12)) && (!(NR\.buf_2\[6\]<=9) R (!(NR\.buf_2\[6\]<=9) || (!(receiver\.RXW\[0\]>3) U !(SN_time\[5\]!=2))))) || (!(SN_time\[1\]!=6) && !(element\.rs\[5\]<12) && ((NR\.buf_2\[6\]<=9) U ((NR\.buf_2\[6\]<=9) && ((receiver\.RXW\[0\]>3) R (SN_time\[5\]!=2))))))

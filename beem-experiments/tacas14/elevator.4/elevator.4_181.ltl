@@ -1,0 +1,1 @@
+!((<>(floor_queue_2\[3\]>3) U (Elevator\.serving<=2)) && (<>(floor_queue_3\[1\]<3) U !(floor_queue_0\[2\]<=3)))

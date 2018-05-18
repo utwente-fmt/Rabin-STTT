@@ -1,0 +1,1 @@
+!(<>[](!(Robot\.A<0) && ((!(Plate_8=="wait_press") && !(Robot!="Bpress")) || ((Plate_8=="wait_press") && (Robot!="Bpress")))))

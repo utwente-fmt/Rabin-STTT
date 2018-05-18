@@ -1,0 +1,1 @@
+!(<>[](((!(IOP=="send_nack") && (LSL_Interrupt_Handler=="interrupt_received")) || ((IOP=="send_nack") && !(LSL_Interrupt_Handler=="interrupt_received"))) && <>(Interrupt_Generator!="generate")))

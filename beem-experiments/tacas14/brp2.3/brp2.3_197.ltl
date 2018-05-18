@@ -1,0 +1,1 @@
+!(<>(([]!(File<=15) && (<>(X<=0) R (!(Receiver=="first_safe_frame") || <>(X<=0)))) || (<>(File<=15) && ([]!(X<=0) U ((Receiver=="first_safe_frame") && []!(X<=0))))))

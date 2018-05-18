@@ -1,0 +1,1 @@
+!((!(AP\.no_ap_ints!=0) && !(IOP!="now_wait") && !(lsl_command<=12)) || ((IOP!="now_wait") && ((AP\.no_ap_ints!=0) || (lsl_command<=12))) || []<>!(IOP=="send_nack"))

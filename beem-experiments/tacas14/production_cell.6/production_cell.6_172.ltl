@@ -1,0 +1,1 @@
+!((Plate_1=="wait_table") || (!(Deposit=="loaded") && !(Plate_4=="wait_table") && !(Table!="down_empty")))

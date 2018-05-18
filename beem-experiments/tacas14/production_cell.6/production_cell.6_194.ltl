@@ -1,0 +1,1 @@
+!(<>(([](Plate_3!="new") R ((Robot=="wait") || [](Plate_3!="new"))) || (!(Plate_5!="new") U (!(Plate_5!="new") && !(Table\.k<4)))))

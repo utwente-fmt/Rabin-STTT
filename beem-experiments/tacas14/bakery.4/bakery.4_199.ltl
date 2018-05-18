@@ -1,0 +1,1 @@
+!(((P_1!="choose") && (!(P_2=="for_loop") U (!(P_0\.j<=3) && !(P_2!="wait") && !(P_2=="for_loop")))) || (!(P_1!="choose") && ((P_2=="for_loop") R ((P_0\.j<=3) || (P_2!="wait") || (P_2=="for_loop")))))

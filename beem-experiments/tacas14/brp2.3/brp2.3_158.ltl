@@ -1,0 +1,1 @@
+!((Sender=="next_frame") || ((W<=5) R (Receiver!="idle")) || (!(Z>2) R ((U!=24) || !(Z>2))))

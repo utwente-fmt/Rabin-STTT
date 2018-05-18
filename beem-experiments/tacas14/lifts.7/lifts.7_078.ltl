@@ -1,0 +1,1 @@
+!([]((Lift_1\.m!=24) U ((Lift_1\.m!=24) && ((!(Lift_3=="a_move") && !(Lift_3=="a_send") && ((Lift_3!="r1") R ((Lift_1!="q5") || (Lift_3!="r1")))) || (((Lift_3=="a_move") || (Lift_3=="a_send")) && (!(Lift_3!="r1") U (!(Lift_1!="q5") && !(Lift_3!="r1"))))))))

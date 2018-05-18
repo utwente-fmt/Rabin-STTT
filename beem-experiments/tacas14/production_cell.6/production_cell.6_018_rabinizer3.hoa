@@ -1,0 +1,25 @@
+HOA: v1
+States: 5
+Start: 0
+AP: 5 "Robot!='Apress'" "Plate_3=='wait_deposit'" "Plate_4=='wait_belt'" "Plate_2=='wait_press'" "Plate_2!='new'"
+acc-name: generalized-Rabin 2 0 1
+Acceptance: 3 Fin(0) | (Fin(1) & Inf(2))
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0&!1&2&3&4 | !0&1&!2&3&4 | 0&!1&!2&3&4 | 0&1&2&3&4] 1 {0 1}
+[!0&!1&2&3&!4 | !0&1&!2&3&!4 | 0&!1&!2&3&!4 | 0&1&2&3&!4] 2 {0 1}
+[!0&!1&2&!3&!4 | !0&1&!2&!3&!4 | 0&!1&!2&!3&!4 | 0&1&2&!3&!4] 3 {0 1}
+[!0&!1&!2 | !0&1&2 | 0&!1&2 | 0&1&!2 | !3&4] 4 {0 1}
+State: 1
+[t] 1 {0 1}
+State: 2
+[4] 1 {0 1}
+[!4] 2 {0 2}
+State: 3
+[4] 4 {0 1}
+[!4] 3 {0 1}
+State: 4
+[t] 4
+--END--

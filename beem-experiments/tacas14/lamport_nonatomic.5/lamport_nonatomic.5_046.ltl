@@ -1,0 +1,1 @@
+!([]((NonatomicVar_3=="q") && !(P_1=="p6")) || (<>(P_1=="p6") && <>!(NonatomicVar_3=="q")))

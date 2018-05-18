@@ -1,0 +1,1 @@
+!((<>!(sw_stand_by<=18) && <>(!(IOP=="w_stand_by") && ((!(LSL_Driver!="stand_by") && !(lsl_running!=8)) || ((LSL_Driver!="stand_by") && (lsl_running!=8))))) || []((sw_stand_by<=18) && ((IOP=="w_stand_by") || ((LSL_Driver!="stand_by") && !(lsl_running!=8)) || (!(LSL_Driver!="stand_by") && (lsl_running!=8)))))

@@ -1,0 +1,1 @@
+!((<>[]!(Plate_1=="wait_belt") && <>(!(Robot!="wait") || []<>!(Plate_8!="wait_press"))) || (<>[](Plate_8!="wait_press") && []((Robot!="wait") && <>(Plate_1=="wait_belt"))))

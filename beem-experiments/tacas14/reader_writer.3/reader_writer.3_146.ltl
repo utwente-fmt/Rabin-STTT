@@ -1,0 +1,1 @@
+!((!(writer_8=="writing") || <>(writer_1=="idle")) U ((!(writer_5!="idle") || !(writer_6!="writing")) && (!(writer_8=="writing") || <>(writer_1=="idle"))))

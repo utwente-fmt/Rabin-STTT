@@ -1,0 +1,1 @@
+!((!(Person_1=="in_elevator") || !(Servis!="r") || []!(floor_queue_2\[0\]<=3)) R (!(Person_0!="in_elevator") || !(Person_1=="in_elevator") || !(Servis!="r") || []!(floor_queue_2\[0\]<=3)))

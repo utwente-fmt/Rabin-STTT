@@ -1,0 +1,1 @@
+!(((Environment!="pressed_down_2") && !(Lift_0!="q1") && !(Lift_1!="p_msg") && !(Lift_2\.pos!=13) && <>!(Lift_3!="p_send")) || ((!(Environment!="pressed_down_2") || (Lift_0!="q1") || (Lift_1!="p_msg") || (Lift_2\.pos!=13)) && [](Lift_3!="p_send")))

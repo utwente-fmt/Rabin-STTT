@@ -1,0 +1,1 @@
+!((Person_3=="out") && ([](Person_0=="waiting") || [](Servis=="q") || [](Elevator\.serving<=2)))

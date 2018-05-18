@@ -1,0 +1,1 @@
+!((<>!(Servis!="q") && (<>(floor_queue_2\[3\]>3) U (((Elevator\.who<3) || !(floor_queue_2\[3\]<0)) && <>(floor_queue_2\[3\]>3)))) || ([](Servis!="q") && ([]!(floor_queue_2\[3\]>3) R ((!(Elevator\.who<3) && (floor_queue_2\[3\]<0)) || []!(floor_queue_2\[3\]>3)))))

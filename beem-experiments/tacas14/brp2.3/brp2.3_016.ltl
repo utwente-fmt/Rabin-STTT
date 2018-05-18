@@ -1,0 +1,1 @@
+!(<>((Receiver!="first_safe_frame") || ((Sender\.i>8) && (!(L!="start") R !(Receiver!="frame_received")))))

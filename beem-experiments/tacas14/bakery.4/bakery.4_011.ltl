@@ -1,0 +1,1 @@
+!(([](choosing\[0\]<0) && (((P_0=="wait") && !(P_2!="for_loop")) || []!(choosing\[0\]<0))) || ((!(P_0=="wait") || (P_2!="for_loop")) && <>(choosing\[0\]<0) && <>!(choosing\[0\]<0)))

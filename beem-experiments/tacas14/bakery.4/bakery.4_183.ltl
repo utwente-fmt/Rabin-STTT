@@ -1,0 +1,1 @@
+!(((P_1\.max<2) U [](choosing\[0\]>1)) U ((P_0!="wait") && ((P_1\.max<2) U [](choosing\[0\]>1))))

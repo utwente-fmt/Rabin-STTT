@@ -1,0 +1,1 @@
+!(<>(!(channel_link_4=="ready") || ((P_1!="got_msg") && (P_1=="wait")) || [](P_1!="CS")))

@@ -1,0 +1,30 @@
+HOA: v1
+States: 5
+Start: 3
+AP: 3 "LSL_Interrupt_Handler!='awake'" "IOP=='send_active_command'" "LSL_Driver!='stand_by'"
+acc-name: Rabin 2
+Acceptance: 4 (Fin(0) & Inf(1)) | (Fin(2) & Inf(3))
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[t] 0 {0 2}
+State: 1
+[!0] 1 {2}
+[0] 1 {1 2}
+State: 2
+[2] 0 {0 2}
+[!0&!2] 2 {0}
+[0&!2] 2 {0 3}
+State: 3
+[!0&1&2] 1 {2}
+[0&1&2] 1 {1 2}
+[!1&2] 0 {0 2}
+[1&!2] 4 {0 2}
+[!0&!1&!2] 2 {0}
+[0&!1&!2] 2 {0 3}
+State: 4
+[!0&2] 1 {2}
+[0&2] 1 {1 2}
+[!2] 4 {0 2}
+--END--

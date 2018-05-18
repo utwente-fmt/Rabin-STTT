@@ -1,0 +1,1 @@
+!(<>((control=="q_error") && !(writer_13=="writing") && ((writer_10!="idle") R (!(reader_1=="idle") || (writer_10!="idle")))))

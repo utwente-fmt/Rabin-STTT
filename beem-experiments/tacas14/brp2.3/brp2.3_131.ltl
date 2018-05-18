@@ -1,0 +1,1 @@
+!(((Sender\.i<3) && []<>((Receiver\.exp_ab!=14) && [](K=="BAD"))) U ((Sender\.i<3) && (W<=5) && []<>((Receiver\.exp_ab!=14) && [](K=="BAD"))))

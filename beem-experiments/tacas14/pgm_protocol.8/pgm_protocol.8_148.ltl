@@ -1,0 +1,1 @@
+!(<>(((!(clock==tick) && (element\.rs\[2\]!=0)) || ((clock==tick) && !(element\.rs\[2\]!=0))) && ((NR\.buf_0\[1\]<=0) || <>(receiver==r3))))

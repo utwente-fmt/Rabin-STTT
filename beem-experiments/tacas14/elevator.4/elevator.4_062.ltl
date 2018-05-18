@@ -1,0 +1,1 @@
+!((Person_3\.at_floor<=3) U ((Elevator\.serving<=2) && ((Servis\.caller!=0) || ((Person_0=="out") R <>(Person_3!="in_elevator")))))

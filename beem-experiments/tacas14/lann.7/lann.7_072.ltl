@@ -1,0 +1,1 @@
+!((P_3!="got_msg") U ((P_3!="got_msg") && (channel_link_1=="tr") && (!(P_0\.status!=0) || !(P_2\.status<1) || (P_3\.v>7))))

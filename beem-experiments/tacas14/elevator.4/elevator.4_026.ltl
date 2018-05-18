@@ -1,0 +1,1 @@
+!([](Person_2!="in_elevator") || (((Servis\.floor!=2) && (floor_queue_0\[1\]!=3)) R (((Servis\.floor!=2) && (floor_queue_0\[1\]!=3)) || <>(floor_queue_0\[1\]!=3))))

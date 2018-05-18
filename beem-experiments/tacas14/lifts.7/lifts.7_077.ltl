@@ -1,0 +1,1 @@
+!(((Lift_1=="q1") R ((Environment!="pressed_up_2") || (Lift_1=="q1"))) R (<>(Wheels=="error_state") U !(Bus\.sender!=3)))

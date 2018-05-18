@@ -1,0 +1,1 @@
+!((!(Receiver!="idle") || (!(V<=17) && !(W!=0)) || ((V<=17) && (W!=0))) U ((!(K\.triple<=17) && !(SClient!="send_req")) || ((K\.triple<=17) && (SClient!="send_req"))))

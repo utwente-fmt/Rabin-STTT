@@ -1,0 +1,13 @@
+HOA: v1
+States: 1
+Start: 0
+AP: 2 "channel_link_0.v>2" "channel_link_4=='tr'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0 | !1] 0 {0}
+[0&1] 0
+--END--

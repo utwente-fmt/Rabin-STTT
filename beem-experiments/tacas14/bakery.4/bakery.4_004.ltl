@@ -1,0 +1,1 @@
+!((P_1!="wait") || (!(P_0=="choose") U []((!(P_2!="choose") && !(number\[1\]<0)) || ((P_2!="choose") && (number\[1\]<0)))))

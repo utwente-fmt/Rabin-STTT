@@ -1,0 +1,1 @@
+!([](phil_1=="think") U ([](phil_4=="finish") && [](phil_1=="think")))

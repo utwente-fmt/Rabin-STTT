@@ -1,0 +1,1 @@
+!([](((channel_link_0!="ready") && (([]!(channel_link_1!="ready") && <>!(P_3\.status<=12)) || (<>(channel_link_1!="ready") && [](P_3\.status<=12)))) || (!(channel_link_0!="ready") && ((<>!(P_3\.status<=12) && <>(channel_link_1!="ready")) || []((P_3\.status<=12) && !(channel_link_1!="ready"))))))

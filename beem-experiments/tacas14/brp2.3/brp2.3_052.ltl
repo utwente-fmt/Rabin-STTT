@@ -1,0 +1,1 @@
+!((!(RClient=="nok") && !(Receiver!="frame_reported") && !(Receiver=="new_file")) || ((RClient=="nok") && ((Receiver!="frame_reported") || (Receiver=="new_file"))) || ([]!(Sender\.i>8) U (!(Sender!="idle") && []!(Sender\.i>8))))

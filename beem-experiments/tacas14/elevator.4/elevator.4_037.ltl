@@ -1,0 +1,1 @@
+!(<>[](!(floor_queue_0_act<1) && ((!(Elevator!="move_next") && !(Person_0=="waiting")) || ((Elevator!="move_next") && (Person_0=="waiting")))))

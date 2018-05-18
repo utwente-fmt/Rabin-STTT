@@ -1,0 +1,1 @@
+!(<>((!(NS\.buf_0\[2\]!=10) && (SN\.buf_0\[5\]<10) && !(receiver==r_trail)) R (!(SN_time\[4\]<=5) || (!(NS\.buf_0\[2\]!=10) && (SN\.buf_0\[5\]<10) && !(receiver==r_trail)))))

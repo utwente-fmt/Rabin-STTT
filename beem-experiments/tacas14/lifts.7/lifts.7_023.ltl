@@ -1,0 +1,1 @@
+!(((Lift_2!="r3") || (Wheels=="moving_up")) && <>(!(Lift_1!="error_state") && !(relay\[0\]!=29)))

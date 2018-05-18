@@ -1,0 +1,1 @@
+!((!(enabled_lsl_interrupt>9) && []<>(IOP=="set_stand_by") && (!(LSL_Interrupt_Handler=="awake") R ((IOP!="send_nack") || !(LSL_Interrupt_Handler=="awake")))) || (((enabled_lsl_interrupt>9) || <>[]!(IOP=="set_stand_by")) && ((LSL_Interrupt_Handler=="awake") U (!(IOP!="send_nack") && (LSL_Interrupt_Handler=="awake")))))

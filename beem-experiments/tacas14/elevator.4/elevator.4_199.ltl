@@ -1,0 +1,1 @@
+!(<>([](floor_queue_1\[2\]>3) && ((Servis=="r") || (<>(current<0) R ((Elevator\.going_to>1) || <>(current<0))))))

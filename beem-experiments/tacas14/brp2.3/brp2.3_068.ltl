@@ -1,0 +1,1 @@
+!(!(Sender!="idle") || (!(L!="start") && ((!(L!="start") && ((File!=14) || (Sender=="error"))) || (!(File!=14) && (L!="start") && !(Sender=="error")))) || ((L!="start") && ((!(File!=14) && !(L!="start") && !(Sender=="error")) || ((L!="start") && ((File!=14) || (Sender=="error"))))))

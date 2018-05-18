@@ -1,0 +1,1 @@
+!(<>((Lift_2!="active") || (!(Lift_2!="r2") && ((Environment=="pressed_up_2") || (relay\[3\]<20)))))

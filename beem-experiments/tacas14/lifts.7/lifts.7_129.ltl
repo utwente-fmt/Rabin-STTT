@@ -1,0 +1,1 @@
+!((Lift_3\.nos!=29) U ((Lift_3\.nos!=29) && []((!(Lift_1!="q4") && ([](Lift_2!="error_state") || <>(Lift_1!="passive"))) || ((Lift_1!="q4") && <>!(Lift_2!="error_state") && []!(Lift_1!="passive")))))

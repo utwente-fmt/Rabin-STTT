@@ -1,0 +1,1 @@
+!(((reader_3!="reading") || !(writer_7=="idle")) && ((reader_3!="reading") || !(writer_4=="idle") || !(writer_11!="writing")))

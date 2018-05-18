@@ -1,0 +1,1 @@
+!((Calc!="idle") || <>(Calc=="calc_data") || ([]!(IOP!="wait_for_down") && <>(IOP!="down_expected")) || (<>(IOP!="wait_for_down") && []!(IOP!="down_expected")))

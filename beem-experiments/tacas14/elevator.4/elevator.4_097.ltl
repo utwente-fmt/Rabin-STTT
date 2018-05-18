@@ -1,0 +1,1 @@
+!((floor_queue_2\[1\]>2) R ((floor_queue_2\[1\]>2) || (!(floor_queue_0\[1\]!=3) && (((floor_queue_3_act>3) && [](Elevator\.serving<2)) || (!(floor_queue_3_act>3) && <>!(Elevator\.serving<2)))) || ((floor_queue_0\[1\]!=3) && (((floor_queue_3_act>3) && <>!(Elevator\.serving<2)) || (!(floor_queue_3_act>3) && [](Elevator\.serving<2))))))

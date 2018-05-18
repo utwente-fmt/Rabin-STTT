@@ -1,0 +1,1 @@
+!(((Environment=="pressed_up_1") R <>(Lift_3=="r2")) R (((Lift_3!="wait") && ((Lift_3!="r4") || !(Lift_3=="r4"))) || ((Environment=="pressed_up_1") R <>(Lift_3=="r2"))))

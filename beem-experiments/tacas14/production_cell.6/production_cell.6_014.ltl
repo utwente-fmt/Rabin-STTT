@@ -1,0 +1,1 @@
+!([](Plate_7!="wait_press") U ((!(Plate_4=="wait_belt") && (Plate_8!="wait_belt")) || ((Plate_4=="wait_belt") && !(Plate_8!="wait_belt")) || (!(Plate_7=="wait_table") && !(Sensor!="q")) || ((Plate_7=="wait_table") && (Sensor!="q"))))

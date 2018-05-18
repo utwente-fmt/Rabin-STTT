@@ -1,0 +1,23 @@
+HOA: v1
+name: "TGBA"
+States: 4
+Start: 0
+AP: 3 "Plate_6!='wait_belt'" "Plate_0=='wait_belt'" "Robot=='Bpress'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc stutter-invariant
+--BODY--
+State: 0
+[t] 0
+[0&!1&!2 | 0&1&2] 1
+[0] 2
+[!0&!1&2 | !0&1&!2] 3
+State: 1
+[!1&!2 | 1&2] 1 {0}
+State: 2
+[!0&!1&!2 | !0&1&2] 1
+[!0] 2
+State: 3
+[!0&!1&2 | !0&1&!2] 3 {0}
+[!0&!1&!2 | !0&1&2] 3
+--END--

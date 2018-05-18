@@ -1,0 +1,1 @@
+!(<>[](((!(Receiver!="frame_reported") && (Sender!="next_frame")) || ((Receiver!="frame_reported") && !(Sender!="next_frame"))) && <>((L!="in_transit") R ((L!="in_transit") || (SClient=="nok")))))

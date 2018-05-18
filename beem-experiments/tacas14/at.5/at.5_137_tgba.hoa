@@ -1,0 +1,19 @@
+HOA: v1
+name: "TGBA"
+States: 3
+Start: 0
+AP: 4 "P_3!='p8'" "P_3=='p5'" "P_4=='p6'" "P_4=='CS'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc stutter-invariant
+properties: inherently-weak
+--BODY--
+State: 0
+[0 | !1] 0
+[!0&1] 1
+[!0&!1&2&3] 2
+State: 1
+[t] 1 {0}
+State: 2
+[3] 2 {0}
+--END--

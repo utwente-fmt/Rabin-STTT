@@ -1,0 +1,1 @@
+!(([]!(IOP=="w_stand_by") U (lsl_command<1)) && ([](IOP!="enter_active") U ((sleep_op<10) && [](IOP!="enter_active"))))

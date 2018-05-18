@@ -1,0 +1,49 @@
+HOA: v1
+name: "TGBA"
+States: 11
+Start: 0
+AP: 4 "Belt=='got_new'" "Table!='up_full'" "Plate_7=='new'" "Plate_3!='new'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc stutter-invariant
+properties: inherently-weak
+--BODY--
+State: 0
+[3] 1
+[!0&1 | 1&!2] 2
+[0&!1&2] 3
+[0&1&2] 4
+[0&1&2] 5
+State: 1
+[3] 1 {0}
+State: 2
+[!0&1 | 1&!2] 2
+[0&1&2] 5
+[1&3] 6
+State: 3
+[0&!1&2] 3
+[0&1&2] 4
+[2&3] 7
+[!0&1&2] 8
+State: 4
+[0&!1&2] 3
+[0&1&2] 4
+[!1&2&3] 7
+[!0&1&2&3] 9
+State: 5
+[1&!2] 2
+[1&2] 5
+[1&!2&3] 6
+State: 6
+[1&3] 6 {0}
+State: 7
+[2&3] 7 {0}
+State: 8
+[!0&1&2] 8
+[1&2&3] 10
+State: 9
+[!1&2&3] 7
+[1&2&3] 9
+State: 10
+[1&2&3] 10 {0}
+--END--

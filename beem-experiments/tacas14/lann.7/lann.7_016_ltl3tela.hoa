@@ -1,0 +1,19 @@
+HOA: v1
+States: 4
+Start: 2
+AP: 5 "P_4=='wait'" "P_4.v<=4" "P_4=='got_msg'" "P_1!='got_msg'" "channel_link_2=='ready'"
+acc-name: Rabin 1
+Acceptance: 2 Fin(0) & Inf(1)
+properties: trans-labels explicit-labels trans-acc deterministic weak
+--BODY--
+State: 0
+[t] 0 {1}
+State: 1
+[0] 1 {1}
+State: 2
+[!1&2 | 1&!2 | !3&!4 | 3&4] 0
+[0&!1&!2&!3&4 | 0&!1&!2&3&!4 | 0&1&2&!3&4 | 0&1&2&3&!4] 3
+State: 3
+[0&!1&2 | 0&1&!2 | 0&!3&!4 | 0&3&4] 1
+[0&!1&!2&!3&4 | 0&!1&!2&3&!4 | 0&1&2&!3&4 | 0&1&2&3&!4] 3
+--END--

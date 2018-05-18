@@ -1,0 +1,27 @@
+HOA: v1
+States: 4
+Start: 0
+AP: 4 "Receiver.exp_ab<=3" "Sender.rc<23" "Receiver.triple<=23" "K=='in_transit'"
+acc-name: generalized-Rabin 3 0 1 1
+Acceptance: 5 Fin(0) | (Fin(1) & Inf(2)) | (Fin(3) & Inf(4))
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0&1&2&3] 0 {0 2 4}
+[0&!3 | !1&!3] 1 {0 1}
+[!0&1&!3] 0 {0 1 4}
+[!0&1&!2&3] 2 {0 2 4}
+[0&!2&3 | !1&!2&3] 2 {0 2}
+[0&2&3 | !1&2&3] 0 {0 2}
+State: 1
+[0&2 | 0&!3 | !1&2 | !1&!3] 1 {0 1}
+[!0&1&!2&3] 2 {0 1 4}
+[0&!2&3 | !1&!2&3] 3 {0 1}
+[!0&1&2 | !0&1&!3] 0 {0 1 4}
+State: 2
+[t] 2
+State: 3
+[0 | !1] 3 {0 1}
+[!0&1] 2 {0 1 4}
+--END--

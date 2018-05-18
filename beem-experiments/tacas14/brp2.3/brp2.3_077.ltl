@@ -1,0 +1,1 @@
+!((!(K\.triple!=11) && !(Sender=="init_state")) || (!(Sender=="next_frame") && []<>!(K\.triple<=17)) || ((Sender=="next_frame") && <>[](K\.triple<=17)))

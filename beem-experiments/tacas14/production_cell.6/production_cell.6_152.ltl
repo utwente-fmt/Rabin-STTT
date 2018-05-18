@@ -1,0 +1,1 @@
+!((!(Plate_8=="new") && ((!(Plate_5=="wait_deposit") && !(done<6)) || ((Plate_5=="wait_deposit") && (done<6)))) || ((Plate_8=="new") && ((!(Plate_5=="wait_deposit") && (done<6)) || ((Plate_5=="wait_deposit") && !(done<6)))))

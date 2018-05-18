@@ -1,0 +1,1 @@
+!((!(Plate_4!="wait_belt") && !(Plate_5=="wait_table") && !(Sensor\.count<=4)) || ((Sensor\.count<=4) && ((Plate_4!="wait_belt") || (Plate_5=="wait_table"))) || ([]!(Plate_2=="new") U (!(Plate_7!="wait_press") && []!(Plate_2=="new"))))

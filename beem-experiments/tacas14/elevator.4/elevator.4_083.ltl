@@ -1,0 +1,1 @@
+!((!(Elevator!="q") && []<>(Person_3!="waiting")) || ((Elevator!="q") && <>[]!(Person_3!="waiting")))

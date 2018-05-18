@@ -1,0 +1,1 @@
+!((RClient!="nok") U ((RClient!="nok") && []((!(Sender\.i<3) && ([](Sender!="wait_ack") || <>(File!=14))) || ((Sender\.i<3) && <>!(Sender!="wait_ack") && []!(File!=14)))))

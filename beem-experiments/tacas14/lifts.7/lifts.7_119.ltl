@@ -1,0 +1,1 @@
+!(<>((!(Lift_2!="a_msg") && !(Lift_3=="passive")) || ((Lift_2!="a_msg") && (Lift_3=="passive"))) R (<>(Lift_0!="r4") U ([](relay\[1\]>19) && <>(Lift_0!="r4"))))

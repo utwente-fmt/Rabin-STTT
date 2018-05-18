@@ -1,0 +1,20 @@
+HOA: v1
+States: 4
+Start: 3
+AP: 3 "P_2!='got_msg'" "P_4.v<=4" "P_4!='CS'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc
+--BODY--
+State: 0
+[1&!2] 0
+[!1&!2] 2
+State: 1
+[0] 1
+State: 2
+[t] 2
+State: 3
+[1&!2] 0
+[0&1 | 0&2] 1
+[!1&!2] 2
+--END--

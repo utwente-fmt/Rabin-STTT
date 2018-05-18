@@ -1,0 +1,17 @@
+HOA: v1
+States: 3
+Start: 2
+AP: 4 "Plate_9=='new'" "done<6" "Plate_7=='wait_press'" "Table!='up_empty'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[t] 0 {0}
+State: 1
+[t] 1
+State: 2
+[!0&!2 | !0&!3 | 1] 1
+[0&!1 | !1&2&3] 0 {0}
+--END--

@@ -1,0 +1,1 @@
+!(<>(Lift_1=="r3") || (((Lift_2=="r1") && (!(Lift_0!="wait") U (!(Lift_0!="wait") && !(Lift_3\.m<=26)))) R (!(Lift_0=="p_send") || ((Lift_2=="r1") && (!(Lift_0!="wait") U (!(Lift_0!="wait") && !(Lift_3\.m<=26)))))))

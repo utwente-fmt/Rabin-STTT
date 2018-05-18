@@ -1,0 +1,1 @@
+!((writer_5!="writing") && <>!(control=="writer_active") && <>(!(control!="readers_active") && !(writer_11!="writing")))

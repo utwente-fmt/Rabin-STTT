@@ -1,0 +1,20 @@
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "K=='start'" "Receiver!='frame_received'" "Sender=='wait_ack'"
+acc-name: generalized-Rabin 5 2 1 1 2 1
+Acceptance: 12 (Fin(0) & (Inf(1)&Inf(2))) | (Fin(3) & Inf(4)) | (Fin(5) & Inf(6)) | (Fin(7) & (Inf(8)&Inf(9))) | (Fin(10) & Inf(11))
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0&1&2] 0 {2 4 5 7 10}
+[!0&1&!2] 0 {2 4 6 8 10}
+[0] 1 {0 3 5 7 10}
+[!0&!1&2] 0 {5 7 10}
+[!0&!1&!2] 0 {6 8 10}
+State: 1
+[1] 1 {0 3 5 7 10}
+[!1&2] 1 {1 3 5 9 11}
+[!1&!2] 1 {3 5}
+--END--

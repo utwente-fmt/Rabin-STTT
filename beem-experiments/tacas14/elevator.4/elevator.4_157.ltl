@@ -1,0 +1,1 @@
+!((!(floor_queue_0\[1\]!=0) && [](Elevator\.serving<2)) U (!(floor_queue_0\[1\]!=0) && [](Elevator\.serving<2) && ([](floor_queue_0\[2\]<=3) U ((Person_3!="out") && [](floor_queue_0\[2\]<=3)))))

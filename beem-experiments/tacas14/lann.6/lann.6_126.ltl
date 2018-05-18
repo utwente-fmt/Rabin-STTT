@@ -1,0 +1,1 @@
+!(((!(P_2\.v<=13) || (channel_link_1!="ready")) R (!(P_2\.v<=13) || (P_3\.v>7) || (channel_link_1!="ready"))) R <>(((P_1=="got_msg") && !(channel_link_0!="ready")) || (!(P_1=="got_msg") && (channel_link_0!="ready"))))

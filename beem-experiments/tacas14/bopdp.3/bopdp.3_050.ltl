@@ -1,0 +1,1 @@
+!((AP!="prepare_ack") U ((some_interrupt<=17) && ((LSL_Interrupt_Handler!="interrupt_received") || ((IOP=="down_expected") R <>(IOP!="now_wait")))))

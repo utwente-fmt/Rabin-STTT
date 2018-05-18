@@ -1,0 +1,1 @@
+!(((Receiver!="idle") || (V!=5)) && <>(!(Receiver!="first_safe_frame") && !(SClient=="ok")))

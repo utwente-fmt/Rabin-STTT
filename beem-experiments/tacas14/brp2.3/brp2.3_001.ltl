@@ -1,0 +1,1 @@
+!([]<>(Sender\.i<3) U (!(Receiver!="first_safe_frame") U (!(L=="start") && !(Receiver!="first_safe_frame"))))

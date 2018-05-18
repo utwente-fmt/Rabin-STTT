@@ -1,0 +1,1 @@
+!([](Sender!="idle") U (((K!="start") && !(Receiver=="frame_received")) || (!(K!="start") && (Receiver=="frame_received")) || (!(SClient!="dk") && !(Sender=="init_state")) || ((SClient!="dk") && (Sender=="init_state"))))

@@ -1,0 +1,1 @@
+!(<>(!(Plate_6!="wait_belt") || (<>[](Plate_8!="wait_deposit") U ((Plate_3!="wait_deposit") R (Belt!="got_new")))))

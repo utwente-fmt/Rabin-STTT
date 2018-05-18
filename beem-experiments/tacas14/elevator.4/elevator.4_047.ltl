@@ -1,0 +1,1 @@
+!(((<>!(floor_queue_0_act<1) && (<>!(Person_2=="waiting") U (!(floor_queue_0\[1\]!=0) && <>!(Person_2=="waiting")))) || ([](floor_queue_0_act<1) && ([](Person_2=="waiting") R ((floor_queue_0\[1\]!=0) || [](Person_2=="waiting"))))) U [](Elevator=="q"))

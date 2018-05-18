@@ -1,0 +1,26 @@
+HOA: v1
+name: "TGBA"
+States: 4
+Start: 2
+AP: 4 "IOP!='down_expected'" "IOP!='down_received'" "IOP=='w_stand_by'" "LSL_Driver=='react'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0
+[t] 0 {0}
+State: 1
+[!0&3 | !1&3] 0
+[0&1&!3] 1
+[0&1&3] 2
+[!0&!3 | !1&!3] 3
+State: 2
+[!0&!2 | !0&3 | !1&!2 | !1&3] 0
+[0&1&2&!3] 1
+[0&1&!2 | 0&1&3] 2
+[!0&2&!3 | !1&2&!3] 3
+State: 3
+[3] 0
+[!3] 3
+--END--

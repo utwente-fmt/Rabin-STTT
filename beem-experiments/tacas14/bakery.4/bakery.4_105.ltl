@@ -1,0 +1,1 @@
+!((P_1\.max<=4) U (((P_0=="for_loop") R ((P_0=="for_loop") || <>((P_0\.max<4) || (P_2\.max<=0)))) U ((number\[1\]<0) && ((P_0=="for_loop") R ((P_0=="for_loop") || <>((P_0\.max<4) || (P_2\.max<=0)))))))

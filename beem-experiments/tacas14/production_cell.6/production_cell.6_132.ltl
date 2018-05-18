@@ -1,0 +1,1 @@
+!(((Robot!="Atable") U ((Robot!="Atable") && (Robot!="Bdeposit"))) R ((!(Robot\.at_press<=1) && ((!(Belt!="q2") && !(Plate_3!="wait_press")) || ((Belt!="q2") && (Plate_3!="wait_press")))) || ((Robot\.at_press<=1) && (((Belt!="q2") && !(Plate_3!="wait_press")) || (!(Belt!="q2") && (Plate_3!="wait_press")))) || ((Robot!="Atable") U ((Robot!="Atable") && (Robot!="Bdeposit")))))

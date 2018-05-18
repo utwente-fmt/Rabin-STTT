@@ -1,0 +1,1 @@
+!(!(Elevator\.going_to>1) U (((Elevator\.who<3) && (floor_queue_2\[2\]>0) && <>(Elevator!="move_next")) || ((!(Elevator\.who<3) || !(floor_queue_2\[2\]>0)) && []!(Elevator!="move_next"))))

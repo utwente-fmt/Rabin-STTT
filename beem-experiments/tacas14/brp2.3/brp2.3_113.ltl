@@ -1,0 +1,1 @@
+!(<>((U!=7) R ([]((!(Receiver\.exp_ab<=3) && []!(RClient!="inc")) || ((Receiver\.exp_ab<=3) && <>(RClient!="inc"))) U ((K=="BAD") && []((!(Receiver\.exp_ab<=3) && []!(RClient!="inc")) || ((Receiver\.exp_ab<=3) && <>(RClient!="inc")))))))

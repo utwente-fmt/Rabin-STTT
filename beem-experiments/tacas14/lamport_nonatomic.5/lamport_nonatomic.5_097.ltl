@@ -1,0 +1,1 @@
+!([](((P_1=="w3") && []((NonatomicVar_3\.x<=2) U ((NonatomicVar_4\.x<=8) || !(P_1=="w1")))) || (!(P_1=="w3") && <>(!(NonatomicVar_3\.x<=2) R (!(NonatomicVar_4\.x<=8) && (P_1=="w1"))))))

@@ -1,0 +1,1 @@
+!((IOP!="enter_active") U ((IOP!="enter_active") && []((!(AP!="active") && ([](LSL_Driver!="react") || <>(LSL_Interrupt_Handler!="interrupt_received"))) || ((AP!="active") && <>!(LSL_Driver!="react") && []!(LSL_Interrupt_Handler!="interrupt_received")))))

@@ -1,0 +1,1 @@
+!((<>!(Elevator\.who<3) U (!(Person_3\.at_floor<=3) || !(floor_queue_0_act<3))) R (Elevator!="move_next"))

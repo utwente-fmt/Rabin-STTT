@@ -1,0 +1,20 @@
+HOA: v1
+States: 3
+Start: 0
+AP: 3 "P_3=='q4'" "P_4=='q1'" "x!=7"
+acc-name: generalized-Rabin 2 0 1
+Acceptance: 3 Fin(0) | (Fin(1) & Inf(2))
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[0&2 | 1&2] 1 {0}
+[0&!2 | 1&!2] 1 {0 2}
+[!0&!1&2] 2 {0}
+[!0&!1&!2] 2 {0 2}
+State: 1
+[t] 1
+State: 2
+[2] 2 {0}
+[!2] 2 {0 2}
+--END--

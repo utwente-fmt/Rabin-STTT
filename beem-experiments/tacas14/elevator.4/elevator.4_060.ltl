@@ -1,0 +1,1 @@
+!(<>(((Servis=="r") && !(floor_queue_0\[1\]!=3) && (floor_queue_1\[2\]>3)) || ((floor_queue_0\[1\]!=3) && (!(Servis=="r") || !(floor_queue_1\[2\]>3)))) R (<>!(Person_3!="out") || <>(((Servis=="r") && !(floor_queue_0\[1\]!=3) && (floor_queue_1\[2\]>3)) || ((floor_queue_0\[1\]!=3) && (!(Servis=="r") || !(floor_queue_1\[2\]>3))))))

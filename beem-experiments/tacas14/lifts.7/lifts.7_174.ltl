@@ -1,0 +1,1 @@
+!((Environment=="in") R (((Lift_2!="active") && <>((Lift_1\.status!=0) || [](Bus\.sender!=3))) || (!(Lift_2!="active") && [](!(Lift_1\.status!=0) && <>!(Bus\.sender!=3)))))

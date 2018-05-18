@@ -1,0 +1,1 @@
+!(<>((Plate_3!="wait_press") || ((Plate_1=="wait_deposit") && (!(Plate_9!="wait_press") R !(Plate_3!="wait_deposit")))))

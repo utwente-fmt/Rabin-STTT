@@ -1,0 +1,1 @@
+!(((!(Lift_0=="r2") R (!(Lift_0=="r2") || !(Lift_2=="q3"))) && (!(Lift_0\.status>2) U (!(Lift_0\.status>2) && !(Lift_3!="a_move") && <>!(Lift_1\.count<13)))) || (((Lift_0=="r2") U ((Lift_0=="r2") && (Lift_2=="q3"))) && ((Lift_0\.status>2) R ((Lift_0\.status>2) || (Lift_3!="a_move") || [](Lift_1\.count<13)))))

@@ -1,0 +1,1 @@
+!(<>((channel_link_1=="ready") || [](P_4=="wait")) U ((channel_link_4=="ready") R !(P_1\.status<10)))

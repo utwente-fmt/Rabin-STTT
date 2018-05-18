@@ -1,0 +1,1 @@
+!(((floor_queue_2\[1\]>2) R (Person_3!="waiting")) R (((floor_queue_0\[2\]<=3) R ((floor_queue_0\[2\]<=3) || (floor_queue_2\[1\]>2))) U (!(floor_queue_2\[0\]<=3) && ((floor_queue_0\[2\]<=3) R ((floor_queue_0\[2\]<=3) || (floor_queue_2\[1\]>2))))))

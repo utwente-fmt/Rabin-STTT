@@ -1,0 +1,1 @@
+!(<>((P_1=="choose") R ([](P_2=="choose") U (((!(P_0!="choose") && !(choosing\[1\]<=3)) || ((P_0!="choose") && (choosing\[1\]<=3))) && [](P_2=="choose")))))

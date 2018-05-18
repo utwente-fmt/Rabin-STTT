@@ -1,0 +1,1 @@
+!(<>[]((!(Interrupt_Generator!="generate") && ((!(IOP=="wake_up") && ((IOP!="down_expected") || (IOP=="active"))) || (!(IOP!="down_expected") && !(IOP=="active") && (IOP=="wake_up")))) || ((Interrupt_Generator!="generate") && ((!(IOP!="down_expected") && !(IOP=="active") && !(IOP=="wake_up")) || ((IOP=="wake_up") && ((IOP!="down_expected") || (IOP=="active")))))))

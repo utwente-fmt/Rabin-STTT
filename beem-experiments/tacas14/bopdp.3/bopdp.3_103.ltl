@@ -1,0 +1,1 @@
+!([]<>((IOP!="check_noop") R ([](IOP=="down_received") U ((AP_Interrupt_Handler=="awake") && (IOP!="wait_for_down")))))

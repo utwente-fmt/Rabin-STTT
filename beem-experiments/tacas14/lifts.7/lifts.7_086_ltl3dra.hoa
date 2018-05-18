@@ -1,0 +1,28 @@
+HOA: v1
+States: 6
+Start: 3
+AP: 3 "Lift_2!='error_state'" "Lift_3=='r4'" "Lift_2.m<=15"
+acc-name: generalized-co-Buchi 2
+Acceptance: 2 Fin(0)|Fin(1)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[t] 0 {0 1}
+State: 1
+[t] 1 {1}
+State: 2
+[2] 2 {0}
+[!2] 0 {0 1}
+State: 3
+[0&2 | !1&2] 4 {0 1}
+[!0&1&2] 2 {0}
+[0&!2 | !1&!2] 5 {0 1}
+[!0&1&!2] 0 {0 1}
+State: 4
+[2] 4 {0 1}
+[!2] 1 {1}
+State: 5
+[!2] 5 {0 1}
+[2] 1 {1}
+--END--

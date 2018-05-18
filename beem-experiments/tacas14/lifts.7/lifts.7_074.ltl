@@ -1,0 +1,1 @@
+!((<>(Environment=="pressed_down_1") R ((Lift_3\.nos!=29) U (Lift_3=="wait"))) R ((Lift_3!="r4") U ((Lift_0=="passive") && (Lift_3!="r4"))))

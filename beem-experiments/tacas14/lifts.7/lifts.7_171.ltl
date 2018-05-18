@@ -1,0 +1,1 @@
+!(((Lift_0!="r4") && <>[]((!(Lift_0!="a_send") && <>!(Lift_1=="a_msg")) || ((Lift_0!="a_send") && [](Lift_1=="a_msg")))) || (!(Lift_0!="r4") && []<>((!(Lift_0!="a_send") && [](Lift_1=="a_msg")) || ((Lift_0!="a_send") && <>!(Lift_1=="a_msg")))))

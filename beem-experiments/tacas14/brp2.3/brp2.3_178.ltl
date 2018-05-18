@@ -1,0 +1,1 @@
+!(((L=="start") || (Receiver!="frame_received") || (SClient=="send_req")) R ((File!=14) || !(Receiver\.triple<=23)))

@@ -1,0 +1,1 @@
+!(((<>!(Lift_0=="q5") && (<>!(relay\[3\]<1) U (!(Bus=="send_down") && <>!(relay\[3\]<1)))) || ([](Lift_0=="q5") && ([](relay\[3\]<1) R ((Bus=="send_down") || [](relay\[3\]<1))))) U [](Bus!="wait"))

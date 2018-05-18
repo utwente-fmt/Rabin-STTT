@@ -1,0 +1,1 @@
+!(((Plate_8=="new") && !(Plate_9!="wait_belt") && (([]!(Plate_2!="wait_belt") && <>(Plate_8!="wait_belt")) || (<>(Plate_2!="wait_belt") && []!(Plate_8!="wait_belt")))) || ((!(Plate_8=="new") || (Plate_9!="wait_belt")) && ((<>(Plate_8!="wait_belt") && <>(Plate_2!="wait_belt")) || [](!(Plate_2!="wait_belt") && !(Plate_8!="wait_belt")))))

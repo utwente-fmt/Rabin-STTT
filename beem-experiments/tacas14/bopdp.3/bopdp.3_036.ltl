@@ -1,0 +1,1 @@
+!((!(IOP!="down_verified") && <>((!(some_data<26) && ((sleep_op!=27) || (some_running!=26))) || (!(sleep_op!=27) && (some_data<26) && !(some_running!=26)))) || ((IOP!="down_verified") && []((!(sleep_op!=27) && !(some_data<26) && !(some_running!=26)) || ((some_data<26) && ((sleep_op!=27) || (some_running!=26))))))

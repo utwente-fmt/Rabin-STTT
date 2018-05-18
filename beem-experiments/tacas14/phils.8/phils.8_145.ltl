@@ -1,0 +1,1 @@
+!(((phil_4=="think") && <>(phil_1!="finish")) U ((phil_4=="think") && <>(phil_1!="finish") && (((phil_15=="one") R ((phil_1!="think") || (phil_15=="one"))) U (fork\[7\]<0))))

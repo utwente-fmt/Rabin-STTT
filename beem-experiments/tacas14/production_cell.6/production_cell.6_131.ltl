@@ -1,0 +1,1 @@
+!(((Belt=="q1") U ((Plate_5=="wait_press") || (!(Plate_2=="wait_press") && <>!(done<6)) || ((Plate_2=="wait_press") && [](done<6)))) U ((Plate_1=="wait_deposit") && ((Belt=="q1") U ((Plate_5=="wait_press") || (!(Plate_2=="wait_press") && <>!(done<6)) || ((Plate_2=="wait_press") && [](done<6))))))

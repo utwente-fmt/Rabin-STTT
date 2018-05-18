@@ -1,0 +1,1 @@
+!(([]!(Lift_1=="error_state") && (<>[](Lift_0!="a_msg") U (Lift_0=="error_state"))) || (<>(Lift_1=="error_state") && ([]<>!(Lift_0!="a_msg") R !(Lift_0=="error_state"))))

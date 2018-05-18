@@ -1,0 +1,1 @@
+!(([](P_1=="p6") && (!(P_4=="NCS") R <>(NonatomicVar_4\.v<7))) || (<>!(P_1=="p6") && ((P_4=="NCS") U []!(NonatomicVar_4\.v<7))))

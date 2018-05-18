@@ -1,0 +1,1 @@
+!(((SClient!="file_req") R !(RClient=="ok")) || (((K\.triple<=17) && (K=="start")) R (SClient!="send_req")))

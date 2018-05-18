@@ -1,0 +1,37 @@
+HOA: v1
+name: "TGBA"
+States: 7
+Start: 6
+AP: 3 "channel_link_0!='ready'" "P_1=='got_msg'" "P_2=='wait'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc deterministic
+properties: stutter-invariant weak
+--BODY--
+State: 0
+[2] 0 {0}
+State: 1
+[1] 1 {0}
+State: 2
+[0] 2 {0}
+State: 3
+[!1&2] 0
+[1&!2] 1
+[1&2] 3
+State: 4
+[!0&2] 0
+[0&!2] 2
+[0&2] 4
+State: 5
+[!0&1] 1
+[0&!1] 2
+[0&1] 5
+State: 6
+[!0&!1&2] 0 {0}
+[!0&1&!2] 1 {0}
+[0&!1&!2] 2 {0}
+[!0&1&2] 3 {0}
+[0&!1&2] 4 {0}
+[0&1&!2] 5 {0}
+[0&1&2] 6 {0}
+--END--

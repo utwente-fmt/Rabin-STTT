@@ -1,0 +1,1 @@
+!(<>[]((((File<=15) && !(RClient=="inc")) || (!(File<=15) && (RClient=="inc"))) && <>(Receiver!="new_file")))

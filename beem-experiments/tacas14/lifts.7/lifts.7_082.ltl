@@ -1,0 +1,1 @@
+!((relay\[1\]<=19) U ((relay\[0\]<28) && (relay\[1\]<=19) && (!(Bus=="wait") || (Lift_1=="passive") || !(Lift_1=="q2"))))

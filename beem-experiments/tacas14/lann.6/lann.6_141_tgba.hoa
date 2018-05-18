@@ -1,0 +1,14 @@
+HOA: v1
+name: "TGBA"
+States: 1
+Start: 0
+AP: 3 "channel_link_0.v>2" "P_2=='wait'" "channel_link_2.v!=19"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc deterministic
+properties: stutter-invariant
+--BODY--
+State: 0
+[!0&1&!2] 0
+[!0&1&2] 0 {0}
+--END--

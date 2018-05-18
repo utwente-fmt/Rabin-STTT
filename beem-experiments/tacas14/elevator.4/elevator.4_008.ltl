@@ -1,0 +1,1 @@
+!(((((floor_queue_2\[2\]>0) && !(floor_queue_3\[2\]<1)) || (!(floor_queue_2\[2\]>0) && (floor_queue_3\[2\]<1))) && <>((Person_2!="waiting") && !(floor_queue_0\[0\]>0))) || (((!(floor_queue_2\[2\]>0) && !(floor_queue_3\[2\]<1)) || ((floor_queue_2\[2\]>0) && (floor_queue_3\[2\]<1))) && [](!(Person_2!="waiting") || (floor_queue_0\[0\]>0))))

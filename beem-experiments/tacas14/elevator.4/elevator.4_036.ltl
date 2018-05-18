@@ -1,0 +1,1 @@
+!(!(floor_queue_2\[0\]<1) R (!(floor_queue_2\[0\]<1) || <>(<>(Person_3=="out") R (floor_queue_3\[3\]<=1))))

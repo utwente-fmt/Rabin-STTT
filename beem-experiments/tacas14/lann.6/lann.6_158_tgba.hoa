@@ -1,0 +1,25 @@
+HOA: v1
+name: "TGBA"
+States: 4
+Start: 3
+AP: 5 "P_2=='wait'" "P_1!='got_msg'" "channel_link_2.v!=19" "P_3!='wait'" "P_1!='CS'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc colored
+properties: deterministic stutter-invariant weak
+--BODY--
+State: 0
+[t] 0 {0}
+State: 1
+[!4] 0 {0}
+[!3&4] 1 {0}
+State: 2
+[!4] 0 {0}
+[!1&!2&!3&4 | 1&2&!3&4] 1 {0}
+[!1&2&4 | 1&!2&4] 2 {0}
+State: 3
+[!4] 0 {0}
+[0&!1&!2&!3&4 | 0&1&2&!3&4] 1 {0}
+[0&!1&2&4 | 0&1&!2&4] 2 {0}
+[!0&4] 3 {0}
+--END--

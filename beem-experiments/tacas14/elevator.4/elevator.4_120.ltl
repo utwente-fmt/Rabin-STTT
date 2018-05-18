@@ -1,0 +1,1 @@
+!((floor_queue_3\[3\]!=3) || <>(floor_queue_3_act<1) || ([]!(Person_0!="waiting") && <>(Person_0!="in_elevator")) || (<>(Person_0!="waiting") && []!(Person_0!="in_elevator")))

@@ -1,0 +1,1 @@
+!(<>(!(IOP!="issue_active_commands") || ((IOP=="active") && (LSL_Interrupt_Handler!="insert_noop")) || [](Calc=="calc_running")))

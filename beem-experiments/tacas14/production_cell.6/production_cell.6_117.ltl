@@ -1,0 +1,1 @@
+!((<>!(Sensor\.count<=4) && (!(Belt=="got_new") R (!(Belt=="got_new") || (!(Deposit=="wait") && (Robot!="Bpress"))))) || ([](Sensor\.count<=4) && ((Belt=="got_new") U ((Belt=="got_new") && ((Deposit=="wait") || !(Robot!="Bpress"))))))

@@ -1,0 +1,1 @@
+!((P_0\.v!=4) U []((channel_link_4\.v<=13) && ((!(channel_link_0!="ready") && []!(P_4\.status<=12)) || ((channel_link_0!="ready") && <>(P_4\.status<=12)))))

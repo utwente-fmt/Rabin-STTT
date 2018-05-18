@@ -1,0 +1,1 @@
+!(<>[](((Servis!="r") && !(floor_queue_1_act<=0)) || (!(Servis!="r") && (floor_queue_1_act<=0))))

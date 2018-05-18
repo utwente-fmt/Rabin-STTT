@@ -1,0 +1,1 @@
+!(<>((((LSL_Driver!="up_down_received") R (AP_Interrupt_Handler!="set_cur")) U (ap_interrupt>2)) && [](IOP=="insert_noop")))

@@ -1,0 +1,28 @@
+HOA: v1
+States: 5
+Start: 2
+AP: 4 "Lift_0.status>2" "Bus=='send_up'" "Lift_3!='passive'" "relay[1]<=19"
+acc-name: generalized-Rabin 2 0 1
+Acceptance: 3 Fin(0) | (Fin(1) & Inf(2))
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[t] 0 {1}
+State: 1
+[0] 0 {1}
+[!0] 1 {0 1}
+State: 2
+[0&1 | 0&!2] 0 {1}
+[!0&1 | !0&!2] 1 {0 1}
+[0&!1&2&!3] 3 {0}
+[0&!1&2&3] 3 {0 2}
+[!0&!1&2] 4 {0 1}
+State: 3
+[!3] 3 {0}
+[3] 3 {0 2}
+State: 4
+[0&!3] 3 {0}
+[0&3] 3 {0 2}
+[!0] 4 {0 1}
+--END--

@@ -1,0 +1,1 @@
+!((((L!="start") || (!(K=="start") && !(SClient!="ok")) || ((K=="start") && (SClient!="ok"))) && (!(L!="start") U (!(L!="start") && !(RClient!="nok")))) || (!(L!="start") && ((!(K=="start") && (SClient!="ok")) || ((K=="start") && !(SClient!="ok"))) && ((L!="start") R ((L!="start") || (RClient!="nok")))))

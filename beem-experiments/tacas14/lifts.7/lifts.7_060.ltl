@@ -1,0 +1,1 @@
+!(<>((!(Lift_0!="q1") && (Lift_2!="q2") && (Lift_2\.status<=0)) || ((Lift_0!="q1") && (!(Lift_2!="q2") || !(Lift_2\.status<=0)))) R (<>!(relay\[3\]<20) || <>((!(Lift_0!="q1") && (Lift_2!="q2") && (Lift_2\.status<=0)) || ((Lift_0!="q1") && (!(Lift_2!="q2") || !(Lift_2\.status<=0))))))

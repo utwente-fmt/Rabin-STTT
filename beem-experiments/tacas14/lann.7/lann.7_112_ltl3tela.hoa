@@ -1,0 +1,35 @@
+HOA: v1
+States: 7
+Start: 6
+AP: 5 "P_0!='got_msg'" "P_1!='got_msg'" "channel_link_3=='tr'" "P_1.v!=11" "channel_link_4=='tr'"
+acc-name: Rabin 1
+Acceptance: 2 Fin(0) & Inf(1)
+properties: trans-labels explicit-labels trans-acc
+--BODY--
+State: 0
+[t] 0 {1}
+State: 1
+[2] 0
+[1&!2] 1
+State: 2
+[!4] 0
+[!3&4] 2
+State: 3
+[!1&!2] 0
+[1&!2] 3 {1}
+State: 4
+[3&4] 0
+[!3&4] 4 {1}
+State: 5
+[!1&!2&3&4] 0
+[1&!2&3&4] 3
+[!1&!2&!3&4] 4
+[1&!2&!3&4] 5 {1}
+State: 6
+[!0&!1&!2&3&4 | 0&2 | 0&!4] 0
+[0&1&!2&4] 1
+[0&!2&!3&4] 2
+[!0&1&!2&3&4] 3
+[!0&!1&!2&!3&4] 4
+[!0&1&!2&!3&4] 5
+--END--

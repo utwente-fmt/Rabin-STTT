@@ -1,0 +1,1 @@
+!([]((Servis\.floor<=2) || (floor_queue_0\[2\]<=3)) || [](Elevator\.going_to>1))

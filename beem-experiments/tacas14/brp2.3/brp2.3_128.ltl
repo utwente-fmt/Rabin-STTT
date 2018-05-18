@@ -1,0 +1,1 @@
+!(((!(Z!=24) || <>[]!(L!="BAD")) && ((Sender=="success") R ((Sender=="success") || (V<=17)))) || ((Z!=24) && []<>(L!="BAD") && (!(Sender=="success") U (!(Sender=="success") && !(V<=17)))))

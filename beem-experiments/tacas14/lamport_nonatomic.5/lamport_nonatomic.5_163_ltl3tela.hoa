@@ -1,0 +1,27 @@
+HOA: v1
+States: 5
+Start: 4
+AP: 4 "NonatomicVar_2.x>3" "NonatomicVar_3=='q'" "NonatomicVar_4=='r'" "P_2=='w1'"
+acc-name: Rabin 1
+Acceptance: 2 Fin(0) & Inf(1)
+properties: trans-labels explicit-labels trans-acc
+--BODY--
+State: 0
+[0] 0 {1}
+[!0] 0 {0 1}
+State: 1
+[!1&2&!3] 1
+[!1&2&3] 1 {1}
+[1&2&3] 2
+[1&2&!3] 3
+State: 2
+[t] 2 {1}
+State: 3
+[3] 2
+[!3] 3
+State: 4
+[!1 | !2 | !3] 0
+[!1&2] 1
+[1&2&3] 2
+[1&2&!3] 3
+--END--

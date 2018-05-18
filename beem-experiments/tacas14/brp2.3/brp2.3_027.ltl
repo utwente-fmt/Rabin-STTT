@@ -1,0 +1,1 @@
+!((!(Receiver\.triple<=23) R (K=="in_transit")) R (<>(!(Receiver\.exp_ab<=3) && (Sender\.rc<23)) || (!(Receiver\.triple<=23) R (K=="in_transit"))))

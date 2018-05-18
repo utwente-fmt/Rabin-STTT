@@ -1,0 +1,1 @@
+!((!(enabled_lsl_interrupt<22) R (IOP=="disable_lsl_interrupt")) R (<>((AP!="stand_by") && !(lsl_command<=12)) || (!(enabled_lsl_interrupt<22) R (IOP=="disable_lsl_interrupt"))))

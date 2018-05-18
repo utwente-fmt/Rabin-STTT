@@ -1,0 +1,1 @@
+!(((L!="BAD") && <>(L=="BAD")) R ((Sender!="next_frame") || ((L!="BAD") && <>(L=="BAD"))))

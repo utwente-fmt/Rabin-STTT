@@ -1,0 +1,1 @@
+!(<>((((!(Bus!="send_down") && !(Lift_0!="q1")) || ((Bus!="send_down") && (Lift_0!="q1"))) && <>(Lift_1\.pos<=19)) || (((!(Bus!="send_down") && (Lift_0!="q1")) || ((Bus!="send_down") && !(Lift_0!="q1"))) && []!(Lift_1\.pos<=19))))

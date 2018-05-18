@@ -1,0 +1,20 @@
+HOA: v1
+name: "TGBA"
+States: 3
+Start: 2
+AP: 3 "P_1=='try'" "P_5=='wait'" "t[3]!=3"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic stutter-invariant weak
+--BODY--
+State: 0
+[2] 0
+[!2] 1
+State: 1
+[t] 1 {0}
+State: 2
+[!0&1&2] 0 {0}
+[!1 | !2] 1 {0}
+[0&1&2] 2 {0}
+--END--

@@ -1,0 +1,1 @@
+!((floor_queue_3\[0\]!=2) || []((!(Person_2\.at_floor<=2) && (!(Servis!="q") U (!(Elevator\.serving<=2) && !(Servis!="q")))) || ((Person_2\.at_floor<=2) && ((Servis!="q") R ((Elevator\.serving<=2) || (Servis!="q"))))))

@@ -1,0 +1,1 @@
+!([]((<>!(SClient=="ok") && []((Sender!="success") U (((Sender\.ab<20) && !(clock=="time")) || (!(Sender\.ab<20) && (clock=="time"))))) || ([](SClient=="ok") && <>(!(Sender!="success") R ((!(Sender\.ab<20) && !(clock=="time")) || ((Sender\.ab<20) && (clock=="time")))))))

@@ -1,0 +1,1 @@
+!((!(Person_3\.at_floor<=0) R (floor_queue_3\[0\]!=2)) && (<>!(Person_1=="waiting") U !(Person_0!="in_elevator")))

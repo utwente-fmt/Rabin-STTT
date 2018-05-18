@@ -1,0 +1,1 @@
+!([]<>((!(RClient!="nok") && ([](Sender=="idle") R (!(Sender\.rc<=15) || [](Sender=="idle")))) || ((RClient!="nok") && (<>!(Sender=="idle") U ((Sender\.rc<=15) && <>!(Sender=="idle"))))))

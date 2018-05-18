@@ -1,0 +1,1 @@
+!(((!(phil_1=="think") && (phil_5=="one")) || ((phil_1=="think") && !(phil_5=="one"))) U (((!(phil_1=="think") && (phil_5=="one")) || ((phil_1=="think") && !(phil_5=="one"))) && (!(fork\[15\]!=2) U ((fork\[12\]<=0) && !(fork\[15\]!=2) && !(phil_7=="eat")))))

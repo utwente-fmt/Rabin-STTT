@@ -1,0 +1,1 @@
+!((!(IOP=="down_received") && (<>(generated_lsl_interrupt!=27) U [](lsl_command<1))) || ((IOP=="down_received") && ([]!(generated_lsl_interrupt!=27) R <>!(lsl_command<1))))

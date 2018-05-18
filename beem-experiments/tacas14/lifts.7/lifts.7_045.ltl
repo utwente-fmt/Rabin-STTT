@@ -1,0 +1,1 @@
+!((<>((Lift_0=="q4") && <>!(Lift_3!="q2")) && (!(Lift_3\.status>25) R (!(Lift_2!="q4") || !(Lift_3\.status>25)))) || ([](!(Lift_0=="q4") || [](Lift_3!="q2")) && ((Lift_3\.status>25) U ((Lift_2!="q4") && (Lift_3\.status>25)))))

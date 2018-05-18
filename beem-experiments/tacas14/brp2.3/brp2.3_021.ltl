@@ -1,0 +1,1 @@
+!((Sender\.rc<23) R ((((K!="BAD") U !(clock=="time")) && (!(Sender!="init_state") R (!(Sender!="init_state") || !(Sender=="success")))) || ((!(K!="BAD") R (clock=="time")) && ((Sender!="init_state") U ((Sender!="init_state") && (Sender=="success"))))))

@@ -1,0 +1,19 @@
+HOA: v1
+States: 3
+Start: 0
+AP: 4 "Sender.ab<1" "clock!='time'" "Receiver!='first_safe_frame'" "Receiver.exp_ab!=14"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0&!1] 1 {0}
+[1] 2 {0}
+[0&!1] 0 {0}
+State: 1
+[t] 1 {0}
+State: 2
+[!2 | 3] 2
+[2&!3] 2 {0}
+--END--

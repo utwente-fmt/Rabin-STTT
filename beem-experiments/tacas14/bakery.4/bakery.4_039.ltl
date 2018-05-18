@@ -1,0 +1,1 @@
+!((((P_0=="for_loop") || (P_1=="CS")) && (!(P_0!="choose") R (!(P_0!="choose") || (!(P_1!="for_loop") U !(P_0=="for_loop"))))) || (!(P_0=="for_loop") && !(P_1=="CS") && ((P_0!="choose") U ((P_0!="choose") && ((P_1!="for_loop") R (P_0=="for_loop"))))))

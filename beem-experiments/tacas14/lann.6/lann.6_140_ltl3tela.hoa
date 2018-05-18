@@ -1,0 +1,15 @@
+HOA: v1
+States: 2
+Start: 1
+AP: 3 "channel_link_1=='ready'" "P_3!='got_msg'" "channel_link_1!='tr'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc deterministic weak
+--BODY--
+State: 0
+[1&2] 0
+[1&!2] 1
+State: 1
+[!0&1&2] 0
+[0 | 1&!2] 1
+--END--

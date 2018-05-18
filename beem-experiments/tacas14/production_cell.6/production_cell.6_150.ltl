@@ -1,0 +1,1 @@
+!(<>((Plate_0!="wait_deposit") && (Press=="pressing")) R (<>((Plate_0!="wait_deposit") && (Press=="pressing")) || (!(Deposit!="loaded") R (!(Deposit!="loaded") || !(Plate_7=="wait_belt")))))

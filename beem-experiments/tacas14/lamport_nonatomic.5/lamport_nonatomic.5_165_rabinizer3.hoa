@@ -1,0 +1,37 @@
+HOA: v1
+States: 6
+Start: 0
+AP: 3 "P_3=='w1'" "P_3.i<=6" "P_3=='NCS'"
+acc-name: generalized-Rabin 2 0 1
+Acceptance: 3 Fin(0) | (Fin(1) & Inf(2))
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!2] 1 {0 1}
+[!1&2] 0 {0 1}
+[0&1&2] 2 {0 1}
+[!0&1&2] 3 {0 1}
+State: 1
+[t] 1
+State: 2
+[!1&!2] 1 {0 1}
+[0&1&!2] 5 {0 1}
+[!0&1&!2] 4 {0 1}
+[!1&2] 0 {0 1}
+[0&1&2] 2 {0 1}
+[!0&1&2] 3 {0 1}
+State: 3
+[1&!2] 4 {0 1}
+[!1&!2] 1 {0 1}
+[!1&2] 0 {0 1}
+[1&2] 3 {0 1}
+State: 4
+[1] 4 {0 1}
+[!1] 1 {0 1}
+State: 5
+[0&!1] 1 {0 2}
+[!0&!1] 1 {0 1}
+[0&1] 5 {0 2}
+[!0&1] 4 {0 1}
+--END--

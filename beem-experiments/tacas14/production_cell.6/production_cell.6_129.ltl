@@ -1,0 +1,1 @@
+!(<>!(Robot\.at_press!=7) && <>((<>!(Plate_5!="wait_press") && <>!(Plate_5=="new")) || []((Plate_5!="wait_press") && (Plate_5=="new"))))

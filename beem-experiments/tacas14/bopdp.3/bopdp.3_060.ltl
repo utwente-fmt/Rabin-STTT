@@ -1,0 +1,1 @@
+!(((IOP!="wait_response") R !(IOP=="send_active_command")) || (((IOP=="down_received") && (lsl_interrupt<=6)) R (IOP!="now_wait")))

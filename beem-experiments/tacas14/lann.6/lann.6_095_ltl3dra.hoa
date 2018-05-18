@@ -1,0 +1,25 @@
+HOA: v1
+States: 4
+Start: 3
+AP: 4 "channel_link_0!='ready'" "P_1.status<10" "P_2.status<1" "P_3!='wait'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[t] 0 {0}
+State: 1
+[!2&!3 | 2&3] 0 {0}
+[!2&3 | 2&!3] 1
+State: 2
+[!0&!2&!3 | !0&2&3] 3 {0}
+[0&!2&!3 | 0&2&3] 0 {0}
+[0&!2&3 | 0&2&!3] 1
+[!0&!2&3 | !0&2&!3] 2
+State: 3
+[!0&1 | !0&!2&!3 | !0&2&3] 3 {0}
+[0&1 | 0&!2&!3 | 0&2&3] 0 {0}
+[0&!1&!2&3 | 0&!1&2&!3] 1
+[!0&!1&!2&3 | !0&!1&2&!3] 2
+--END--

@@ -1,0 +1,1 @@
+!((!(Lift_3!="passive") && ((Lift_1=="q3") || <>([]!(Lift_0=="wait") R (!(relay\[1\]<=19) || []!(Lift_0=="wait"))))) || (!(Lift_1=="q3") && (Lift_3!="passive") && [](<>(Lift_0=="wait") U ((relay\[1\]<=19) && <>(Lift_0=="wait")))))

@@ -1,0 +1,1 @@
+!((!(Plate_8=="wait_belt") && !(Sensor\.count<=4)) || ((Plate_8=="wait_belt") && (Sensor\.count<=4)) || (!(Plate_0=="wait_deposit") && []!(Table=="up_full")))

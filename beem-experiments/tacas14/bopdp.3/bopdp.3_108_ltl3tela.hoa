@@ -1,0 +1,17 @@
+HOA: v1
+States: 3
+Start: 2
+AP: 4 "AP!='prepare_ack'" "AP_Interrupt_Handler=='interrupt_received'" "IOP!='issue_down_lsl'" "IOP=='wait_response'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc deterministic
+--BODY--
+State: 0
+[1&3] 0
+[!1&3] 1
+State: 1
+[t] 1
+State: 2
+[!0&1&!2&3] 0
+[0 | !1&!2 | 1&2 | 2&3] 1
+--END--

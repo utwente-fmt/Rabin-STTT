@@ -1,0 +1,1 @@
+!((P_2\.status<1) || (!(channel_link_0!="ready") && !(channel_link_2=="ready") && !(channel_link_4\.v<=13)))

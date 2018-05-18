@@ -1,0 +1,1 @@
+!((((Lift_3=="q5") R !(Lift_3=="a_msg")) && ([](Lift_1=="r3") U (!(Environment=="q") && [](Lift_1=="r3")))) || ((!(Lift_3=="q5") U (Lift_3=="a_msg")) && (<>!(Lift_1=="r3") R ((Environment=="q") || <>!(Lift_1=="r3")))))

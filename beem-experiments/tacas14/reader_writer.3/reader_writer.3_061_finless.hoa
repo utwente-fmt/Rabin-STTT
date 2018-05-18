@@ -1,0 +1,28 @@
+HOA: v1
+States: 7
+Start: 3
+AP: 3 "control=='writer_active'" "writer_7=='writing'" "writer_2!='idle'"
+Acceptance: 2 Inf(1) | Inf(0)
+properties: trans-labels explicit-labels trans-acc
+--BODY--
+State: 0
+[t] 0 {1}
+State: 1
+[!2] 1 {0}
+[2] 1
+[!2] 4
+State: 2
+[t] 2
+[2] 5
+[2] 6
+State: 3
+[0&1] 0
+[0] 1
+[!0&!1] 2
+State: 4
+[!2] 4 {1}
+State: 5
+[2] 5
+State: 6
+[2] 6 {1}
+--END--

@@ -1,0 +1,1 @@
+!(([](Robot\.at_press<=1) R ((Plate_5=="new") || [](Robot\.at_press<=1))) R (([](Plate_1!="wait_table") R (Press!="wait")) || ([](Robot\.at_press<=1) R ((Plate_5=="new") || [](Robot\.at_press<=1)))))

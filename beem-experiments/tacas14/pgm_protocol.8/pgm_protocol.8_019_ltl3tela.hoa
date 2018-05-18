@@ -1,0 +1,15 @@
+HOA: v1
+States: 2
+Start: 0
+AP: 4 "NS=='q_in_1'" "NR=='q_in_3'" "NR_time[2]<11" "NR.buf_2[2]<4"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc
+--BODY--
+State: 0
+[0&2&!3] 0
+[!0 | !2 | 3] 0 {0}
+[0&!1 | 0&3] 1
+State: 1
+[0] 1
+--END--

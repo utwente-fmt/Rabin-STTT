@@ -1,0 +1,17 @@
+HOA: v1
+States: 3
+Start: 2
+AP: 4 "AP.no_ap_ints!=0" "IOP!='now_wait'" "lsl_command<=12" "IOP=='send_nack'"
+acc-name: generalized-Rabin 2 0 1
+Acceptance: 3 Fin(0) | (Fin(1) & Inf(2))
+properties: trans-labels explicit-labels trans-acc complete
+--BODY--
+State: 0
+[3] 0 {0}
+[!3] 0 {2}
+State: 1
+[t] 1
+State: 2
+[t] 0
+[!0&!1&!2 | 0&1 | 1&2] 1
+--END--

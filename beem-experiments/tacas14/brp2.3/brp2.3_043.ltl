@@ -1,0 +1,1 @@
+!([](!(Sender=="error") && ((((L=="in_transit") && !(SClient!="nok")) || (!(L=="in_transit") && (SClient!="nok"))) R ((Sender\.i<3) || ((L=="in_transit") && !(SClient!="nok")) || (!(L=="in_transit") && (SClient!="nok"))))))

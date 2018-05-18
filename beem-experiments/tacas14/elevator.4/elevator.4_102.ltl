@@ -1,0 +1,1 @@
+!((!(Servis\.floor!=2) && !(Servis=="r")) || ((Servis\.floor!=2) && (Servis=="r")) || (!(floor_queue_2\[2\]<3) && []!(Servis\.floor<=2)) || ((floor_queue_2\[2\]<3) && <>(Servis\.floor<=2)))

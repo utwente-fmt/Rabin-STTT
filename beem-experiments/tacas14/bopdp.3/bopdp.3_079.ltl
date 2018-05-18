@@ -1,0 +1,1 @@
+!([]<>(IOP=="send_nack") && ([]!(some_running>2) U ([](LSL_Interrupt_Handler=="interrupt_received") && []!(some_running>2))))

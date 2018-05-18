@@ -1,0 +1,1 @@
+!(((Plate_6!="wait_deposit") && (<>(Plate_4=="wait_table") U [](Table!="up_full"))) U ((Plate_6!="wait_deposit") && [](Belt!="q2") && (<>(Plate_4=="wait_table") U [](Table!="up_full"))))

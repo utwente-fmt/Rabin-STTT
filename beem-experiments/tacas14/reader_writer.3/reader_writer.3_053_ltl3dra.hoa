@@ -1,0 +1,16 @@
+HOA: v1
+States: 2
+Start: 1
+AP: 4 "reader_8=='reading'" "writer_0=='writing'" "writer_2=='writing'" "writer_11!='idle'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!3] 1 {0}
+[3] 0
+State: 1
+[!0&!1&2 | !0&1&!2 | !3] 1 {0}
+[0&3 | !1&!2&3 | 1&2&3] 0
+--END--

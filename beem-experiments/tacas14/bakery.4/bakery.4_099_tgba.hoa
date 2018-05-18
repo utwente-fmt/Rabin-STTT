@@ -1,0 +1,20 @@
+HOA: v1
+name: "TGBA"
+States: 3
+Start: 0
+AP: 5 "P_2=='for_loop'" "number[1]<0" "P_0!='for_loop'" "P_0.j<=3" "P_1.j!=4"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc stutter-invariant
+properties: inherently-weak
+--BODY--
+State: 0
+[!3&!4 | 3&4] 0
+[0&1&2&!3&!4 | 0&1&2&3&4] 1
+[0&!1&2&!3&!4 | 0&!1&2&3&4] 2
+State: 1
+[2] 1 {0}
+State: 2
+[1&2] 1
+[!1&2] 2
+--END--

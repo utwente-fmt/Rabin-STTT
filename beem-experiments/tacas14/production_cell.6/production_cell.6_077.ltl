@@ -1,0 +1,1 @@
+!((!(Plate_3!="wait_press") && (Plate_4=="wait_deposit") && []((Plate_8=="new") || <>(Robot=="wait"))) || (((Plate_3!="wait_press") || !(Plate_4=="wait_deposit")) && <>(!(Plate_8=="new") && []!(Robot=="wait"))))

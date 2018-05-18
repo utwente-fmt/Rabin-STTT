@@ -1,0 +1,1 @@
+!(<>[](((!(Plate_4!="wait_belt") && (Plate_5!="wait_table")) || ((Plate_4!="wait_belt") && !(Plate_5!="wait_table"))) && <>((Plate_9!="wait_table") R ((Plate_9!="wait_table") || (Press=="wait")))))

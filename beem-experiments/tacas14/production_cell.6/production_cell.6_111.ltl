@@ -1,0 +1,1 @@
+!(<>(Plate_5!="wait_table") && (<>!(Robot\.at_press<=1) || [](Plate_1=="wait_deposit")))

@@ -1,0 +1,1 @@
+!((((P_1!="choose") || (choosing\[1\]!=1)) && (((P_2=="CS") U ((P_2!="choose") && (P_2=="CS"))) R ((choosing\[2\]<=1) || ((P_2=="CS") U ((P_2!="choose") && (P_2=="CS")))))) || (!(P_1!="choose") && !(choosing\[1\]!=1) && ((!(P_2=="CS") R (!(P_2!="choose") || !(P_2=="CS"))) U (!(choosing\[2\]<=1) && (!(P_2=="CS") R (!(P_2!="choose") || !(P_2=="CS")))))))

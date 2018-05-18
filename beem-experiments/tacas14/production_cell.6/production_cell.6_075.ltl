@@ -1,0 +1,1 @@
+!(((Plate_3!="new") R ((Plate_3!="new") || (Plate_7=="new"))) U (((Plate_1!="wait_deposit") && !(Sensor\.count<=4) && <>!(Press!="done")) || ((!(Plate_1!="wait_deposit") || (Sensor\.count<=4)) && [](Press!="done"))))

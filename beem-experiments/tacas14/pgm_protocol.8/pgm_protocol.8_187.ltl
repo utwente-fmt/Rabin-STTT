@@ -1,0 +1,1 @@
+!((((element==e0_1) R (RN\.buf_0\[6\]<10)) U [](TXW_LEAD<8)) U (((!(NS_time\[1\]!=10) && (receiver\.RXW\[3\]!=2)) || ((NS_time\[1\]!=10) && !(receiver\.RXW\[3\]!=2))) && (((element==e0_1) R (RN\.buf_0\[6\]<10)) U [](TXW_LEAD<8))))

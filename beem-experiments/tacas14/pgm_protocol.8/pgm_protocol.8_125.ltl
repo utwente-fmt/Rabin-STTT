@@ -1,0 +1,1 @@
+!(<>(((SN==q_out_1) && !(clock==tick)) || (!(SN==q_out_1) && (clock==tick))) U (((!(RN_time\[2\]<9) && <>!(NR\.buf_0\[4\]>0)) || ((RN_time\[2\]<9) && [](NR\.buf_0\[4\]>0))) && <>(((SN==q_out_1) && !(clock==tick)) || (!(SN==q_out_1) && (clock==tick)))))

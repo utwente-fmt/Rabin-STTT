@@ -1,0 +1,1 @@
+!((Deposit!="wait") || ((<>(Robot\.A<0) U (!(Plate_9=="wait_table") && <>(Robot\.A<0))) U ([]!(Plate_2!="wait_deposit") && (<>(Robot\.A<0) U (!(Plate_9=="wait_table") && <>(Robot\.A<0))))))

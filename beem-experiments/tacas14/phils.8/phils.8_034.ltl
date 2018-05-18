@@ -1,0 +1,1 @@
+!(((fork\[5\]<0) && !(phil_0=="eat") && !(phil_4!="finish") && ((!(fork\[7\]<0) && !(phil_10=="think")) || ((fork\[7\]<0) && (phil_10=="think")))) || (((phil_0=="eat") || (phil_4!="finish")) && (!(fork\[5\]<0) || (!(fork\[7\]<0) && (phil_10=="think")) || ((fork\[7\]<0) && !(phil_10=="think")))))

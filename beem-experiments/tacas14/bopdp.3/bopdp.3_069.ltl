@@ -1,0 +1,1 @@
+!([]((((AP_Interrupt_Handler!="set_cur") R ((AP_Interrupt_Handler!="set_cur") || ((LSL_Interrupt_Handler=="interrupt_received") R (sleeping!=16)))) R ((some_data<=3) || ((AP_Interrupt_Handler!="set_cur") R ((AP_Interrupt_Handler!="set_cur") || ((LSL_Interrupt_Handler=="interrupt_received") R (sleeping!=16)))))) U (IOP=="check_noop")))

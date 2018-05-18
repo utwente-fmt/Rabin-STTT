@@ -1,0 +1,1 @@
+!(((clock==tick) R ((element\.nloss<10) R ((NR\.buf_1\[6\]<7) || (element\.nloss<10)))) R <>((RN\.buf_0\[5\]>12) && (sender==s0_3)))

@@ -1,0 +1,1 @@
+!((((floor_queue_2\[3\]<0) R (Person_0\.at_floor!=3)) && ((Servis\.caller!=3) U (!(Person_3\.at_floor<=0) && (Servis\.caller!=3)))) R ((floor_queue_2\[1\]>2) || (((floor_queue_2\[3\]<0) R (Person_0\.at_floor!=3)) && ((Servis\.caller!=3) U (!(Person_3\.at_floor<=0) && (Servis\.caller!=3))))))

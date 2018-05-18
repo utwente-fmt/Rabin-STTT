@@ -1,0 +1,1 @@
+!([](Robot=="Atable") || (!(Plate_2=="wait_table") R ((Plate_0=="new") || !(Plate_2=="wait_table") || (Plate_5!="wait_table"))))

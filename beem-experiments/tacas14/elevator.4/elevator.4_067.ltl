@@ -1,0 +1,1 @@
+!((!(floor_queue_1_act!=0) && ((<>[](Servis=="r") && (!(floor_queue_2\[0\]<=3) U !(Person_2!="out"))) || (((floor_queue_2\[0\]<=3) R (Person_2!="out")) && []<>!(Servis=="r")))) || ((floor_queue_1_act!=0) && (((!(floor_queue_2\[0\]<=3) U !(Person_2!="out")) && []<>!(Servis=="r")) || (<>[](Servis=="r") && ((floor_queue_2\[0\]<=3) R (Person_2!="out"))))))

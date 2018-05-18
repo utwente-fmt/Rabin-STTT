@@ -1,0 +1,1 @@
+!(((Lift_0\.count!=0) || (Lift_1\.count!=8) || (Lift_2!="wait")) R (!(Lift_0!="r3") || (Lift_1!="r4")))

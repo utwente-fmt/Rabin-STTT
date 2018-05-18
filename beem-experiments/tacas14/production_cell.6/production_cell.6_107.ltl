@@ -1,0 +1,1 @@
+!([]((Robot!="Apress") || ((Plate_2=="wait_deposit") U ((Plate_2=="wait_deposit") && (!(Plate_5!="wait_belt") || (Robot\.A!=2))))))

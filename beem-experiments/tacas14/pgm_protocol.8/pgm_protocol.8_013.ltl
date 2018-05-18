@@ -1,0 +1,1 @@
+!([]((receiver==r3) || ([](SN\.buf_2\[2\]>0) R ([](NS_time\[1\]!=10) U ((element\.rs_len>6) && [](NS_time\[1\]!=10))))))

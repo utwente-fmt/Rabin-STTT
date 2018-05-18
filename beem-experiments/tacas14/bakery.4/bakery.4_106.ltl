@@ -1,0 +1,1 @@
+!((!(P_1=="wait") || !(choosing\[0\]<0) || []!(P_2!="for_loop")) R (!(P_1=="wait") || !(P_2\.max!=4) || !(choosing\[0\]<0) || []!(P_2!="for_loop")))

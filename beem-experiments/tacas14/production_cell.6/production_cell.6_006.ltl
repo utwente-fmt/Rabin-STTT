@@ -1,0 +1,1 @@
+!(((((Plate_4!="wait_deposit") && !(Plate_7=="wait_table")) || (!(Plate_4!="wait_deposit") && (Plate_7=="wait_table"))) && <>((Belt!="got_new") && !(Press\.k!=4))) || (((!(Plate_4!="wait_deposit") && !(Plate_7=="wait_table")) || ((Plate_4!="wait_deposit") && (Plate_7=="wait_table"))) && [](!(Belt!="got_new") || (Press\.k!=4))))

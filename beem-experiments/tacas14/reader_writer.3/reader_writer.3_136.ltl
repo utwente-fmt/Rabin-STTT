@@ -1,0 +1,1 @@
+!((((reader_1=="reading") R (reader_11!="reading")) U ((writer_9!="writing") && ((reader_1=="reading") R (reader_11!="reading")))) R ((writer_4=="writing") || <>!(writer_4!="writing") || (((reader_1=="reading") R (reader_11!="reading")) U ((writer_9!="writing") && ((reader_1=="reading") R (reader_11!="reading"))))))

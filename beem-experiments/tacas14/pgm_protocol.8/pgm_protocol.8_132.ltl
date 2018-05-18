@@ -1,0 +1,1 @@
+!(((SN\.buf_2\[3\]>1) || !(receiver\.RXW\[0\]>3)) U (((SN\.buf_2\[3\]>1) || !(receiver\.RXW\[0\]>3)) && ((NR\.buf_2\[3\]>9) U ((!(receiver\.trail!=7) && (receiver==r3)) || ((receiver\.trail!=7) && !(receiver==r3))))))

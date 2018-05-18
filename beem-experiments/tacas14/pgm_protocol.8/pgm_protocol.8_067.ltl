@@ -1,0 +1,1 @@
+!(((<>(NR\.buf_2\[3\]>9) R ((element\.seq!=6) || <>(NR\.buf_2\[3\]>9))) U []!(SN_size<8)) U ((receiver\.RXW\[0\]>3) && ((<>(NR\.buf_2\[3\]>9) R ((element\.seq!=6) || <>(NR\.buf_2\[3\]>9))) U []!(SN_size<8))))

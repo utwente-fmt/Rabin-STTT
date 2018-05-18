@@ -1,0 +1,1 @@
+!(<>(Lift_0\.status>2) && ((Bus=="send_up") || !(Lift_3!="passive") || []<>(relay\[1\]<=19)))

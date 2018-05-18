@@ -1,0 +1,1 @@
+!((<>(LSL_Driver!="up_down_received") R (<>(LSL_Driver!="up_down_received") || (<>(LSL_Driver!="react") R (<>(lsl_interrupt!=31) || <>(LSL_Driver!="react"))))) U (IOP=="wait_for_down"))

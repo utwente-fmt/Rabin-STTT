@@ -1,0 +1,1 @@
+!((!(Plate_3=="new") && ((!(Sensor=="q") && <>(!(Belt=="got_new") || []!(Plate_8!="wait_deposit"))) || ((Sensor=="q") && []((Belt=="got_new") && <>(Plate_8!="wait_deposit"))))) || ((Plate_3=="new") && ((!(Sensor=="q") && []((Belt=="got_new") && <>(Plate_8!="wait_deposit"))) || ((Sensor=="q") && <>(!(Belt=="got_new") || []!(Plate_8!="wait_deposit"))))))

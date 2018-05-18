@@ -1,0 +1,1 @@
+!(<>(clock!="time") U (<>(clock!="time") && ([]!(Sender=="next_frame") || ((K!="in_transit") U ((K!="in_transit") && (L=="in_transit"))))))

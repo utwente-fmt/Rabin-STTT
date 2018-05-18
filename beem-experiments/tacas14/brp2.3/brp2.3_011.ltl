@@ -1,0 +1,1 @@
+!(<>([](SClient!="send_req") && (!(RClient!="nok") || ((Receiver\.exp_ab<=3) R ((Receiver\.exp_ab<=3) || (Sender\.ab<20))))))

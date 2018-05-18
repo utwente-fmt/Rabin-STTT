@@ -1,0 +1,1 @@
+!(((Lift_2\.nos>27) U ((Lift_2\.nos>27) && (Lift_3\.nos!=29))) R ((!(Lift_0!="q1") && ((!(Lift_1!="a_move") && !(relay\[1\]>19)) || ((Lift_1!="a_move") && (relay\[1\]>19)))) || ((Lift_0!="q1") && ((!(Lift_1!="a_move") && (relay\[1\]>19)) || ((Lift_1!="a_move") && !(relay\[1\]>19)))) || ((Lift_2\.nos>27) U ((Lift_2\.nos>27) && (Lift_3\.nos!=29)))))

@@ -1,0 +1,1 @@
+!(<>((<>!(clock!="time") && []!(Sender!="error")) || (<>(Sender!="error") && [](clock!="time"))) || []!(V!=5))

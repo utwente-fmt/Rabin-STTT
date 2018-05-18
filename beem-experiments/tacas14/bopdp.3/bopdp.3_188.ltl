@@ -1,0 +1,1 @@
+!(<>!(IOP!="clear_lsl_interrupt") || (((!(lsl_command<1) && []!(IOP=="wait_for_down")) || ((lsl_command<1) && <>(IOP=="wait_for_down"))) R (IOP=="active")))

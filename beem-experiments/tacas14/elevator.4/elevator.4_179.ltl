@@ -1,0 +1,1 @@
+!(((floor_queue_3\[2\]<1) U ((Person_0=="in_elevator") && (floor_queue_3\[2\]<1))) U []((Servis=="q") U ((Servis=="q") && (current<0))))

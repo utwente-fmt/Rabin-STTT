@@ -1,0 +1,18 @@
+HOA: v1
+States: 3
+Start: 0
+AP: 5 "Belt!='q2'" "Plate_1=='wait_press'" "Plate_2=='wait_deposit'" "Sensor.count!=0" "Sensor=='q'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!4] 1 {0}
+[0&!1&4 | 0&2&4 | 0&!3&4] 2 {0}
+[!0&4 | 1&!2&3&4] 0 {0}
+State: 1
+[t] 1 {0}
+State: 2
+[t] 2
+--END--

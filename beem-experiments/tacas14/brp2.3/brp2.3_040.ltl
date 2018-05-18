@@ -1,0 +1,1 @@
+!((RClient=="ok") R (<>(Sender!="wait_ack") R ((!(SClient=="nok") && !(Sender\.rc<=15)) || ((SClient=="nok") && (Sender\.rc<=15)) || <>(Sender!="wait_ack"))))

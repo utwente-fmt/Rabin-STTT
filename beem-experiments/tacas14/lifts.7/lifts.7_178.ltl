@@ -1,0 +1,1 @@
+!((!(Lift_1=="passive") && []!(Lift_3!="a_move") && (<>!(Environment!="pressed_up_1") R (!(Lift_3!="active") || <>!(Environment!="pressed_up_1")))) || (((Lift_1=="passive") || <>(Lift_3!="a_move")) && ([](Environment!="pressed_up_1") U ((Lift_3!="active") && [](Environment!="pressed_up_1")))))

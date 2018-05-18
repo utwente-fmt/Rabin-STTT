@@ -1,0 +1,1 @@
+!(((NS_time\[2\]<5) || (sender==s0_5)) && <>(!(element\.i<=11) && !(receiver\.outdata>0)))

@@ -1,0 +1,1 @@
+!((Robot!="Bdeposit") U ((Robot!="Bdeposit") && []((!(Plate_1!="wait_deposit") && ([](Plate_5!="wait_deposit") || <>(Plate_2!="wait_press"))) || ((Plate_1!="wait_deposit") && <>!(Plate_5!="wait_deposit") && []!(Plate_2!="wait_press")))))

@@ -1,0 +1,1 @@
+!(((!(channel_link_0!="ready") && <>!(P_2=="CS")) || ((channel_link_0!="ready") && [](P_2=="CS"))) U []((!(P_2!="wait") && !(P_3\.status<=12)) || ((P_2!="wait") && (P_3\.status<=12))))

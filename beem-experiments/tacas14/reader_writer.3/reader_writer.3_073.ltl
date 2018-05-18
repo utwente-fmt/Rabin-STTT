@@ -1,0 +1,1 @@
+!([]((<>(writer_0!="idle") U ([](writer_9=="writing") && <>(writer_0!="idle"))) U (((writer_7!="idle") R (control=="q_error")) && (<>(writer_0!="idle") U ([](writer_9=="writing") && <>(writer_0!="idle"))))))

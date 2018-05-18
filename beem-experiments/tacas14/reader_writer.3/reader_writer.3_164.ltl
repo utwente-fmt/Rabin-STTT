@@ -1,0 +1,1 @@
+!((!(writer_0!="idle") && ((!(reader_0=="reading") && !(writer_1!="idle")) || ((reader_0=="reading") && (writer_1!="idle")))) || ((writer_0!="idle") && (((reader_0=="reading") && !(writer_1!="idle")) || (!(reader_0=="reading") && (writer_1!="idle")))) || ((reader_12=="idle") R ((reader_12=="idle") || (reader_13!="idle"))))

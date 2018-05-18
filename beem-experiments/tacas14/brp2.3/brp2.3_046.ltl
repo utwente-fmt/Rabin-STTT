@@ -1,0 +1,1 @@
+!(((File!=14) || !(L!="in_transit")) && (((clock=="time") R !(Receiver=="frame_reported")) U ((SClient=="send_req") && ((clock=="time") R !(Receiver=="frame_reported")))))

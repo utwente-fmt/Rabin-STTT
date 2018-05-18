@@ -1,0 +1,1 @@
+!(<>[](K=="start") || ((Sender!="init_state") R ((!(K\.triple<=17) && <>!(L=="in_transit")) || ((K\.triple<=17) && [](L=="in_transit")))))

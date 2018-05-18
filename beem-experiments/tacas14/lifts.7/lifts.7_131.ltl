@@ -1,0 +1,1 @@
+!((<>[](Environment=="in") && (!(Lift_1=="wait") || <>(Bus!="wait"))) || ((Lift_1=="wait") && [](!(Bus!="wait") && <>!(Environment=="in"))))

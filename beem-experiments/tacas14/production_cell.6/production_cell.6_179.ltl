@@ -1,0 +1,1 @@
+!([](((Plate_8!="wait_deposit") || (Table!="up_full")) U ((!(Robot\.at_press<=1) || !(done<6)) && ((Plate_8!="wait_deposit") || (Table!="up_full")))))

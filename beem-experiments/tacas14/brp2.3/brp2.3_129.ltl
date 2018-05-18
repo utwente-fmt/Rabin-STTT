@@ -1,0 +1,1 @@
+!(((File<=15) || ((Sender\.i>8) U ((Sender\.i>8) && [](Receiver!="frame_reported")))) U ([]!(K\.triple!=11) && ((File<=15) || ((Sender\.i>8) U ((Sender\.i>8) && [](Receiver!="frame_reported"))))))

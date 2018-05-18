@@ -1,0 +1,1 @@
+!((<>[]!(packet!=4) && <>(!(NR==q_out_2) || []<>!(receiver==r0_1))) || (<>[](receiver==r0_1) && []((NR==q_out_2) && <>(packet!=4))))

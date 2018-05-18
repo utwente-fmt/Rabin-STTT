@@ -1,0 +1,1 @@
+!((choosing\[0\]<0) || ((<>(P_2\.max>0) U (!(P_1=="for_loop") && <>(P_2\.max>0))) U ([]!(P_1!="for_loop") && (<>(P_2\.max>0) U (!(P_1=="for_loop") && <>(P_2\.max>0))))))

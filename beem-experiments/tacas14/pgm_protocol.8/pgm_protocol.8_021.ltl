@@ -1,0 +1,1 @@
+!(<>((clock==tick) || []<>((element==e0_1) || []<>(NR_time\[5\]<6))) U (RN_time\[6\]>11))

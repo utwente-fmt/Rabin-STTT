@@ -1,0 +1,1 @@
+!(([](fork\[10\]<=1) && (!(phil_14=="one") R ((!(phil_3=="one") && (phil_9=="finish")) || ((phil_3=="one") && !(phil_9=="finish"))))) || (<>!(fork\[10\]<=1) && ((phil_14=="one") U ((!(phil_3=="one") && !(phil_9=="finish")) || ((phil_3=="one") && (phil_9=="finish"))))))

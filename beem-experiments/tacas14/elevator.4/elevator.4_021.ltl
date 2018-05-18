@@ -1,0 +1,1 @@
+!(<>((Elevator\.who<3) && (Person_3=="in_elevator")) R (<>((Elevator\.who<3) && (Person_3=="in_elevator")) || (!(Elevator!="choose_next") R (!(Elevator!="choose_next") || !(floor_queue_3\[2\]<1)))))

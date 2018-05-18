@@ -1,0 +1,1 @@
+!(!(element==e_spm) || (!(receiver==r_tmp) && ((!(receiver==r_out) && ((SN_time\[4\]<=5) || (receiver\.RXW\[4\]!=2))) || (!(SN_time\[4\]<=5) && !(receiver\.RXW\[4\]!=2) && (receiver==r_out)))) || ((receiver==r_tmp) && ((!(SN_time\[4\]<=5) && !(receiver\.RXW\[4\]!=2) && !(receiver==r_out)) || ((receiver==r_out) && ((SN_time\[4\]<=5) || (receiver\.RXW\[4\]!=2))))))

@@ -1,0 +1,1 @@
+!((!(Bus!="send_up") && !(Lift_2!="q3") && !(Lift_2=="p_send")) || ((Bus!="send_up") && ((Lift_2!="q3") || (Lift_2=="p_send"))) || ([]!(Lift_1=="q5") U (!(Lift_3!="p_msg") && []!(Lift_1=="q5"))))

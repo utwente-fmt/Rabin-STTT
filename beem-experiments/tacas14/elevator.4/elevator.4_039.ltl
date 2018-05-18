@@ -1,0 +1,1 @@
+!(((!(floor_queue_2\[2\]>0) && <>((Servis\.caller!=3) && (current<0))) || ((floor_queue_2\[2\]>0) && [](!(Servis\.caller!=3) || !(current<0)))) R ((floor_queue_3_act>3) || (!(floor_queue_2\[2\]>0) && <>((Servis\.caller!=3) && (current<0))) || ((floor_queue_2\[2\]>0) && [](!(Servis\.caller!=3) || !(current<0)))))

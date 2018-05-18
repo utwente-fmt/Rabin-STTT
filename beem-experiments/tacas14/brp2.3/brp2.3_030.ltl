@@ -1,0 +1,1 @@
+!(((!(SClient=="ok") && (!(L!="in_transit") U []!(RClient!="inc"))) || ((SClient=="ok") && ((L!="in_transit") R <>(RClient!="inc")))) U ((U!=24) && ((!(SClient=="ok") && (!(L!="in_transit") U []!(RClient!="inc"))) || ((SClient=="ok") && ((L!="in_transit") R <>(RClient!="inc"))))))

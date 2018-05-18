@@ -1,0 +1,1 @@
+!(((floor_queue_1\[2\]<2) && []<>(floor_queue_2\[2\]<3)) U ((floor_queue_1\[2\]<2) && !(floor_queue_3\[2\]!=3) && []<>(floor_queue_2\[2\]<3)))

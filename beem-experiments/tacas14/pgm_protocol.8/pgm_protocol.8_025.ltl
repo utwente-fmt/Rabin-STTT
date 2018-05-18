@@ -1,0 +1,1 @@
+!(!(NR\.buf_2\[3\]>9) U (!(NR\.buf_2\[3\]>9) && (<>(receiver\.outdata>0) U ([](RN\.buf_0\[0\]>0) && <>(receiver\.outdata>0)))))

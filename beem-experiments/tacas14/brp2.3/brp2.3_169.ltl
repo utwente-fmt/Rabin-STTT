@@ -1,0 +1,1 @@
+!(((K!="in_transit") || (!(W!=0) U (!(Sender!="success") && !(W!=0)))) U [](SClient=="file_req"))

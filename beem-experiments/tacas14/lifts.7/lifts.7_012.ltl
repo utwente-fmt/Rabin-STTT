@@ -1,0 +1,1 @@
+!([]((((Lift_3!="q1") && !(Lift_3=="a_move") && (relay\[1\]<=19)) || (!(Lift_3!="q1") && ((Lift_3=="a_move") || !(relay\[1\]<=19)))) U (!(Bus!="wait") && (((Lift_3!="q1") && !(Lift_3=="a_move") && (relay\[1\]<=19)) || (!(Lift_3!="q1") && ((Lift_3=="a_move") || !(relay\[1\]<=19)))))))

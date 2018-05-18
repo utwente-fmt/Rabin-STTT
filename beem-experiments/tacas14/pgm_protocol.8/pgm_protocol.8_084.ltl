@@ -1,0 +1,1 @@
+!((!(RN==q_in_1) || !(element\.seq!=6) || []!(element==e0)) R (!(RN==q_in_1) || !(element\.seq!=6) || !(receiver=="r1") || []!(element==e0)))

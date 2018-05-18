@@ -1,0 +1,1 @@
+!((!(channel_link_3\.v<=0) && ((!(P_3!="wait") && <>(!(P_2!="got_msg") || []!(P_3=="got_msg"))) || ((P_3!="wait") && []((P_2!="got_msg") && <>(P_3=="got_msg"))))) || ((channel_link_3\.v<=0) && ((!(P_3!="wait") && []((P_2!="got_msg") && <>(P_3=="got_msg"))) || ((P_3!="wait") && <>(!(P_2!="got_msg") || []!(P_3=="got_msg"))))))

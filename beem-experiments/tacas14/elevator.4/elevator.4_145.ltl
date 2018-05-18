@@ -1,0 +1,1 @@
+!((!(Person_1!="in_elevator") || ((Person_0\.at_floor!=3) && <>(floor_queue_3\[1\]<3))) U ([](Elevator!="choose_next") && (!(Person_1!="in_elevator") || ((Person_0\.at_floor!=3) && <>(floor_queue_3\[1\]<3)))))

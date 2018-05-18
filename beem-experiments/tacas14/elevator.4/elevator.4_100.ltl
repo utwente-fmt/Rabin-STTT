@@ -1,0 +1,1 @@
+!(((floor_queue_0\[1\]!=0) && ((Person_2\.at_floor<=2) U (Elevator\.serving<=2)) && <>(Person_0!="out")) R (Person_0\.at_floor!=3))

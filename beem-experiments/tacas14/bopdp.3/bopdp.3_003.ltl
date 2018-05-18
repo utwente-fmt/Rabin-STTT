@@ -1,0 +1,1 @@
+!((((Calc!="calc_data") || !(IOP!="down_received")) && (!(lsl_command<=12) U [](IOP!="wait_for_down"))) || (!(Calc!="calc_data") && (IOP!="down_received") && ((lsl_command<=12) R <>!(IOP!="wait_for_down"))))

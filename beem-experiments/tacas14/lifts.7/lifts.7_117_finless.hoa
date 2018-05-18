@@ -1,0 +1,27 @@
+HOA: v1
+States: 6
+Start: 4
+AP: 4 "Lift_0.status>2" "Bus=='send_up'" "Lift_3!='passive'" "relay[1]<=19"
+Acceptance: 3 (Inf(0)&Inf(2)) | (Inf(1)&Inf(2))
+properties: trans-labels explicit-labels trans-acc
+--BODY--
+State: 0
+[!0] 0
+[0] 3
+State: 1
+[t] 1 {0 2}
+State: 2
+[0] 1
+[!0] 2 {0}
+State: 3
+[!3] 3 {2}
+[3] 3 {1 2}
+[3] 5
+State: 4
+[!0] 0
+[0&1 | 0&!2] 1
+[!0&1 | !0&!2] 2
+[0] 3
+State: 5
+[3] 5 {0 2}
+--END--

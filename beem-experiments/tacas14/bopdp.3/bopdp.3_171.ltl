@@ -1,0 +1,1 @@
+!((IOP=="stand_by") || <>[](IOP!="issue_down_lsl"))

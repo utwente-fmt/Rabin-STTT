@@ -1,0 +1,1 @@
+!(((sender==s1_1) R (SN==q_in_3)) R (((NR\.buf_1\[1\]!=2) R ((NR\.buf_1\[1\]!=2) || (sender==s1_1))) U (!(clock==tick) && ((NR\.buf_1\[1\]!=2) R ((NR\.buf_1\[1\]!=2) || (sender==s1_1))))))

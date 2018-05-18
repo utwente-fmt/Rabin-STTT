@@ -1,0 +1,1 @@
+!((Servis=="r") R (<>(floor_queue_2\[0\]<=3) R ((!(Person_3\.at_floor<=0) && !(Person_3=="waiting")) || ((Person_3\.at_floor<=0) && (Person_3=="waiting")) || <>(floor_queue_2\[0\]<=3))))

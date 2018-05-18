@@ -1,0 +1,1 @@
+!(<>(((!(Sender=="error") && [](RClient!="nok")) || ((Sender=="error") && <>!(RClient!="nok"))) && (!(SClient!="dk") U (!(SClient!="dk") && (SClient=="ok")))))

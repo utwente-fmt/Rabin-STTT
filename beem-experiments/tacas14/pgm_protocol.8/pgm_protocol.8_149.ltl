@@ -1,0 +1,1 @@
+!((!(NR\.buf_2\[5\]<=8) && (((sender==s0_1) && <>(element==e1) && []!(sender==s0_6)) || (<>(sender==s0_6) && (!(sender==s0_1) || []!(element==e1))))) || ((NR\.buf_2\[5\]<=8) && (((sender==s0_1) && <>(element==e1) && <>(sender==s0_6)) || ([]!(sender==s0_6) && (!(sender==s0_1) || []!(element==e1))))))

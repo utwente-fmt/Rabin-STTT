@@ -1,0 +1,1 @@
+!(((!(writer_0=="idle") && !(writer_3=="idle")) || ((writer_0=="idle") && (writer_3=="idle"))) U ((control=="q_error") && !(reader_9=="idle") && (writer_10=="writing")))

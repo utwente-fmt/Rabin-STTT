@@ -1,0 +1,1 @@
+!(((Plate_8!="new") || (!(Deposit\.k>0) U (!(Deposit\.k>0) && !(Plate_6!="wait_table")))) U [](Deposit=="wait"))

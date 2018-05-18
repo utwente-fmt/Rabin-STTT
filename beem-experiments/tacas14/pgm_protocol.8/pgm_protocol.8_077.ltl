@@ -1,0 +1,1 @@
+!(!(x<=1) || (((RN_time\[3\]>10) R ((RN_time\[3\]>10) || <>(TXW_TRAIL<=0))) U (((RN_time\[5\]>9) || !(element==e_rdata)) && ((RN_time\[3\]>10) R ((RN_time\[3\]>10) || <>(TXW_TRAIL<=0))))))

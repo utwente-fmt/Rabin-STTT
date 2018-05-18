@@ -1,0 +1,1 @@
+!((sw_stand_by<12) U (((((IOP=="wake_up") || (sleep_op<10)) && <>!(IOP!="issue_lsl_up")) || (!(IOP=="wake_up") && !(sleep_op<10) && [](IOP!="issue_lsl_up"))) R ((ap_interrupt>2) || (((IOP=="wake_up") || (sleep_op<10)) && <>!(IOP!="issue_lsl_up")) || (!(IOP=="wake_up") && !(sleep_op<10) && [](IOP!="issue_lsl_up")))))

@@ -1,0 +1,1 @@
+!(<>(RClient=="nok") || []((Sender!="next_frame") || (clock!="time")))

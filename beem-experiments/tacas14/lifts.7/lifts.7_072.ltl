@@ -1,0 +1,1 @@
+!((Lift_1=="r4") R ((Lift_1=="r4") || ((Lift_3!="passive") && !(Lift_3=="a_move")) || (!(Lift_3!="passive") && (Lift_3=="a_move")) || (!(Lift_3!="a_send") R (!(Lift_3!="a_send") || (Lift_3=="q1")))))

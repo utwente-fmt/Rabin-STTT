@@ -1,0 +1,1 @@
+!(<>[](writer_6=="writing") || ((writer_3!="writing") R ((!(reader_5=="idle") && <>!(writer_7=="writing")) || ((reader_5=="idle") && [](writer_7=="writing")))))

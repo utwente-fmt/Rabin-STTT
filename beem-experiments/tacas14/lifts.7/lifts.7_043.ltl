@@ -1,0 +1,1 @@
+!((!(Lift_0!="r2") R (Lift_3=="a_move")) R (<>(!(Lift_0!="q4") && (Lift_1!="r2")) || (!(Lift_0!="r2") R (Lift_3=="a_move"))))

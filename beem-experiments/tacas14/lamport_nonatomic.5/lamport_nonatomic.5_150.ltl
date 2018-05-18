@@ -1,0 +1,1 @@
+!((!(NonatomicVar_2=="r") && <>(NonatomicVar_0=="q")) || ((NonatomicVar_2=="r") && []!(NonatomicVar_0=="q")) || <>((NonatomicVar_1=="r") && !(NonatomicVar_2=="r")))

@@ -1,0 +1,1 @@
+!(((!(Z!=24) && !(clock=="time")) || ((Z!=24) && (clock=="time"))) R ((!(RClient!="ok") R (RClient=="ok")) U ((Receiver!="new_file") && (!(RClient!="ok") R (RClient=="ok")))))

@@ -1,0 +1,1 @@
+!((!(P_2=="got_msg") U ((channel_link_0!="ready") U ((P_2=="CS") && (channel_link_0!="ready")))) U ([]!(P_0=="got_msg") && (!(P_2=="got_msg") U ((channel_link_0!="ready") U ((P_2=="CS") && (channel_link_0!="ready"))))))

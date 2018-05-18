@@ -1,0 +1,1 @@
+!((!(Receiver!="idle") && (V<=17) && !(X<=0) && ((!(K=="BAD") && !(Receiver\.exp_ab!=14)) || ((K=="BAD") && (Receiver\.exp_ab!=14)))) || (((Receiver!="idle") || (X<=0)) && (!(V<=17) || ((K=="BAD") && !(Receiver\.exp_ab!=14)) || (!(K=="BAD") && (Receiver\.exp_ab!=14)))))

@@ -1,0 +1,1 @@
+!((K\.triple<=17) && ((<>!(RClient!="ok") && (!(Sender!="init_state") R (!(K=="start") || !(Sender!="init_state")))) || ([](RClient!="ok") && ((Sender!="init_state") U ((K=="start") && (Sender!="init_state"))))))

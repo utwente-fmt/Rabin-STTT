@@ -1,0 +1,1 @@
+!((<>(!(NR==q_in_3) && !(SN_time\[3\]<4)) U (TXW_TRAIL<=0)) R <>(element==e_odata2))

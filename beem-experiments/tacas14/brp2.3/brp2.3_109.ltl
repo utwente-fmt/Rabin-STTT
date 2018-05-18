@@ -1,0 +1,1 @@
+!(((L!="in_transit") U ((L!="in_transit") && (!(Sender!="wait_ack") || ((SClient=="send_req") U (Receiver=="new_file"))))) U [](Sender=="init_state"))

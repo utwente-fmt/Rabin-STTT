@@ -1,0 +1,1 @@
+!((Plate_7!="wait_table") || []((!(Plate_1=="wait_press") && (!(Table!="up_full") U (!(Plate_0=="new") && !(Table!="up_full")))) || ((Plate_1=="wait_press") && ((Table!="up_full") R ((Plate_0=="new") || (Table!="up_full"))))))

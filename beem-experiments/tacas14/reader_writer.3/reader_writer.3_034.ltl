@@ -1,0 +1,1 @@
+!([](writer_9!="writing") || <>(((reader_1!="reading") && (reader_8!="reading")) R (((reader_1!="reading") && (reader_8!="reading")) || <>(reader_2!="idle"))))

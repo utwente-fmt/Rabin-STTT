@@ -1,0 +1,1 @@
+!(((channel_link_4!="tr") && [](channel_link_0=="tr") && ((channel_link_4!="ready") || <>!(channel_link_4!="tr"))) || (!(channel_link_4!="ready") && [](channel_link_4!="tr") && (!(channel_link_4!="tr") || <>!(channel_link_0=="tr"))))

@@ -1,0 +1,1 @@
+!(<>([]<>(K=="in_transit") R (((Sender!="idle") && []!(SClient!="send_req")) || []<>(K=="in_transit"))))

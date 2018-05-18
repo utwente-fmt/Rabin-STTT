@@ -1,0 +1,1 @@
+!(((Sender!="error") && !(Sender\.i<3)) || (<>(SClient!="file_req") && <>(clock!="time")))

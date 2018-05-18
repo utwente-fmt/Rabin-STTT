@@ -1,0 +1,1 @@
+!((phil_7!="think") R ((phil_7!="think") || !(phil_15!="one") || (!(fork\[14\]<=2) && ((phil_14!="think") R ((fork\[3\]<2) || (phil_14!="think")))) || ((fork\[14\]<=2) && (!(phil_14!="think") U (!(fork\[3\]<2) && !(phil_14!="think"))))))

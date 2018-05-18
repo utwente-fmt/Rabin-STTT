@@ -1,0 +1,1 @@
+!(<>[](L!="BAD") U (<>[](L!="BAD") && ((Sender=="error") U ((Sender=="error") && ((SClient!="dk") U (Receiver\.triple<=23))))))

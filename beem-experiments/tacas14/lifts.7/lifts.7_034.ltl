@@ -1,0 +1,1 @@
+!(((Lift_0!="wait") && !(Lift_1=="q2") && !(Lift_2!="r3") && ((!(Environment=="pressed_up_2") && !(Lift_0=="q3")) || ((Environment=="pressed_up_2") && (Lift_0=="q3")))) || (((Lift_1=="q2") || (Lift_2!="r3")) && (!(Lift_0!="wait") || ((Environment=="pressed_up_2") && !(Lift_0=="q3")) || (!(Environment=="pressed_up_2") && (Lift_0=="q3")))))

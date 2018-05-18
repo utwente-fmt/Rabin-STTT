@@ -1,0 +1,1 @@
+!(<>(Sensor=="q") R ((((Plate_1!="wait_press") && !(Sensor!="q")) || (!(Plate_1!="wait_press") && (Sensor!="q"))) R <>(Plate_6=="wait_press")))

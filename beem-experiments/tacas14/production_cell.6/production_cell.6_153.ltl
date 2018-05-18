@@ -1,0 +1,1 @@
+!(<>(Sensor\.count!=0) && <>[](Deposit!="loaded"))

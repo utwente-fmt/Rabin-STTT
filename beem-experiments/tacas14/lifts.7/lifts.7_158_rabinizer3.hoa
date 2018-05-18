@@ -1,0 +1,24 @@
+HOA: v1
+States: 4
+Start: 0
+AP: 5 "Lift_2!='p_send'" "Lift_2!='error_state'" "Wheels=='staying'" "Lift_2!='r4'" "Lift_2=='q4'"
+acc-name: generalized-Rabin 2 1 0
+Acceptance: 3 (Fin(0) & Inf(1)) | Fin(2)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0&!1&!2&!3 | !0&1&2&!3 | 0&!1&2&!3 | 0&1&!2&!3 | !3&4] 3 {0 2}
+[!0&!1&2&3&!4 | !0&1&!2&3&!4 | 0&!1&!2&3&!4 | 0&1&2&3&!4] 1 {1 2}
+[!0&!1&2&!3&!4 | !0&1&!2&!3&!4 | 0&!1&!2&!3&!4 | 0&1&2&!3&!4] 2 {0 2}
+[!0&!1&!2&3 | !0&1&2&3 | 0&!1&2&3 | 0&1&!2&3 | 3&4] 3 {1 2}
+State: 1
+[3&4] 3 {1 2}
+[3&!4] 1 {1 2}
+[!3&!4] 2 {0 2}
+[!3&4] 3 {0 2}
+State: 2
+[t] 2 {0 2}
+State: 3
+[t] 3
+--END--

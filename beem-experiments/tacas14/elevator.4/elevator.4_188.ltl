@@ -1,0 +1,1 @@
+!(((Person_1=="in_elevator") || (Person_3=="in_elevator") || (floor_queue_1\[3\]<=1)) R (!(Person_0\.at_floor>2) || (Servis\.caller!=0)))

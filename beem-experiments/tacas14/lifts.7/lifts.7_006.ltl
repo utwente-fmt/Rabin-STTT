@@ -1,0 +1,1 @@
+!((Lift_1!="active") || (!(Lift_3=="wait") U []((!(Lift_1=="r1") && !(Lift_2!="p_send")) || ((Lift_1=="r1") && (Lift_2!="p_send")))))

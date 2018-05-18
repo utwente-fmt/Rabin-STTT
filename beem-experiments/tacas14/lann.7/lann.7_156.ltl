@@ -1,0 +1,1 @@
+!((P_0!="CS") || ((channel_link_1!="tr") R (P_2=="wait")) || (!(channel_link_0\.v>2) R ((P_1\.status<10) || !(channel_link_0\.v>2))))

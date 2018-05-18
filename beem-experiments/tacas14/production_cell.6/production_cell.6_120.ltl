@@ -1,0 +1,1 @@
+!(<>((Plate_5!="new") && (Sensor=="q") && ((!(Plate_2=="wait_belt") && (((Belt!="q2") && !(Robot\.A!=2)) || (!(Belt!="q2") && (Robot\.A!=2)))) || ((Plate_2=="wait_belt") && ((!(Belt!="q2") && !(Robot\.A!=2)) || ((Belt!="q2") && (Robot\.A!=2)))))))

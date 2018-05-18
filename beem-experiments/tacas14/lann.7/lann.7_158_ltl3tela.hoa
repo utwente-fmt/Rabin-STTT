@@ -1,0 +1,22 @@
+HOA: v1
+States: 4
+Start: 3
+AP: 4 "P_3.status<=12" "P_3!='got_msg'" "P_3!='CS'" "P_4=='got_msg'"
+acc-name: generalized-Rabin 2 0 1
+Acceptance: 3 Fin(0) | (Fin(1) & Inf(2))
+properties: trans-labels explicit-labels trans-acc deterministic
+--BODY--
+State: 0
+[t] 0
+State: 1
+[!2] 0
+[2&!3] 1
+[2&3] 1 {0 1}
+State: 2
+[2&!3] 2 {0}
+[2&3] 2 {2}
+State: 3
+[!0&!1&!2 | 0&1&!2] 0
+[!0&!1&2 | 0&1&2] 1
+[!0&1&2 | 0&!1&2] 2
+--END--

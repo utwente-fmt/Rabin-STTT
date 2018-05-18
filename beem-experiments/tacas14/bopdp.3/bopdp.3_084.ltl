@@ -1,0 +1,1 @@
+!(<>(IOP!="wait_for_down") && <>((AP_Interrupt_Handler!="reset_cur") || (IOP=="wait_init_response")))

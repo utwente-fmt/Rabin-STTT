@@ -1,0 +1,1 @@
+!([](((!(Deposit\.k<=1) || !(Press\.k<=5)) && (!(done<6) || [](Plate_8=="new"))) || ((Deposit\.k<=1) && (Press\.k<=5) && (done<6) && <>!(Plate_8=="new"))))

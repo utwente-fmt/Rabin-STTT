@@ -1,0 +1,1 @@
+!((LSL_Driver=="stand_by") || ((generated_ap_interrupt<=0) R (AP_Interrupt_Handler!="reset_cur")) || (!(sleep_op!=27) R ((generated_lsl_interrupt<=17) || !(sleep_op!=27))))

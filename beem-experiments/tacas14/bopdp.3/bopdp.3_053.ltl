@@ -1,0 +1,1 @@
+!(<>([]!(sleeping!=16) R ((((!(IOP=="enter_active") && !(lsl_data<=25)) || ((IOP=="enter_active") && (lsl_data<=25))) U !(IOP=="send_nack")) || []!(sleeping!=16))))

@@ -1,0 +1,18 @@
+HOA: v1
+States: 3
+Start: 0
+AP: 3 "File!=14" "V!=5" "Sender!='next_frame'"
+acc-name: Rabin 1
+Acceptance: 2 Fin(0) & Inf(1)
+properties: trans-labels explicit-labels trans-acc deterministic
+--BODY--
+State: 0
+[0&!2 | !1&!2] 0 {1}
+[0&2 | !1&2] 1
+[!0&1&2] 2
+State: 1
+[0&!2 | !1&!2] 0 {1}
+[0&2 | !1&2] 1
+State: 2
+[!0&1&2] 2 {1}
+--END--

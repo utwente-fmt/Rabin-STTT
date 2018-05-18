@@ -1,0 +1,1 @@
+!(((!(Person_1!="out") || (floor_queue_3\[2\]!=3)) && (!(floor_queue_0\[3\]>0) U [](Person_0!="waiting"))) || ((Person_1!="out") && !(floor_queue_3\[2\]!=3) && ((floor_queue_0\[3\]>0) R <>!(Person_0!="waiting"))))

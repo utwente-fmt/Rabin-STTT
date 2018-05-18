@@ -1,0 +1,1 @@
+!(((relay\[2\]<=0) && ((Environment=="in") R ((Environment=="in") || <>(Lift_3=="q1")))) U ((Lift_1!="r3") U (Lift_2\.status<=0)))

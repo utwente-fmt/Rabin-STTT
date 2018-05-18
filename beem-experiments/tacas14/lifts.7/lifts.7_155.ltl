@@ -1,0 +1,1 @@
+!((Lift_3!="error_state") && <>!(Lift_3\.pos<=12) && <>(!(Bus\.m<=28) && !(Lift_3\.status>25)))

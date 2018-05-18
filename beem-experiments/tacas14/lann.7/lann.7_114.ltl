@@ -1,0 +1,1 @@
+!((!(channel_link_4=="ready") && (((!(P_4!="CS") && [](P_2!="got_msg")) U !(P_4=="wait")) R !(channel_link_4!="ready"))) || ((channel_link_4=="ready") && ((((P_4!="CS") || <>!(P_2!="got_msg")) R (P_4=="wait")) U (channel_link_4!="ready"))))

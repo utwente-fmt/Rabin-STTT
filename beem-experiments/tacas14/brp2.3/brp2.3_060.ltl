@@ -1,0 +1,1 @@
+!((Sender\.rc<=15) R ((Sender\.rc<=15) || (!(K=="start") && (Sender!="idle")) || ((K=="start") && !(Sender!="idle")) || (!(K!="in_transit") R (!(K!="in_transit") || (Sender=="wait_ack")))))

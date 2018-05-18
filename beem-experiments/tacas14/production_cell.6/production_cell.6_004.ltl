@@ -1,0 +1,1 @@
+!((Plate_3!="new") || (!(Plate_6=="wait_belt") U []((!(Plate_2=="new") && !(Plate_5!="wait_belt")) || ((Plate_2=="new") && (Plate_5!="wait_belt")))))

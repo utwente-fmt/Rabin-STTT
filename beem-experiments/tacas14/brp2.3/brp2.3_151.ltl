@@ -1,0 +1,1 @@
+!(((L=="BAD") U ((Sender=="next_frame") || (!(File<=15) && <>!(Receiver\.triple<=23)) || ((File<=15) && [](Receiver\.triple<=23)))) U ((Sender\.i>8) && ((L=="BAD") U ((Sender=="next_frame") || (!(File<=15) && <>!(Receiver\.triple<=23)) || ((File<=15) && [](Receiver\.triple<=23))))))

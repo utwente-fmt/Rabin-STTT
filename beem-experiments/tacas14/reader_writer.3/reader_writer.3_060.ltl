@@ -1,0 +1,1 @@
+!((control=="ready") R (<>(writer_0!="writing") R ((!(reader_8=="idle") && !(writer_11=="writing")) || ((reader_8=="idle") && (writer_11=="writing")) || <>(writer_0!="writing"))))

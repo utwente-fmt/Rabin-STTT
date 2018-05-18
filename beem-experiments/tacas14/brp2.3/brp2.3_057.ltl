@@ -1,0 +1,1 @@
+!(([]!(File<=15) && ((Receiver=="idle") || <>[]!(Sender\.i>8))) || (!(Receiver=="idle") && <>(File<=15) && []<>(Sender\.i>8)))

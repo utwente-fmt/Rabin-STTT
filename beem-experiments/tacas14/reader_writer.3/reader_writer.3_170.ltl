@@ -1,0 +1,1 @@
+!((!(reader_9=="reading") && ((!(writer_10=="idle") && <>(!(writer_9=="idle") || []!(writer_6!="writing"))) || ((writer_10=="idle") && []((writer_9=="idle") && <>(writer_6!="writing"))))) || ((reader_9=="reading") && ((!(writer_10=="idle") && []((writer_9=="idle") && <>(writer_6!="writing"))) || ((writer_10=="idle") && <>(!(writer_9=="idle") || []!(writer_6!="writing"))))))

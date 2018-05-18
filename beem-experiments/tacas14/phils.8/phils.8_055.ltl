@@ -1,0 +1,1 @@
+!((!(phil_0=="finish") U (!(phil_0=="finish") && !(phil_13=="finish"))) U ((phil_7!="think") && []!(fork\[6\]<2) && (!(phil_0=="finish") U (!(phil_0=="finish") && !(phil_13=="finish")))))

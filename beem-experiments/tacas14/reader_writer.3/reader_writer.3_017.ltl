@@ -1,0 +1,1 @@
+!(([](reader_4!="reading") U ([](reader_4!="reading") && ((control=="q_error") U ((control=="q_error") && (reader_2!="idle"))))) && ((writer_5!="writing") U ((reader_13!="reading") && (writer_5!="writing"))))

@@ -1,0 +1,1 @@
+!(<>((K\.triple!=11) && (SClient=="send_req")) R (<>((K\.triple!=11) && (SClient=="send_req")) || (!(RClient!="ok") R (!(RClient!="ok") || !(Sender=="init_state")))))

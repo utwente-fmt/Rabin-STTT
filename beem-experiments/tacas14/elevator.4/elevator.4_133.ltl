@@ -1,0 +1,1 @@
+!([]<>(floor_queue_1\[2\]>3) U ((((Elevator!="choose_next") || (Person_1\.at_floor<=2)) R <>(floor_queue_3_act>3)) && []<>(floor_queue_1\[2\]>3)))

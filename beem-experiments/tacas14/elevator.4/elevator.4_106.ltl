@@ -1,0 +1,1 @@
+!(<>((!(Person_2!="waiting") R ((Person_0!="out") || !(Person_2!="waiting"))) R ((!(Person_0=="in_elevator") U (!(Person_0=="in_elevator") && !(Person_2\.at_floor<=3))) || (!(Person_2!="waiting") R ((Person_0!="out") || !(Person_2!="waiting"))))))

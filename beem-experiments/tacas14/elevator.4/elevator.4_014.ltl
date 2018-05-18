@@ -1,0 +1,1 @@
+!(<>(Servis=="q") && (<>(Servis!="r") || (!(floor_queue_3\[2\]<1) && [](floor_queue_2\[2\]<3)) || ((floor_queue_3\[2\]<1) && <>!(floor_queue_2\[2\]<3))))

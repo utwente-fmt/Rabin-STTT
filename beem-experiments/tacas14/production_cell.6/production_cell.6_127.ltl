@@ -1,0 +1,1 @@
+!([]((!(Plate_9=="wait_press") U !(Sensor=="q")) || ((Table\.k<4) U (!(Plate_6=="new") && (Table\.k<4)))))

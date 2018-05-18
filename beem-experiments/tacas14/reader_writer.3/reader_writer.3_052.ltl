@@ -1,0 +1,1 @@
+!((!(writer_6!="idle") && <>((!(reader_6!="idle") && ((reader_2=="idle") || (reader_5=="idle"))) || (!(reader_2=="idle") && !(reader_5=="idle") && (reader_6!="idle")))) || ((writer_6!="idle") && []((!(reader_2=="idle") && !(reader_5=="idle") && !(reader_6!="idle")) || ((reader_6!="idle") && ((reader_2=="idle") || (reader_5=="idle"))))))

@@ -1,0 +1,1 @@
+!([](P_2!="got_msg") && (((P_1\.v!=11) U (channel_link_3!="ready")) U ((channel_link_3=="tr") && ((P_1\.v!=11) U (channel_link_3!="ready")))))

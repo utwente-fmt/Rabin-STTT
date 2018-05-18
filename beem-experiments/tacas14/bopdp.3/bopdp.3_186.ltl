@@ -1,0 +1,1 @@
+!((!(IOP!="set_stand_by") && (IOP=="wait_for_down") && (([]!(AP!="stand_by") && <>(IOP!="down_expected")) || (<>(AP!="stand_by") && []!(IOP!="down_expected")))) || (((IOP!="set_stand_by") || !(IOP=="wait_for_down")) && ((<>(IOP!="down_expected") && <>(AP!="stand_by")) || [](!(AP!="stand_by") && !(IOP!="down_expected")))))

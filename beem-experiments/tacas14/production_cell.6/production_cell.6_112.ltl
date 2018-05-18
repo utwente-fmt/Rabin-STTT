@@ -1,0 +1,1 @@
+!((Robot\.B<=7) U (((((Belt=="wait") || (Robot\.at_press<=1)) && <>!(Belt!="q2")) || (!(Belt=="wait") && !(Robot\.at_press<=1) && [](Belt!="q2"))) R ((Plate_0!="wait_press") || (((Belt=="wait") || (Robot\.at_press<=1)) && <>!(Belt!="q2")) || (!(Belt=="wait") && !(Robot\.at_press<=1) && [](Belt!="q2")))))

@@ -1,0 +1,1 @@
+!((!(Person_0=="in_elevator") || (floor_queue_0_act<3)) && (!(Person_3!="in_elevator") || (floor_queue_0_act<3) || !(floor_queue_3\[1\]<2)))

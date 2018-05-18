@@ -1,0 +1,1 @@
+!((<>(Sender!="next_frame") R (<>(Sender!="next_frame") || (<>(Sender!="wait_ack") R (<>(U!=7) || <>(Sender!="wait_ack"))))) U (Sender=="idle"))

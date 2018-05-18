@@ -1,0 +1,1 @@
+!(((Person_3!="waiting") && (([]!(Person_0!="waiting") && <>!(Person_3\.at_floor<=3)) || (<>(Person_0!="waiting") && [](Person_3\.at_floor<=3)))) || (!(Person_3!="waiting") && ((<>!(Person_3\.at_floor<=3) && <>(Person_0!="waiting")) || [](!(Person_0!="waiting") && (Person_3\.at_floor<=3)))))

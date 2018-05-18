@@ -1,0 +1,31 @@
+HOA: v1
+States: 6
+Start: 0
+AP: 3 "IOP=='send_active_command'" "LSL_Driver!='stand_by'" "IOP!='data_expected'"
+acc-name: generalized-Rabin 2 0 1
+Acceptance: 3 Fin(0) | (Fin(1) & Inf(2))
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[0] 1 {0 1}
+[!0&!2] 2 {0 1}
+[!0&1&2] 3 {0 1}
+[!0&!1&2] 4 {0 1}
+State: 1
+[t] 1
+State: 2
+[t] 2 {0 1}
+State: 3
+[1&2] 3 {0 2}
+[!1&2] 4 {0 1}
+[1&!2] 5 {0 2}
+[!1&!2] 2 {0 1}
+State: 4
+[!2] 2 {0 1}
+[1&2] 3 {0 1}
+[!1&2] 4 {0 1}
+State: 5
+[1] 5 {0 2}
+[!1] 2 {0 1}
+--END--

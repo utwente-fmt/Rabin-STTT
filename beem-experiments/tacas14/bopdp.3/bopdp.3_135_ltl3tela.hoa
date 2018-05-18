@@ -1,0 +1,32 @@
+HOA: v1
+States: 5
+Start: 0
+AP: 4 "IOP=='insert_noop'" "IOP=='s_active'" "IOP=='re_issue_lsl_down'" "IOP=='now_wait'"
+Acceptance: 3 Fin(0) & (Inf(1)&Inf(2))
+properties: trans-labels explicit-labels trans-acc
+--BODY--
+State: 0
+[!1&2 | !1&3] 0 {1}
+[1&2 | 1&3] 0 {1 2}
+[0&1&2 | 0&1&3] 1
+[0&1&!2&!3] 2
+[!1&!2&!3] 3
+[1&!2&!3] 3 {2}
+[0&!1&2 | 0&!1&3] 4
+State: 1
+[0] 1 {1 2}
+State: 2
+[0&!1&3] 1
+[0&!1&!3] 2
+State: 3
+[!1&3] 0 {1}
+[1&3] 0 {1 2}
+[0&1&3] 1
+[0&1&!3] 2
+[!1&!3] 3
+[1&!3] 3 {2}
+[0&!1&3] 4
+State: 4
+[0&1] 1
+[0&!1] 4
+--END--

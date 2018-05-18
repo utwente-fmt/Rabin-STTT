@@ -1,0 +1,1 @@
+!(((Press!="done") R !(Robot=="Atable")) || (((Plate_0=="wait_table") && (Plate_8=="wait_deposit")) R (Table!="up_full")))

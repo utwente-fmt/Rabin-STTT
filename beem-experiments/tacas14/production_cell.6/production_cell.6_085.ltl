@@ -1,0 +1,1 @@
+!(((Plate_1=="new") U (Plate_3!="new")) && <>[](!(Plate_3!="wait_belt") || (Robot\.at_table<=0)))

@@ -1,0 +1,1 @@
+!(([](P_0\.max<4) U ([](P_0\.max<4) && ((P_1\.max<2) U ((choosing\[0\]<0) U ((P_0\.j<=3) && (choosing\[0\]<0)))))) U ((P_1!="for_loop") && ([](P_0\.max<4) U ([](P_0\.max<4) && ((P_1\.max<2) U ((choosing\[0\]<0) U ((P_0\.j<=3) && (choosing\[0\]<0))))))))

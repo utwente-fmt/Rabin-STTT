@@ -1,0 +1,1 @@
+!(<>(((Deposit=="loaded") && (Plate_4!="new") && !(Robot\.at_press<=1)) || ((Robot\.at_press<=1) && (!(Deposit=="loaded") || !(Plate_4!="new"))) || []<>!(Sensor!="q")))

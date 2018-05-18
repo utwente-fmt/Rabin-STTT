@@ -1,0 +1,1 @@
+!(<>((((Person_3=="out") && !(floor_queue_2\[1\]>2)) || (!(Person_3=="out") && (floor_queue_2\[1\]>2))) && ((Elevator=="choose_next") || <>(Person_1!="waiting"))))

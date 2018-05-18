@@ -1,0 +1,1 @@
+!([]((<>!(relay\[1\]<=19) && []((Lift_3!="q1") U (((Lift_0!="error_state") && !(Lift_1=="a_send")) || (!(Lift_0!="error_state") && (Lift_1=="a_send"))))) || ([](relay\[1\]<=19) && <>(!(Lift_3!="q1") R ((!(Lift_0!="error_state") && !(Lift_1=="a_send")) || ((Lift_0!="error_state") && (Lift_1=="a_send")))))))

@@ -1,0 +1,1 @@
+!(((Bus\.m<=28) U ((!(Wheels!="moving_down") && ([](Lift_2!="error_state") R ((Lift_3\.status>25) || [](Lift_2!="error_state")))) || ((Wheels!="moving_down") && (<>!(Lift_2!="error_state") U (!(Lift_3\.status>25) && <>!(Lift_2!="error_state")))))) U (Lift_2=="q4"))

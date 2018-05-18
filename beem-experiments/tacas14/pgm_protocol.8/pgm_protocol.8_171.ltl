@@ -1,0 +1,1 @@
+!(((receiver\.RXW\[2\]<11) R ((RN_time\[2\]<9) || (receiver\.RXW\[2\]<11))) U ((!(NR\.buf_1\[4\]!=10) && (receiver\.sqn<=12) && <>!(RN==q_in_1)) || (((NR\.buf_1\[4\]!=10) || !(receiver\.sqn<=12)) && [](RN==q_in_1))))

@@ -1,0 +1,1 @@
+!([]<>((!(Lift_3\.count!=32) && ([](Lift_3=="a_msg") R (!(Lift_1=="r1") || [](Lift_3=="a_msg")))) || ((Lift_3\.count!=32) && (<>!(Lift_3=="a_msg") U ((Lift_1=="r1") && <>!(Lift_3=="a_msg"))))))

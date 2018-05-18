@@ -1,0 +1,1 @@
+!((Person_3\.at_floor<=3) || (!(Person_0!="out") && !(floor_queue_1\[0\]!=1)) || ((Person_0!="out") && (floor_queue_1\[0\]!=1)) || (!(floor_queue_1\[3\]!=1) R (Servis=="q")))

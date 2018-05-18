@@ -1,0 +1,1 @@
+!(<>(((Environment=="pressed_up_0") U ((Environment=="pressed_up_0") && (Lift_0=="wait"))) R (!(Lift_0!="wait") || <>(Lift_3=="r1") || ((Environment=="pressed_up_0") U ((Environment=="pressed_up_0") && (Lift_0=="wait"))))))

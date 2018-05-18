@@ -1,0 +1,1 @@
+!(<>((!(phil_11!="one") R ((phil_8!="one") || !(phil_11!="one"))) R ((!(phil_9=="finish") U (!(phil_0!="finish") && !(phil_9=="finish"))) || (!(phil_11!="one") R ((phil_8!="one") || !(phil_11!="one"))))))

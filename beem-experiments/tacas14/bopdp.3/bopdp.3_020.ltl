@@ -1,0 +1,1 @@
+!((!(IOP=="insert_noop") || (enabled_lsl_interrupt<22)) && (!(IOP!="s_active") || !(IOP=="enable_lsl_interrupt") || (enabled_lsl_interrupt<22)))

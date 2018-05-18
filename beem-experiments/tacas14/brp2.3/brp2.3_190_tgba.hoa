@@ -1,0 +1,44 @@
+HOA: v1
+name: "TGBA"
+States: 8
+Start: 3
+AP: 5 "Receiver=='first_safe_frame'" "clock=='time'" "SClient=='file_req'" "Z!=24" "Receiver.triple<=23"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc deterministic
+properties: stutter-invariant weak
+--BODY--
+State: 0
+[t] 0 {0}
+State: 1
+[4] 1 {0}
+State: 2
+[!2&!4] 0 {0}
+[2&3&4] 1 {0}
+[2&!3&4] 2 {0}
+[!2&4] 5 {0}
+[2&!3&!4] 7 {0}
+State: 3
+[!0&2&3&!4 | 0&!1&!2&!4 | 1&2&3&!4] 0
+[!0&!2&4 | 0&!1&2&3&4 | 1&!2&4] 1
+[0&!1&2&!3&4] 2
+[!0&2&!3&!4 | 1&2&!3&!4] 4
+[!0&2&3&4 | 0&!1&!2&4 | 1&2&3&4] 5
+[!0&2&!3&4 | 1&2&!3&4] 6
+[0&!1&2&!3&!4] 7
+State: 4
+[2&3] 0 {0}
+[2&!3] 4 {0}
+State: 5
+[!4] 0
+[4] 5
+State: 6
+[2&3&!4] 0
+[!2&4] 1
+[2&!3&!4] 4
+[2&3&4] 5
+[2&!3&4] 6
+State: 7
+[!2] 0
+[2&!3] 7
+--END--

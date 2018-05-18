@@ -1,0 +1,1 @@
+!((!(NR\.buf_1\[4\]!=10) && !(sender==s0_5)) || (!(NR_time\[3\]<2) && <>!(element\.seq!=6)) || ((NR_time\[3\]<2) && [](element\.seq!=6)))

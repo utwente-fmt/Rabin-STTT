@@ -1,0 +1,1 @@
+!(<>(!(Sender!="next_frame") || ((K!="start") && (X<=0))) || (!(RClient!="nok") R (!(RClient!="nok") || !(Z!=24))))

@@ -1,0 +1,1 @@
+!(<>(Person_0!="waiting") && <>((Person_2=="in_elevator") || (floor_queue_2\[3\]>3)))

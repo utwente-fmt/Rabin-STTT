@@ -1,0 +1,1 @@
+!((Sensor=="q") U ((Belt!="q2") && (Sensor=="q") && (!(Plate_1=="wait_press") || (Plate_2=="wait_deposit") || !(Sensor\.count!=0))))

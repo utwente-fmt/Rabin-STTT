@@ -1,0 +1,40 @@
+HOA: v1
+name: "TGBA"
+States: 8
+Start: 0
+AP: 4 "SClient=='dk'" "K=='in_transit'" "File<=15" "Receiver.exp_ab!=14"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc stutter-invariant
+--BODY--
+State: 0
+[!0&2 | !0&3] 0
+[0&2 | 0&3] 0 {0}
+[0&!2&!3] 1
+[0&1&2 | 0&1&3] 2
+[0&!2&3] 3
+[0&2&3] 4
+[!0&!2&!3] 5
+[!0&2&3] 6
+[!0&!2&3] 7
+State: 1
+[t] 1 {0}
+State: 2
+[1] 2 {0}
+State: 3
+[!0&!3 | 2&!3] 1
+[!0&3 | 2&3] 3
+State: 4
+[3] 4 {0}
+State: 5
+[0] 1
+[!0] 5
+State: 6
+[0&!2&3] 4
+[!0&!2&3] 6
+State: 7
+[0&2&!3] 1
+[0&2&3] 3
+[!0&2&!3] 5
+[!0&2&3] 7
+--END--

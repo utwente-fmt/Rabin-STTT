@@ -1,0 +1,20 @@
+HOA: v1
+States: 3
+Start: 0
+AP: 5 "RN.buf_0[0]>0" "NS=='q'" "element.rs[0]>5" "SN.buf_1[3]>5" "NS.buf_0[6]<=7"
+acc-name: Rabin 1
+Acceptance: 2 Fin(0) & Inf(1)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[0 | 1&3&4 | 2&3&4] 0 {1}
+[!0&!1&!2 | !0&!4] 1 {0}
+[!0&1&!3&4 | !0&2&!3&4] 2
+State: 1
+[t] 1 {0}
+State: 2
+[!0&!1&!2 | !4] 1 {0}
+[0&!3&4 | 1&!3&4 | 2&!3&4] 2
+[0&3&4 | 1&3&4 | 2&3&4] 0 {1}
+--END--

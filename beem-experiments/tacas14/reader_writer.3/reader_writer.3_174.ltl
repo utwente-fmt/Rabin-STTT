@@ -1,0 +1,1 @@
+!([]((<>!(writer_6!="idle") && <>(((writer_13!="idle") && [](writer_5!="writing")) || (!(writer_13!="idle") && <>!(writer_5!="writing")))) || []((writer_6!="idle") && (((writer_13!="idle") && <>!(writer_5!="writing")) || (!(writer_13!="idle") && [](writer_5!="writing"))))))

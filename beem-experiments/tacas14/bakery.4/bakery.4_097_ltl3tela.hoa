@@ -1,0 +1,17 @@
+HOA: v1
+States: 3
+Start: 2
+AP: 3 "number[1]<4" "number[1]<0" "number[2]<=3"
+acc-name: Rabin 1
+Acceptance: 2 Fin(0) & Inf(1)
+properties: trans-labels explicit-labels trans-acc deterministic weak
+--BODY--
+State: 0
+[t] 0 {1}
+State: 1
+[1&2] 0
+[!1&2] 1
+State: 2
+[0&1&2] 0
+[0&!1&2] 1
+--END--

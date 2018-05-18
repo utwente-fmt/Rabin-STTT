@@ -1,0 +1,1 @@
+!(!(Plate_6=="new") R (!(Plate_6=="new") || <>(<>(Table=="down_full") R (Plate_6=="wait_deposit"))))

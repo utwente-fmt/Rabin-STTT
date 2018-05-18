@@ -1,0 +1,1 @@
+!([](Sender\.i<3) R ([](Sender\.i<3) || (!(L!="start") && (!(RClient=="ok") U (!(RClient=="ok") && (Sender!="wait_ack")))) || ((L!="start") && ((RClient=="ok") R ((RClient=="ok") || !(Sender!="wait_ack"))))))

@@ -1,0 +1,31 @@
+HOA: v1
+name: "TGBA"
+States: 6
+Start: 0
+AP: 5 "Calc!='calc_data'" "lsl_command<1" "AP_Interrupt_Handler!='interrupt_received'" "IOP=='enable_lsl_interrupt'" "IOP=='re_issue_lsl_down'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc stutter-invariant
+--BODY--
+State: 0
+[!0&!1&!2&3&4 | 0&1&3&4 | 0&2&3&4] 1
+[!0&!1&!2&!3&4 | 0&1&!3&4 | 0&2&!3&4] 2
+[!0&!1&!2&!4 | 0&1&!4 | 0&2&!4] 3
+[!0&1&!3 | !0&2&!3 | 0&!1&!2&!3] 4
+[!0&1&!4 | !0&2&!4 | 0&!1&!2&!4] 5
+State: 1
+[t] 1 {0}
+State: 2
+[3] 1
+[!3] 2
+State: 3
+[3&4] 1
+[!3&4] 2
+[!3&!4] 3
+[3&!4] 3 {0}
+State: 4
+[!3] 4 {0}
+State: 5
+[!3] 4
+[!4] 5
+--END--

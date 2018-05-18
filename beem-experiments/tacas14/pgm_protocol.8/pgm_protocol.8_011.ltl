@@ -1,0 +1,1 @@
+!((((SN_time\[4\]<=5) R !(RN_time\[6\]>11)) && ([](SN\.buf_0\[3\]<4) U (!(element\.nloss<10) && [](SN\.buf_0\[3\]<4)))) || ((!(SN_time\[4\]<=5) U (RN_time\[6\]>11)) && (<>!(SN\.buf_0\[3\]<4) R ((element\.nloss<10) || <>!(SN\.buf_0\[3\]<4)))))

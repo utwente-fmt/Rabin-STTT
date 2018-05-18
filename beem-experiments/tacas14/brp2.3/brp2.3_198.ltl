@@ -1,0 +1,1 @@
+!(([](Z!=24) R ((Receiver=="new_file") || [](Z!=24))) R (([](Sender\.ab<20) R (SClient!="send_req")) || ([](Z!=24) R ((Receiver=="new_file") || [](Z!=24)))))

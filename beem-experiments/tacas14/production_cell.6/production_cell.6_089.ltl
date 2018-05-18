@@ -1,0 +1,1 @@
+!(([]!(Robot\.at_table!=3) || <>[](Plate_1=="wait_press")) U ((Plate_0!="wait_belt") && ([]!(Robot\.at_table!=3) || <>[](Plate_1=="wait_press"))))

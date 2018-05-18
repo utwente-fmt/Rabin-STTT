@@ -1,0 +1,1 @@
+!((P_1!="choose") || (!(P_0\.max<=3) && !(choosing\[1\]<=3)) || ((P_0\.max<=3) && (choosing\[1\]<=3)) || (!(P_0\.max<=3) R (P_2=="for_loop")))

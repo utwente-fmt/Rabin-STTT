@@ -1,0 +1,1 @@
+!([](Lift_3!="p_msg") U ((!(Lift_2=="q4") && (Lift_3!="error_state")) || ((Lift_2=="q4") && !(Lift_3!="error_state")) || (!(Lift_3=="r4") && !(relay\[3\]<20)) || ((Lift_3=="r4") && (relay\[3\]<20))))

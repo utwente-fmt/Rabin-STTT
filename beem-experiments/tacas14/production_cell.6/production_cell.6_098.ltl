@@ -1,0 +1,1 @@
+!((((Table\.k<4) R (Plate_4!="wait_belt")) U ((Belt!="q2") && ((Table\.k<4) R (Plate_4!="wait_belt")))) R ((Plate_7=="wait_press") || <>!(Plate_7!="wait_deposit") || (((Table\.k<4) R (Plate_4!="wait_belt")) U ((Belt!="q2") && ((Table\.k<4) R (Plate_4!="wait_belt"))))))

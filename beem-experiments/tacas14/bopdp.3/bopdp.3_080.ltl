@@ -1,0 +1,1 @@
+!(<>((!(IOP!="down_received") && []((LSL_Driver=="call") || (<>!(AP_Interrupt_Handler!="awake") U !(lsl_data<=25)))) || ((IOP!="down_received") && <>(!(LSL_Driver=="call") && ([](AP_Interrupt_Handler!="awake") R (lsl_data<=25))))))

@@ -1,0 +1,1 @@
+!(((Person_0!="waiting") || (!(floor_queue_0\[1\]!=0) U (!(floor_queue_0\[1\]!=0) && !(floor_queue_3\[3\]!=3)))) U [](Servis=="q"))

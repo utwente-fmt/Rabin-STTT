@@ -1,0 +1,20 @@
+HOA: v1
+name: "TGBA"
+States: 3
+Start: 0
+AP: 4 "Sender.i<3" "Receiver.exp_ab!=14" "K=='BAD'" "W<=5"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc stutter-invariant
+--BODY--
+State: 0
+[0&!3] 0
+[0&3] 1
+[0&1&2&3] 2
+State: 1
+[t] 1
+[1&2] 2
+State: 2
+[!1&2] 2
+[1&2] 2 {0}
+--END--

@@ -1,0 +1,29 @@
+HOA: v1
+States: 5
+Start: 4
+AP: 5 "fork[12]<=0" "phil_7=='eat'" "fork[15]!=2" "phil_1=='think'" "phil_5=='one'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[t] 0 {0}
+State: 1
+[t] 1
+State: 2
+[2] 0 {0}
+[0&!1&!2] 1
+[!0&!2 | 1&!2] 2 {0}
+State: 3
+[2&!3&4 | 2&3&!4] 4 {0}
+[2&!3&!4 | 2&3&4] 0 {0}
+[!0&!2&!3&4 | !0&!2&3&!4 | 1&!2&!3&4 | 1&!2&3&!4] 3 {0}
+[0&!1&!2] 1
+[!0&!2&!3&!4 | !0&!2&3&4 | 1&!2&!3&!4 | 1&!2&3&4] 2 {0}
+State: 4
+[2&!3&4 | 2&3&!4] 4 {0}
+[!3&!4 | 3&4] 0 {0}
+[!0&!2&!3&4 | !0&!2&3&!4 | 1&!2&!3&4 | 1&!2&3&!4] 3 {0}
+[0&!1&!2&!3&4 | 0&!1&!2&3&!4] 1
+--END--

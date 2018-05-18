@@ -1,0 +1,1 @@
+!((!(Plate_1!="new") && [](!(Robot\.A<0) && <>(!(Table!="down_full") && []!(Belt!="q1")))) || ((Plate_1!="new") && <>((Robot\.A<0) || []((Table!="down_full") || <>(Belt!="q1")))))

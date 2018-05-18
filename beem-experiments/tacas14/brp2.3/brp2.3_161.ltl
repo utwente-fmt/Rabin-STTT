@@ -1,0 +1,1 @@
+!(([]!(RClient!="inc") && (!(Sender=="success") U []((Receiver\.triple<=23) || (Sender\.rc<23)))) || (<>(RClient!="inc") && ((Sender=="success") R <>(!(Receiver\.triple<=23) && !(Sender\.rc<23)))))

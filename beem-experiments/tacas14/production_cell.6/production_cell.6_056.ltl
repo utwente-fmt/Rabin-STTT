@@ -1,0 +1,1 @@
+!((Plate_2=="wait_press") R ((Plate_2=="wait_press") || ((Plate_7!="wait_press") && !(Plate_8=="wait_table")) || (!(Plate_7!="wait_press") && (Plate_8=="wait_table")) || (!(Plate_8!="wait_belt") R ((Plate_6=="wait_belt") || !(Plate_8!="wait_belt")))))

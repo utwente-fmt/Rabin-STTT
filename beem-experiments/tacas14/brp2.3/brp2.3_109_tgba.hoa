@@ -1,0 +1,31 @@
+HOA: v1
+name: "TGBA"
+States: 5
+Start: 0
+AP: 5 "L!='in_transit'" "Sender!='wait_ack'" "SClient=='send_req'" "Receiver=='new_file'" "Sender=='init_state'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc stutter-invariant
+properties: inherently-weak
+--BODY--
+State: 0
+[0&!1 | 0&3] 0
+[4] 1
+[0&1&2&!3] 2
+[0&1&!3] 3
+State: 1
+[4] 1 {0}
+State: 2
+[0&3] 0
+[3&4] 1
+[0&2&!3] 2
+[!0&2&!3&4] 4
+State: 3
+[0&!1 | 0&3] 0
+[0&!1&4 | 0&3&4] 1
+[0&1&2&!3] 2
+[0&1&!3] 3
+State: 4
+[3&4] 1
+[2&!3&4] 4
+--END--

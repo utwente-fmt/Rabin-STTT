@@ -1,0 +1,1 @@
+!([](Lift_0\.status>2) || <>(((Lift_1!="r4") && (Wheels!="error_state")) R (((Lift_1!="r4") && (Wheels!="error_state")) || <>(Lift_0!="q1"))))

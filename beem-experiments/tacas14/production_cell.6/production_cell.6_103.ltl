@@ -1,0 +1,1 @@
+!(((!(Plate_4=="wait_table") && !(Plate_5=="wait_belt")) || ((Plate_4=="wait_table") && (Plate_5=="wait_belt"))) R (((Plate_9=="wait_belt") || <>(Plate_4=="wait_table")) U (Sensor!="q")))

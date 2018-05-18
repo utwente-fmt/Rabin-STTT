@@ -1,0 +1,1 @@
+!([]((RN\.buf_0\[2\]<=5) U (((element==e_odata) || <>(element\.rs\[4\]<=9)) U ((receiver=="r1") && ((element==e_odata) || <>(element\.rs\[4\]<=9))))))

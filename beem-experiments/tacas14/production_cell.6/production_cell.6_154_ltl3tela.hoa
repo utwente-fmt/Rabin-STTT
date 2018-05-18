@@ -1,0 +1,14 @@
+HOA: v1
+States: 2
+Start: 1
+AP: 5 "Deposit.k<=1" "Plate_9=='wait_belt'" "Plate_2!='wait_belt'" "Press!='wait'" "Deposit=='wait'"
+acc-name: Rabin 1
+Acceptance: 2 Fin(0) & Inf(1)
+properties: trans-labels explicit-labels trans-acc deterministic weak
+--BODY--
+State: 0
+[t] 0 {1}
+State: 1
+[4] 0
+[!0&!1&!2&3&!4 | !0&!1&2&!3&!4 | 0&1&!4 | 1&!2&!3&!4 | 1&2&3&!4] 1
+--END--

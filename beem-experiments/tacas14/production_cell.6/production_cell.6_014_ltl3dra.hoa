@@ -1,0 +1,25 @@
+HOA: v1
+States: 5
+Start: 3
+AP: 5 "Plate_7!='wait_press'" "Plate_4=='wait_belt'" "Plate_8!='wait_belt'" "Plate_7=='wait_table'" "Sensor!='q'"
+acc-name: generalized-co-Buchi 2
+Acceptance: 2 Fin(0)|Fin(1)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[t] 0 {0 1}
+State: 1
+[t] 1 {1}
+State: 2
+[!0] 0 {0 1}
+[0] 2 {0}
+State: 3
+[!1&2 | 1&!2 | !3&!4 | 3&4] 1 {1}
+[0&!1&!2&!3&4 | 0&!1&!2&3&!4 | 0&1&2&!3&4 | 0&1&2&3&!4] 4 {0 1}
+[!0&!1&!2&!3&4 | !0&!1&!2&3&!4 | !0&1&2&!3&4 | !0&1&2&3&!4] 0 {0 1}
+State: 4
+[0&!1&!2&!3&4 | 0&!1&!2&3&!4 | 0&1&2&!3&4 | 0&1&2&3&!4] 4 {0 1}
+[!0] 0 {0 1}
+[0&!1&2 | 0&1&!2 | 0&!3&!4 | 0&3&4] 2 {0}
+--END--

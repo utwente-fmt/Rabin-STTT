@@ -1,0 +1,1 @@
+!(<>([]<>(IOP=="disable_lsl_interrupt") R (((IOP!="enable_lsl_interrupt") && []!(IOP!="now_wait")) || []<>(IOP=="disable_lsl_interrupt"))))

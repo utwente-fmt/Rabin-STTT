@@ -1,0 +1,1 @@
+!(<>(((!(Calc=="calc_running") && [](IOP!="enter_active")) || ((Calc=="calc_running") && <>!(IOP!="enter_active"))) && (!(IOP!="data_expected") U (!(IOP!="data_expected") && (IOP=="data_expected")))))

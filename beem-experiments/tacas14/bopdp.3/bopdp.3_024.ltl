@@ -1,0 +1,1 @@
+!((((Calc=="calc_running") R !(IOP=="wait_for_down")) && ([](LSL_Interrupt_Handler=="lsl_int_service") U (!(IOP=="w_stand_by") && [](LSL_Interrupt_Handler=="lsl_int_service")))) || ((!(Calc=="calc_running") U (IOP=="wait_for_down")) && (<>!(LSL_Interrupt_Handler=="lsl_int_service") R ((IOP=="w_stand_by") || <>!(LSL_Interrupt_Handler=="lsl_int_service")))))

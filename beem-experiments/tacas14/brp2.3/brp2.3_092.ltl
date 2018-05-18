@@ -1,0 +1,1 @@
+!(<>((Sender!="next_frame") || (!(Receiver!="idle") && ((K=="BAD") || (SClient!="dk")))))

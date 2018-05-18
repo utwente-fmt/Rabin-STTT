@@ -1,0 +1,1 @@
+!(<>((((clock==tick) R (sender==s0)) U (NR_time\[4\]>5)) && [](RN\.buf_0\[3\]<=10)))

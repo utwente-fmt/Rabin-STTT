@@ -1,0 +1,1 @@
+!(!(Sensor\.count<=4) || (<>!(Plate_6=="wait_press") && ((Robot\.B<=5) R (!(Plate_2=="wait_press") || (Robot\.B<=5)))) || ([](Plate_6=="wait_press") && (!(Robot\.B<=5) U ((Plate_2=="wait_press") && !(Robot\.B<=5)))))

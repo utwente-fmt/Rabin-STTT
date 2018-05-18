@@ -1,0 +1,19 @@
+HOA: v1
+name: "TGBA"
+States: 3
+Start: 2
+AP: 4 "K!='in_transit'" "Receiver=='frame_received'" "SClient=='file_req'" "Sender.rc<23"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc deterministic
+properties: stutter-invariant weak
+--BODY--
+State: 0
+[t] 0 {0}
+State: 1
+[!1&2] 0 {0}
+[1&2] 1 {0}
+State: 2
+[!0&!1 | 0&1 | !1&2 | 3] 0
+[!0&1&2&!3] 1
+--END--

@@ -1,0 +1,1 @@
+!(((!(Deposit\.k<=1) && !(Plate_9=="wait_belt") && ((!(Plate_2!="wait_belt") && (Press!="wait")) || ((Plate_2!="wait_belt") && !(Press!="wait")))) || ((Plate_9=="wait_belt") && ((Deposit\.k<=1) || (!(Plate_2!="wait_belt") && !(Press!="wait")) || ((Plate_2!="wait_belt") && (Press!="wait"))))) U (Deposit=="wait"))

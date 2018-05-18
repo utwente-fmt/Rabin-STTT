@@ -1,0 +1,1 @@
+!((<>(!(Plate_9=="new") && (!(Plate_0!="wait_press") U !(Press!="done"))) && []!(Sensor\.count!=0)) || (<>(Sensor\.count!=0) && []((Plate_9=="new") || ((Plate_0!="wait_press") R (Press!="done")))))

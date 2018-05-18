@@ -1,0 +1,1 @@
+!((K=="start") R (((Sender!="next_frame") && <>((SClient!="send_req") || [](SClient!="nok"))) || (!(Sender!="next_frame") && [](!(SClient!="send_req") && <>!(SClient!="nok")))))

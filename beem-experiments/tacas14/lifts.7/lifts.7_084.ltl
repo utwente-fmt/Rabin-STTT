@@ -1,0 +1,1 @@
+!(((Lift_3=="p_send") || <>(Lift_2!="r3")) R ((Lift_3=="p_send") || <>(Lift_2!="r3") || ((Lift_1\.pos<=31) U ((Lift_1\.pos<=31) && (Lift_2!="a_msg") && (Lift_3\.pos>30)))))

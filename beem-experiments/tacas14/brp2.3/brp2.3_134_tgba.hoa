@@ -1,0 +1,29 @@
+HOA: v1
+name: "TGBA"
+States: 5
+Start: 0
+AP: 4 "L=='start'" "Z!=24" "SClient!='ok'" "K.triple!=11"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc stutter-invariant
+properties: inherently-weak
+--BODY--
+State: 0
+[1&2] 0
+[0&!2 | 1&!2] 1
+[0&2 | 1&2] 2
+[!0&!1&2] 3
+[!0&!1&3 | 2&3] 4
+State: 1
+[t] 1 {0}
+State: 2
+[!2] 1
+[2] 2
+State: 3
+[2] 3 {0}
+State: 4
+[0&!2 | 1&!2] 1
+[0&2 | 1&2] 2
+[!0&!1&2] 3
+[!0&!1&3 | 2&3] 4 {0}
+--END--

@@ -1,0 +1,1 @@
+!((!(Plate_9=="new") || (done<6)) && (!(Plate_7=="wait_press") || !(Table!="up_empty") || (done<6)))

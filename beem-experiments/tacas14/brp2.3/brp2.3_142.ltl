@@ -1,0 +1,1 @@
+!((!(Sender=="error") && <>(Receiver=="idle")) || ((Sender=="error") && []!(Receiver=="idle")) || <>(!(Sender=="error") && (Sender=="wait_ack")))

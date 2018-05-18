@@ -1,0 +1,1 @@
+!((!(L=="start") || !(SClient!="file_req") || []!(Sender!="wait_ack")) R (!(K!="start") || !(L=="start") || !(SClient!="file_req") || []!(Sender!="wait_ack")))

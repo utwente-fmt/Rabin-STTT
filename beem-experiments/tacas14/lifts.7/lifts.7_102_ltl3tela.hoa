@@ -1,0 +1,17 @@
+HOA: v1
+States: 3
+Start: 0
+AP: 4 "Environment!='in'" "Lift_0.pos>3" "Lift_1.nos!=6" "Lift_2!='error_state'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc deterministic
+--BODY--
+State: 0
+[!0&1&2] 0
+[!1 | !2] 1
+[0&1&2&!3] 2
+State: 1
+[t] 1
+State: 2
+[!3] 2
+--END--

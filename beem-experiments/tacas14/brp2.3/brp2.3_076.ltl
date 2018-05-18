@@ -1,0 +1,1 @@
+!(<>((!(K!="BAD") && []((Sender=="wait_ack") || (<>!(Receiver!="frame_reported") U !(Sender\.ab<1)))) || ((K!="BAD") && <>(!(Sender=="wait_ack") && ([](Receiver!="frame_reported") R (Sender\.ab<1))))))

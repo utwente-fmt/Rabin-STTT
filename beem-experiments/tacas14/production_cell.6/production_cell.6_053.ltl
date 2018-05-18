@@ -1,0 +1,1 @@
+!((Press\.k!=4) U []((Plate_4=="wait_table") && ((!(Deposit=="wait") && []!(Plate_3=="wait_table")) || ((Deposit=="wait") && <>(Plate_3=="wait_table")))))

@@ -1,0 +1,1 @@
+!(((Sender!="success") && !(Sender\.i>8) && <>[]!(Sender!="next_frame")) || ((!(Sender!="success") || (Sender\.i>8)) && []<>(Sender!="next_frame")))

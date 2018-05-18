@@ -1,0 +1,1 @@
+!((((P_0=="for_loop") R !(P_1=="NCS")) && ([](number\[1\]<0) U (!(P_1=="for_loop") && [](number\[1\]<0)))) || ((!(P_0=="for_loop") U (P_1=="NCS")) && (<>!(number\[1\]<0) R ((P_1=="for_loop") || <>!(number\[1\]<0)))))

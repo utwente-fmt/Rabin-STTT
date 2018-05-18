@@ -1,0 +1,1 @@
+!((<>!(Plate_8=="wait_table") && ((Plate_0!="wait_deposit") R ((Plate_0!="wait_deposit") || <>(Deposit=="wait")))) U ((Plate_4!="wait_table") && <>!(Plate_8=="wait_table") && ((Plate_0!="wait_deposit") R ((Plate_0!="wait_deposit") || <>(Deposit=="wait")))))

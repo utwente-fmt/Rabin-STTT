@@ -1,0 +1,16 @@
+HOA: v1
+name: "TGBA"
+States: 2
+Start: 1
+AP: 5 "NR.buf_1[1]!=2" "RN.buf_0[2]<=5" "NS=='q_out_1'" "RXW_TRAIL<=7" "NR.buf_0[5]!=0"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc deterministic
+properties: stutter-invariant terminal
+--BODY--
+State: 0
+[t] 0 {0}
+State: 1
+[4] 0
+[!0&!1&!2&3&!4 | !0&!1&2&!3&!4 | 0&1&!4 | 1&!2&!3&!4 | 1&2&3&!4] 1
+--END--

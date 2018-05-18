@@ -1,0 +1,19 @@
+HOA: v1
+States: 3
+Start: 0
+AP: 4 "P_1=='w2'" "NonatomicVar_3.x<=2" "P_0=='p4'" "P_3.v!=8"
+acc-name: Rabin 1
+Acceptance: 2 Fin(0) & Inf(1)
+properties: trans-labels explicit-labels trans-acc deterministic
+--BODY--
+State: 0
+[!0&!1&2&3 | !0&1&!3 | 0&!1&!3 | 0&1&2&3] 0 {1}
+[!0&1&!2&3 | 0&!1&!2&3] 1
+[!0&!1&!2&3 | 0&1&!2&3] 2 {1}
+State: 1
+[!0&1&!3 | 0&!1&!3] 0 {1}
+[!0&1&!2&3 | 0&!1&!2&3] 1
+State: 2
+[!0&!1&2&3 | 0&1&2&3] 0 {1}
+[!0&!1&!2&3 | 0&1&!2&3] 2 {1}
+--END--

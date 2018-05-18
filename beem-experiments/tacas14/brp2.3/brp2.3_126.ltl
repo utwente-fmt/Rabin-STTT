@@ -1,0 +1,1 @@
+!(!(RClient=="nok") || (<>!(Sender=="success") && ((Receiver\.exp_ab!=14) R (!(File<=15) || (Receiver\.exp_ab!=14)))) || ([](Sender=="success") && (!(Receiver\.exp_ab!=14) U ((File<=15) && !(Receiver\.exp_ab!=14)))))

@@ -1,0 +1,1 @@
+!(((((IOP!="check_noop") && !(LSL_Driver!="stand_by")) || (!(IOP!="check_noop") && (LSL_Driver!="stand_by"))) R (lsl_command<=12)) U ((LSL_Interrupt_Handler!="interrupt_received") U [](IOP=="wait_for_down")))

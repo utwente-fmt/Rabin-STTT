@@ -1,0 +1,1 @@
+!(<>!(Deposit!="loaded") || (((!(Robot\.A<0) && []!(Plate_8=="new")) || ((Robot\.A<0) && <>(Plate_8=="new"))) R (Plate_7=="wait_table")))

@@ -1,0 +1,15 @@
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "control!='q_error'" "writer_6=='writing'" "reader_11=='reading'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc
+--BODY--
+State: 0
+[t] 0 {0}
+[!0&!2] 0 {0}
+[!0&!1&!2] 1
+State: 1
+[!0&!1] 1
+--END--

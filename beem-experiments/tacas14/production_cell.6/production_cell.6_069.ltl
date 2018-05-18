@@ -1,0 +1,1 @@
+!(([](Deposit!="loaded") U ([](Deposit!="loaded") && ((Plate_0=="wait_table") U ((Press!="pressing") U ((Plate_4=="wait_press") && (Press!="pressing")))))) U ((Plate_2!="wait_press") && ([](Deposit!="loaded") U ([](Deposit!="loaded") && ((Plate_0=="wait_table") U ((Press!="pressing") U ((Plate_4=="wait_press") && (Press!="pressing"))))))))

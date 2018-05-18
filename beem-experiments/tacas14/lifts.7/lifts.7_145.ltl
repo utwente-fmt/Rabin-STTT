@@ -1,0 +1,1 @@
+!(((relay\[0\]<28) && ((!(Lift_1=="active") U !(Lift_1=="a_send")) U []!(Lift_2!="q5"))) || (!(relay\[0\]<28) && (((Lift_1=="active") R (Lift_1=="a_send")) R <>(Lift_2!="q5"))))

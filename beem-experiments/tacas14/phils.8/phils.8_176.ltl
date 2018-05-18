@@ -1,0 +1,1 @@
+!((<>(phil_6=="finish") && (!(phil_3=="eat") || []!(phil_9=="eat"))) R ((phil_6!="eat") || (<>(phil_6=="finish") && (!(phil_3=="eat") || []!(phil_9=="eat")))))

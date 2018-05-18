@@ -1,0 +1,1 @@
+!([]([](Plate_6!="wait_deposit") U ([](Plate_6!="wait_deposit") && ((Plate_3=="wait_belt") U ((Plate_3=="wait_belt") && [](Press=="wait"))))) R ((Deposit=="wait") || []([](Plate_6!="wait_deposit") U ([](Plate_6!="wait_deposit") && ((Plate_3=="wait_belt") U ((Plate_3=="wait_belt") && [](Press=="wait")))))))

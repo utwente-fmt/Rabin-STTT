@@ -1,0 +1,1 @@
+!(((!(P_1=="p6") || <>[]!(P_4=="p3")) && ((NonatomicVar_2=="q") R ((NonatomicVar_2=="q") || (P_1=="p4")))) || ((P_1=="p6") && []<>(P_4=="p3") && (!(NonatomicVar_2=="q") U (!(NonatomicVar_2=="q") && !(P_1=="p4")))))

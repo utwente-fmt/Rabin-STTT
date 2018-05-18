@@ -1,0 +1,1 @@
+!([](channel_link_0\.v>2) || <>(channel_link_0=="ready") || (!(P_3\.v>7) && <>!(channel_link_2=="ready")))

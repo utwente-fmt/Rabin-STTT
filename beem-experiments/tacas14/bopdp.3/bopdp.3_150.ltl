@@ -1,0 +1,1 @@
+!(<>((((!(generated_ap_interrupt<=0) && !(sleep_op<10)) || ((generated_ap_interrupt<=0) && (sleep_op<10))) && <>(IOP=="now_wait")) || (((!(generated_ap_interrupt<=0) && (sleep_op<10)) || ((generated_ap_interrupt<=0) && !(sleep_op<10))) && []!(IOP=="now_wait"))))

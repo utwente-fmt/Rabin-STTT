@@ -1,0 +1,1 @@
+!(<>(((!(Lift_1!="q5") && ((!(Lift_0=="r2") && !(Lift_2\.status<=0)) || ((Lift_0=="r2") && (Lift_2\.status<=0)))) || ((Lift_1!="q5") && ((!(Lift_0=="r2") && (Lift_2\.status<=0)) || ((Lift_0=="r2") && !(Lift_2\.status<=0))))) R ((Bus\.j<=18) U (Lift_2!="q1"))))

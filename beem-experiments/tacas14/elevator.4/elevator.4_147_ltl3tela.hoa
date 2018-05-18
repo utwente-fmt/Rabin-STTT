@@ -1,0 +1,19 @@
+HOA: v1
+States: 4
+Start: 3
+AP: 4 "Person_3=='out'" "Person_0=='waiting'" "Servis=='q'" "Elevator.serving<=2"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc
+--BODY--
+State: 0
+[1] 0
+State: 1
+[2] 1
+State: 2
+[3] 2
+State: 3
+[0&1] 0
+[0&2] 1
+[0&3] 2
+--END--

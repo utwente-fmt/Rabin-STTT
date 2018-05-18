@@ -1,0 +1,16 @@
+HOA: v1
+name: "TGBA"
+States: 2
+Start: 1
+AP: 5 "Deposit.k<=1" "Plate_9=='wait_belt'" "Plate_2!='wait_belt'" "Press!='wait'" "Deposit=='wait'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc deterministic
+properties: stutter-invariant terminal
+--BODY--
+State: 0
+[t] 0 {0}
+State: 1
+[4] 0
+[!0&!1&!2&3&!4 | !0&!1&2&!3&!4 | 0&1&!4 | 1&!2&!3&!4 | 1&2&3&!4] 1
+--END--

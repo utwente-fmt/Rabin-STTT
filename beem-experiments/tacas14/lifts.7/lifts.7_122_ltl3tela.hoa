@@ -1,0 +1,17 @@
+HOA: v1
+States: 3
+Start: 2
+AP: 5 "Lift_1!='q5'" "Lift_2=='q2'" "Lift_3!='active'" "Lift_2=='q3'" "Lift_2.pos!=13"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc deterministic
+--BODY--
+State: 0
+[3&4] 0
+[!3&4] 1
+State: 1
+[t] 1
+State: 2
+[!0&!1&2&3&4 | !0&1&!2&3&4] 0
+[0 | !1&!2 | 1&2 | !3&4] 1
+--END--

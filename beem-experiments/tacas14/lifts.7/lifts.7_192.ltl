@@ -1,0 +1,1 @@
+!(<>((((Bus\.m<=6) && !(Lift_2!="active")) || (!(Bus\.m<=6) && (Lift_2!="active"))) && ((Lift_2\.nos<26) || <>(Environment!="pressed_down_2"))))

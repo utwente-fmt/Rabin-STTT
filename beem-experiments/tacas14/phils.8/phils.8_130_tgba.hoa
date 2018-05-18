@@ -1,0 +1,36 @@
+HOA: v1
+name: "TGBA"
+States: 6
+Start: 3
+AP: 4 "phil_6!='finish'" "phil_6=='finish'" "phil_8!='finish'" "phil_9!='think'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic stutter-invariant weak
+--BODY--
+State: 0
+[!1&!2] 0 {0}
+[!1&2] 4 {0}
+[1] 5 {0}
+State: 1
+[!1&!3] 1 {0}
+[!1&3] 4 {0}
+[1] 5 {0}
+State: 2
+[!1&!2&3] 0
+[!1&2&!3] 1
+[!1&!2&!3] 2
+[!1&2&3] 4
+[1] 5
+State: 3
+[!0&!1&!2&3] 0
+[!0&!1&2&!3] 1
+[!0&!1&!2&!3] 2
+[!0&!1&2&3] 4
+[0 | 1] 5
+State: 4
+[!1] 4
+[1] 5
+State: 5
+[t] 5 {0}
+--END--

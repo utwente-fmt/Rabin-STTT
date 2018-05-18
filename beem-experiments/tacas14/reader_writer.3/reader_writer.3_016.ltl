@@ -1,0 +1,1 @@
+!(<>(writer_13=="writing") && (<>(writer_13!="idle") || (!(writer_3=="writing") && [](writer_0=="idle")) || ((writer_3=="writing") && <>!(writer_0=="idle"))))

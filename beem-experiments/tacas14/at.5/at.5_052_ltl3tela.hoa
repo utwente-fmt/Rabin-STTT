@@ -1,0 +1,14 @@
+HOA: v1
+States: 2
+Start: 0
+AP: 2 "P_4!='p3'" "P_0=='p4'"
+acc-name: Rabin 1
+Acceptance: 2 Fin(0) & Inf(1)
+properties: trans-labels explicit-labels trans-acc
+--BODY--
+State: 0
+[t] 0
+[!0&1] 1
+State: 1
+[1] 1 {1}
+--END--

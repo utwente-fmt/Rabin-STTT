@@ -1,0 +1,1 @@
+!((((!(Lift_2!="error_state") && (Lift_3=="r4")) || []!(Lift_2\.m<=15)) && [](Lift_2\.m<=15)) || (((Lift_2!="error_state") || !(Lift_3=="r4")) && <>!(Lift_2\.m<=15) && <>(Lift_2\.m<=15)))

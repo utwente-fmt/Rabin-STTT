@@ -1,0 +1,1 @@
+!([]((P_3=="wait") && <>(!(P_2=="wait") || (channel_link_1=="ready"))) R ((P_1!="got_msg") || []((P_3=="wait") && <>(!(P_2=="wait") || (channel_link_1=="ready")))))

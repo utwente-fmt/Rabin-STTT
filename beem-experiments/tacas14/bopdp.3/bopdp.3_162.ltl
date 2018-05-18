@@ -1,0 +1,1 @@
+!(((AP_Interrupt_Handler!="set_cur") || (IOP=="wait_response") || (IOP=="wake_up")) R ((LSL_Interrupt_Handler!="interrupt_received") || !(generated_lsl_interrupt!=27)))

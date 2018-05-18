@@ -1,0 +1,1 @@
+!([](((P_3!="got_msg") && (!(channel_link_1=="tr") R (!(channel_link_1=="tr") || <>!(P_3=="wait")))) || (!(P_3!="got_msg") && ((channel_link_1=="tr") U ((channel_link_1=="tr") && [](P_3=="wait"))))))

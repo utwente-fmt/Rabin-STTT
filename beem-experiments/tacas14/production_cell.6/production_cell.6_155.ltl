@@ -1,0 +1,1 @@
+!(((!(Robot\.B<=5) && [](!(Table=="up_empty") U (!(Plate_3!="wait_deposit") && !(Table=="up_empty")))) || ((Robot\.B<=5) && <>((Table=="up_empty") R ((Plate_3!="wait_deposit") || (Table=="up_empty"))))) U ((Plate_9=="wait_press") R ((Plate_4=="wait_belt") || (Plate_9=="wait_press"))))

@@ -1,0 +1,24 @@
+HOA: v1
+States: 4
+Start: 0
+AP: 3 "reader_4!='reading'" "writer_1=='writing'" "writer_0=='writing'"
+acc-name: generalized-Rabin 3 1 1 2
+Acceptance: 7 (Fin(0) & Inf(1)) | (Fin(2) & Inf(3)) | (Fin(4) & (Inf(5)&Inf(6)))
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[0&1] 1 {0 2 4}
+[0&!1] 2 {0 2 4}
+[!0] 3 {0 2 4}
+State: 1
+[0&2] 1 {0}
+[0&!2] 1 {0 3 5}
+[!0] 3 {0 2 4}
+State: 2
+[0&2] 2 {1 2 6}
+[0&!2] 2 {0 2 4}
+[!0] 3 {0 2 4}
+State: 3
+[t] 3 {0 2 4}
+--END--

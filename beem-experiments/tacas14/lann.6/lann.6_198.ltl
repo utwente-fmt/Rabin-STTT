@@ -1,0 +1,1 @@
+!((P_1!="CS") R ((P_1!="CS") || (((P_2\.status<1) R (!(P_0!="got_msg") || (P_2\.status<1) || !(channel_link_0\.v>2))) U ((channel_link_1=="tr") && ((P_2\.status<1) R (!(P_0!="got_msg") || (P_2\.status<1) || !(channel_link_0\.v>2)))))))

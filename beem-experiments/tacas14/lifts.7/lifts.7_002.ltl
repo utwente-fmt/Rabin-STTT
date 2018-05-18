@@ -1,0 +1,1 @@
+!((<>(!(Environment=="pressed_up_1") && (!(Lift_0!="p_send") U !(Lift_1\.count<13))) && []!(Bus=="wait")) || (<>(Bus=="wait") && []((Environment=="pressed_up_1") || ((Lift_0!="p_send") R (Lift_1\.count<13)))))

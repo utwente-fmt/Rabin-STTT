@@ -1,0 +1,1 @@
+!(<>!(IOP!="w_stand_by") U ((IOP=="issue_active_commands") || <>(AP=="prepare_ack")))

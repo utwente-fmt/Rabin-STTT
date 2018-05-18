@@ -1,0 +1,1 @@
+!((!(phil_6=="one") || !(phil_7=="eat")) && <>(((phil_6=="think") && !(phil_13=="finish")) || (!(phil_6=="think") && (phil_13=="finish"))))

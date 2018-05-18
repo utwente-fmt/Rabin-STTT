@@ -1,0 +1,1 @@
+!(([]!(Person_1=="waiting") U (floor_queue_0_act<1)) && ([](Elevator!="transporting") U ((floor_queue_0\[1\]!=3) && [](Elevator!="transporting"))))

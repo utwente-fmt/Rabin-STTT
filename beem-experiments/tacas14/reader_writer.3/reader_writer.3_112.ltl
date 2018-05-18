@@ -1,0 +1,1 @@
+!((<>(writer_0!="writing") R (<>(writer_0!="writing") || (<>(writer_1!="idle") R (<>(reader_4!="reading") || <>(writer_1!="idle"))))) U (writer_5=="idle"))

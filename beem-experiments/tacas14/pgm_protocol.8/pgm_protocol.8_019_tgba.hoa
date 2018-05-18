@@ -1,0 +1,20 @@
+HOA: v1
+name: "TGBA"
+States: 3
+Start: 0
+AP: 4 "NS=='q_in_1'" "NR=='q_in_3'" "NR_time[2]<11" "NR.buf_2[2]<4"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc stutter-invariant
+properties: inherently-weak
+--BODY--
+State: 0
+[t] 0
+[0&!1 | 0&3] 1
+[0&1&2&!3] 2
+State: 1
+[0] 1 {0}
+State: 2
+[0&3] 1
+[0&2&!3] 2 {0}
+--END--

@@ -1,0 +1,15 @@
+HOA: v1
+States: 2
+Start: 0
+AP: 4 "number[1]<4" "P_0.j!=2" "P_1!='NCS'" "P_0!='for_loop'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc
+--BODY--
+State: 0
+[0&2&!3] 0
+[!0 | !2 | 3] 0 {0}
+[0&!1 | 0&3] 1
+State: 1
+[0] 1
+--END--

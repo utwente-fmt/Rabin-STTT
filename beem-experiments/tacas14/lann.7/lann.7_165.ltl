@@ -1,0 +1,1 @@
+!(([](P_3=="wait") && ((channel_link_1=="tr") R <>(P_4!="CS"))) || (<>!(P_3=="wait") && (!(channel_link_1=="tr") U []!(P_4!="CS"))))

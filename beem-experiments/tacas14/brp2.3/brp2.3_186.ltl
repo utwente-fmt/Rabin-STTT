@@ -1,0 +1,1 @@
+!([](RClient!="inc") R ((!(File!=14) && !(Sender!="next_frame")) || ((File!=14) && (Sender!="next_frame")) || [](RClient!="inc") || ((Receiver!="frame_received") U ((RClient!="nok") && (Receiver!="frame_received")))))

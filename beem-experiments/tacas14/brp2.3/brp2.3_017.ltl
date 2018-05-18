@@ -1,0 +1,1 @@
+!(((Receiver!="idle") || (SClient=="ok")) && <>[](Sender=="idle"))

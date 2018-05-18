@@ -1,0 +1,1 @@
+!(<>((!(SN==q) R (!(SN==q) || (element==e_nak))) R ((!(RN\.buf_0\[5\]>12) U (!(RN\.buf_0\[5\]>12) && !(receiver\.packet!=0))) || (!(SN==q) R (!(SN==q) || (element==e_nak))))))

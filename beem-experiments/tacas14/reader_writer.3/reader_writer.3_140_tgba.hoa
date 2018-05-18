@@ -1,0 +1,33 @@
+HOA: v1
+name: "TGBA"
+States: 6
+Start: 5
+AP: 4 "reader_0!='idle'" "reader_8=='reading'" "reader_2=='idle'" "writer_2=='idle'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc deterministic
+properties: stutter-invariant weak
+--BODY--
+State: 0
+[t] 0 {0}
+State: 1
+[3] 1 {0}
+State: 2
+[2] 0 {0}
+[!1&!2] 2 {0}
+State: 3
+[!3] 0
+[3] 3
+State: 4
+[2&!3] 0
+[1&!2&3] 1
+[!1&!2&!3] 2
+[2&3] 3
+[!1&!2&3] 4
+State: 5
+[!0 | 2&!3] 0
+[0&1&!2&3] 1
+[0&!1&!2&!3] 2
+[0&2&3] 3
+[0&!1&!2&3] 4
+--END--

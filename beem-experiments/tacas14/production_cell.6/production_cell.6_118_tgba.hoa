@@ -1,0 +1,22 @@
+HOA: v1
+name: "TGBA"
+States: 4
+Start: 2
+AP: 5 "Plate_7!='wait_deposit'" "Plate_9!='wait_table'" "Press=='done'" "Robot.at_press<=1" "Plate_2!='wait_deposit'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc deterministic
+properties: stutter-invariant weak
+--BODY--
+State: 0
+[t] 0 {0}
+State: 1
+[0] 1 {0}
+State: 2
+[!0&1&!2&!3&!4] 0
+[0&!1 | 0&2 | 0&3 | 0&4] 1
+[0&1&!2&!3&!4] 3
+State: 3
+[!0] 0
+[0] 3
+--END--

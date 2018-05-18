@@ -1,0 +1,1 @@
+!([]((<>!(Environment!="in") && <>(((Lift_2\.pos!=16) && [](Lift_3!="error_state")) || (!(Lift_2\.pos!=16) && <>!(Lift_3!="error_state")))) || []((Environment!="in") && (((Lift_2\.pos!=16) && <>!(Lift_3!="error_state")) || (!(Lift_2\.pos!=16) && [](Lift_3!="error_state"))))))

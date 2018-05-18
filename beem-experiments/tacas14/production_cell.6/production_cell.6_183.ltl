@@ -1,0 +1,1 @@
+!([](Table=="down_full") || (!(Belt!="q2") U []((Plate_2=="wait_deposit") || (Robot!="Atable"))))

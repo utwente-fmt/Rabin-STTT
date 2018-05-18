@@ -1,0 +1,1 @@
+!((((Servis\.floor!=2) R ((Person_1!="waiting") R (floor_queue_1\[2\]<2))) U ([](Elevator=="move_next") && ((Servis\.floor!=2) R ((Person_1!="waiting") R (floor_queue_1\[2\]<2))))) U (Elevator=="move_next"))

@@ -1,0 +1,1 @@
+!(((floor_queue_2\[0\]<1) && (((floor_queue_3\[1\]<2) U (Elevator!="choose_next")) || (!(floor_queue_0_act<1) U !(Elevator!="q")))) || (!(floor_queue_2\[0\]<1) && ((floor_queue_0_act<1) R (Elevator!="q")) && (!(floor_queue_3\[1\]<2) R !(Elevator!="choose_next"))))

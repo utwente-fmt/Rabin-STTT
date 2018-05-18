@@ -1,0 +1,1 @@
+!(((phil_1=="eat") R ([]!(phil_11=="finish") U !(phil_0!="eat"))) U !(fork\[14\]<=2))

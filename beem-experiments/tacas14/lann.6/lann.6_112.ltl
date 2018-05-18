@@ -1,0 +1,1 @@
+!(!(P_3\.v>7) || (!(channel_link_0=="ready") && ((!(P_0=="wait") && (!(P_0\.status!=0) R (!(P_0\.status!=0) || !(channel_link_1!="tr")))) || ((P_0=="wait") && ((P_0\.status!=0) U ((P_0\.status!=0) && (channel_link_1!="tr")))))))

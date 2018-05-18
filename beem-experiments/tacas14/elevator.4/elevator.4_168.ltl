@@ -1,0 +1,1 @@
+!([]((<>!(Person_0!="in_elevator") && <>(((Servis!="r") && [](Person_0!="in_elevator")) || (!(Servis!="r") && <>!(Person_0!="in_elevator")))) || []((Person_0!="in_elevator") && (((Servis!="r") && <>!(Person_0!="in_elevator")) || (!(Servis!="r") && [](Person_0!="in_elevator"))))))

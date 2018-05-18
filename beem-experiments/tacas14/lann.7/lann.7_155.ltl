@@ -1,0 +1,1 @@
+!(((P_4=="CS") R ((P_4=="CS") || (channel_link_4!="tr"))) R ((!(P_3!="CS") && !(channel_link_4=="tr") && <>!(P_3\.v>7)) || (((P_3!="CS") || (channel_link_4=="tr")) && [](P_3\.v>7)) || ((P_4=="CS") R ((P_4=="CS") || (channel_link_4!="tr")))))

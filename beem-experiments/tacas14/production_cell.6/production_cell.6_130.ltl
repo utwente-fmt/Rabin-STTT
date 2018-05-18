@@ -1,0 +1,1 @@
+!((!(Plate_5!="wait_table") && ((!(Deposit\.k>0) && !(Plate_5!="wait_deposit")) || ((Deposit\.k>0) && (Plate_5!="wait_deposit")))) || ((Plate_5!="wait_table") && (((Deposit\.k>0) && !(Plate_5!="wait_deposit")) || (!(Deposit\.k>0) && (Plate_5!="wait_deposit")))) || ((Plate_4=="wait_table") R ((Plate_4!="wait_deposit") || (Plate_4=="wait_table"))))

@@ -1,0 +1,1 @@
+!([]((LSL_Driver!="stand_by") || (LSL_Interrupt_Handler!="awake")) || <>(IOP=="enter_active"))

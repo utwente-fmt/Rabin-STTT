@@ -1,0 +1,1 @@
+!((channel_link_0=="ready") || !(channel_link_1!="ready") || (!(channel_link_3!="ready") R (!(P_0\.status!=0) || !(channel_link_3!="ready"))))

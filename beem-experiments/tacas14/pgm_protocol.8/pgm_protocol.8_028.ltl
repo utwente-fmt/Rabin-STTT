@@ -1,0 +1,1 @@
+!(((!(element\.i<=11) && (!(receiver==r4) U []!(NR==q_in_2))) || ((element\.i<=11) && ((receiver==r4) R <>(NR==q_in_2)))) U ((NS\.buf_0\[0\]<=2) && ((!(element\.i<=11) && (!(receiver==r4) U []!(NR==q_in_2))) || ((element\.i<=11) && ((receiver==r4) R <>(NR==q_in_2))))))

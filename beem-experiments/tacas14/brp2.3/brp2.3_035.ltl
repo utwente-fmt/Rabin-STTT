@@ -1,0 +1,1 @@
+!((Receiver=="idle") U []((!(Sender\.rc<=15) && ([](File!=14) R (<>(K!="BAD") || [](File!=14)))) || ((Sender\.rc<=15) && (<>!(File!=14) U ([]!(K!="BAD") && <>!(File!=14))))))

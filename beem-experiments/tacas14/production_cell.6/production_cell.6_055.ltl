@@ -1,0 +1,1 @@
+!(<>(!(Plate_1=="wait_deposit") && ([]!(Table=="up_full") || [](Plate_3=="wait_belt"))))

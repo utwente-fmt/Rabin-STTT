@@ -1,0 +1,1 @@
+!(<>(number\[1\]<0) U ((P_1=="CS") && (P_1=="choose") && ((P_1=="for_loop") || (P_2=="for_loop")) && <>(number\[1\]<0)))

@@ -1,0 +1,1 @@
+!(((!(Elevator=="transporting") && !(Person_1=="out") && ((!(Person_3\.at_floor<=3) && (Servis!="q")) || ((Person_3\.at_floor<=3) && !(Servis!="q")))) || ((Person_1=="out") && ((Elevator=="transporting") || (!(Person_3\.at_floor<=3) && !(Servis!="q")) || ((Person_3\.at_floor<=3) && (Servis!="q"))))) U (Servis=="q"))

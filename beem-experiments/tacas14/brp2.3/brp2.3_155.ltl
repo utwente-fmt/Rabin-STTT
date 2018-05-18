@@ -1,0 +1,1 @@
+!(<>!(Receiver\.triple<=23) && ((Receiver=="frame_received") R ((Receiver\.triple<=23) || (Receiver=="frame_received"))))

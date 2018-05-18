@@ -1,0 +1,1 @@
+!(!(Sender=="wait_ack") R (!(Sender=="wait_ack") || <>(<>(SClient=="dk") R (Sender=="error"))))

@@ -1,0 +1,1 @@
+!((!(Plate_9=="wait_deposit") || <>(Plate_5=="wait_deposit")) U ((!(Plate_8!="wait_belt") || !(Plate_8!="wait_deposit")) && (!(Plate_9=="wait_deposit") || <>(Plate_5=="wait_deposit"))))

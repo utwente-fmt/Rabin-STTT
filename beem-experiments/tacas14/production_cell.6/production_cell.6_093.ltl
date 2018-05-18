@@ -1,0 +1,1 @@
+!((((Belt=="got_new") && <>!(Table!="up_full") && [](Plate_7=="new")) || ([](Table!="up_full") && (!(Belt=="got_new") || <>!(Plate_7=="new")))) U [](Plate_3!="new"))

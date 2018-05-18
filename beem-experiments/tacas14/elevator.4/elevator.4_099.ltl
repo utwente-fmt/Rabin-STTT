@@ -1,0 +1,1 @@
+!((Elevator!="transporting") U ((Elevator!="transporting") && []((!(Person_3\.at_floor<=3) && ([](floor_queue_2\[0\]<=3) || <>(Servis\.caller!=0))) || ((Person_3\.at_floor<=3) && <>!(floor_queue_2\[0\]<=3) && []!(Servis\.caller!=0)))))

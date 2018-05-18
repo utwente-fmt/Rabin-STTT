@@ -1,0 +1,20 @@
+HOA: v1
+name: "TGBA"
+States: 3
+Start: 0
+AP: 3 "phil_0=='eat'" "fork[11]<=1" "fork[3]<2"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc deterministic
+properties: stutter-invariant
+--BODY--
+State: 0
+[!0&!1] 1
+[!0&1] 2
+State: 1
+[!2] 1
+[2] 1 {0}
+State: 2
+[!1] 1
+[1] 2
+--END--

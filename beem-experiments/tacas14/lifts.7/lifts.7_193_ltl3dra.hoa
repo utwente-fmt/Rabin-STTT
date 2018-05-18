@@ -1,0 +1,22 @@
+HOA: v1
+States: 2
+Start: 1
+AP: 3 "Lift_3=='q3'" "Lift_1.m!=24" "Lift_2!='q4'"
+acc-name: generalized-Rabin 4 0 0 0 2
+Acceptance: 6 (Fin(0)|Fin(1)|Fin(2)) | (Fin(3) & (Inf(4)&Inf(5)))
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[2] 0 {0 1 2 3}
+[1&!2] 0 {1 2 3}
+[!1&!2] 0 {2 3}
+State: 1
+[0&!1&2] 1 {0 1 2 5}
+[0&1&!2] 1 {0 1 2 4}
+[0&1&2] 1 {0 1 4 5}
+[0&!1&!2] 1 {0 2}
+[!0&2] 0 {0 1 2 3}
+[!0&1&!2] 0 {1 2 3}
+[!0&!1&!2] 0 {2 3}
+--END--

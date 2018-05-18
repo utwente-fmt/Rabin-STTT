@@ -1,0 +1,20 @@
+HOA: v1
+States: 4
+Start: 0
+AP: 4 "P_1=='got_msg'" "channel_link_0!='ready'" "channel_link_2!='tr'" "channel_link_2=='ready'"
+Acceptance: 2 Inf(1) | Inf(0)
+properties: trans-labels explicit-labels trans-acc
+--BODY--
+State: 0
+[!0&!2 | 0&1&2 | !1&!2 | !3] 0
+[!0&2 | 0&1&!2 | !1&2] 1
+[!0&!2 | 0&1&2 | !1&!2 | !3] 2
+[!3] 3
+State: 1
+[t] 1 {1}
+State: 2
+[!0&!2&3 | 0&1&2&3 | !1&!2&3] 2
+[!3] 2 {0}
+State: 3
+[!3] 3 {1}
+--END--

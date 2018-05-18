@@ -1,0 +1,15 @@
+HOA: v1
+States: 2
+Start: 0
+AP: 4 "phil_11=='finish'" "fork[2]!=1" "fork[3]<2" "fork[5]<0"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc
+--BODY--
+State: 0
+[3] 0
+[!3] 0 {0}
+[0&2&3] 1
+State: 1
+[0&2] 1
+--END--

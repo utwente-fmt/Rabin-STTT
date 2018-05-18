@@ -1,0 +1,19 @@
+HOA: v1
+States: 3
+Start: 0
+AP: 4 "Lift_0=='error_state'" "Lift_1!='active'" "Lift_0=='q5'" "Lift_1!='a_send'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0&!1] 1 {0}
+[1] 2 {0}
+[0&!1] 0 {0}
+State: 1
+[t] 1 {0}
+State: 2
+[!2&3] 2 {0}
+[2 | !3] 2
+--END--

@@ -1,0 +1,1 @@
+!((!(P_1=="got_msg") || (!(P_0\.status!=0) && !(channel_link_1!="tr")) || ((P_0\.status!=0) && (channel_link_1!="tr"))) U ((!(P_1\.status<10) && !(channel_link_2=="ready")) || ((P_1\.status<10) && (channel_link_2=="ready"))))

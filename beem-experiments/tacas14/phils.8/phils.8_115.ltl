@@ -1,0 +1,1 @@
+!(([](phil_8!="eat") U (!(fork\[14\]!=2) && [](phil_8!="eat"))) U (((!(fork\[10\]<=1) && [](phil_2!="finish")) || ((fork\[10\]<=1) && <>!(phil_2!="finish"))) && ([](phil_8!="eat") U (!(fork\[14\]!=2) && [](phil_8!="eat")))))

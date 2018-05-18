@@ -1,0 +1,1 @@
+!([](((writer_3!="idle") R (writer_7!="idle")) || <>((writer_8=="writing") && [](writer_10=="writing"))))

@@ -1,0 +1,37 @@
+HOA: v1
+States: 6
+Start: 1
+AP: 4 "IOP!='clear_interrupts'" "IOP!='observe_status'" "LSL_Interrupt_Handler!='awake'" "Interrupt_Generator.no_lsl_ints!=12"
+acc-name: generalized-Rabin 3 0 2 1
+Acceptance: 6 Fin(0) | (Fin(1) & (Inf(2)&Inf(3))) | (Fin(4) & Inf(5))
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[t] 0 {1 4}
+State: 1
+[0&3] 2 {0 4}
+[0&!1&2&!3 | 0&1&!2&!3] 2 {0 2 4}
+[0&!1&!2&!3 | 0&1&2&!3] 2 {0 2 3 4}
+[!0] 0 {1 4}
+State: 2
+[!1&2&!3 | 1&!2&!3] 2 {0 2 4}
+[!1&!2&3 | 1&2&3] 3 {0 3 4}
+[!1&!2&!3 | 1&2&!3] 3 {0 2 3 4}
+[!1&2&3 | 1&!2&3] 5 {0 5}
+State: 3
+[!1&!2&3 | 1&2&3] 3 {0 3 4}
+[!1&2&!3 | 1&!2&!3] 3 {0 2 4}
+[!1&!2&!3 | 1&2&!3] 3 {0 2 3 4}
+[!1&2&3 | 1&!2&3] 4 {0 5}
+State: 4
+[!1&2&!3 | 1&!2&!3] 3 {0 2 4}
+[!1&!2&!3 | 1&2&!3] 3 {0 2 3 4}
+[!1&2&3 | 1&!2&3] 4 {0 5}
+[!1&!2&3 | 1&2&3] 4 {0 3}
+State: 5
+[!1&2&!3 | 1&!2&!3] 2 {0 2 4}
+[!1&!2&!3 | 1&2&!3] 3 {0 2 3 4}
+[!1&2&3 | 1&!2&3] 5 {0 5}
+[!1&!2&3 | 1&2&3] 4 {0 3}
+--END--

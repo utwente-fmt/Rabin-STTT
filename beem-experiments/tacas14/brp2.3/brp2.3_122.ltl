@@ -1,0 +1,1 @@
+!((((Z>2) R (Receiver!="frame_reported")) U ((SClient!="ok") && ((Z>2) R (Receiver!="frame_reported")))) R ((Sender=="idle") || <>!(Sender!="idle") || (((Z>2) R (Receiver!="frame_reported")) U ((SClient!="ok") && ((Z>2) R (Receiver!="frame_reported"))))))

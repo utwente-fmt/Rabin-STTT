@@ -1,0 +1,1 @@
+!((!(floor_queue_1\[3\]<=1) && (floor_queue_2_act<=0) && []((floor_queue_3\[0\]!=3) || <>(Elevator=="move_next"))) || (((floor_queue_1\[3\]<=1) || !(floor_queue_2_act<=0)) && <>(!(floor_queue_3\[0\]!=3) && []!(Elevator=="move_next"))))

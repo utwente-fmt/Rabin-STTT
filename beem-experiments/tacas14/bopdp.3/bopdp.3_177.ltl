@@ -1,0 +1,1 @@
+!(<>[](IOP=="down_received") || ((IOP!="clear_interrupts") R ((!(ap_interrupt<=18) && <>!(IOP=="set_stand_by")) || ((ap_interrupt<=18) && [](IOP=="set_stand_by")))))

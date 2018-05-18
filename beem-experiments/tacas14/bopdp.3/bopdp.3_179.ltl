@@ -1,0 +1,1 @@
+!(((AP_Interrupt_Handler!="set_cur") && <>(AP_Interrupt_Handler!="check_stand_by")) U ((AP_Interrupt_Handler!="set_cur") && [](LSL_Interrupt_Handler!="lsl_int_service") && <>(AP_Interrupt_Handler!="check_stand_by")))

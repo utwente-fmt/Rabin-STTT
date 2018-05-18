@@ -1,0 +1,1 @@
+!(<>(Servis\.floor<=2) || (((floor_queue_1\[2\]<2) && (!(floor_queue_0\[1\]!=3) U (!(Elevator!="q") && !(floor_queue_0\[1\]!=3)))) R (!(current<0) || ((floor_queue_1\[2\]<2) && (!(floor_queue_0\[1\]!=3) U (!(Elevator!="q") && !(floor_queue_0\[1\]!=3)))))))

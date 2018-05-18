@@ -1,0 +1,1 @@
+!([](<>((AP_Interrupt_Handler!="reset_cur") && ((lsl_interrupt_ex!=16) || <>!(AP_Interrupt_Handler!="awake"))) U (some_interrupt<=25)))

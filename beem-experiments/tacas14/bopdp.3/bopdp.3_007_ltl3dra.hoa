@@ -1,0 +1,25 @@
+HOA: v1
+States: 4
+Start: 3
+AP: 5 "AP_Interrupt_Handler!='insert_noop'" "LSL_Interrupt_Handler!='check_stand_by'" "AP=='stand_by'" "AP_Interrupt_Handler=='set_cur'" "IOP=='stand_by'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[t] 0 {0}
+State: 1
+[4] 1
+[!4] 0 {0}
+State: 2
+[!0&!1&!4 | 0&1&!4] 3 {0}
+[!0&!1&4 | 0&1&4] 2
+[!0&1&4 | 0&!1&4] 1
+[!0&1&!4 | 0&!1&!4] 0 {0}
+State: 3
+[!0&!1&2&!3 | !0&!1&!4 | 0&1&2&!3 | 0&1&!4] 3 {0}
+[!0&!1&!2&4 | !0&!1&3&4 | 0&1&!2&4 | 0&1&3&4] 2
+[!0&1&!2&4 | !0&1&3&4 | 0&!1&!2&4 | 0&!1&3&4] 1
+[!0&1&2&!3 | !0&1&!4 | 0&!1&2&!3 | 0&!1&!4] 0 {0}
+--END--

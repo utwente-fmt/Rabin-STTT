@@ -1,0 +1,1 @@
+!((!(Lift_3\.pos>30) && ((!(Lift_2=="q4") && !(Lift_2=="wait")) || ((Lift_2=="q4") && (Lift_2=="wait")))) || ((Lift_3\.pos>30) && (((Lift_2=="q4") && !(Lift_2=="wait")) || (!(Lift_2=="q4") && (Lift_2=="wait")))) || (!(Lift_1=="r4") && <>(Lift_1!="q5")) || ((Lift_1=="r4") && []!(Lift_1!="q5")))

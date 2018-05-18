@@ -1,0 +1,1 @@
+!((!(K=="start") && (<>(Receiver\.triple<=23) U [](Receiver\.exp_ab!=14))) || ((K=="start") && ([]!(Receiver\.triple<=23) R <>!(Receiver\.exp_ab!=14))))

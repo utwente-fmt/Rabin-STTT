@@ -1,0 +1,1 @@
+!((!(IOP=="w_stand_by") || <>(LSL_Driver=="react")) U ((!(IOP!="down_expected") || !(IOP!="down_received")) && (!(IOP=="w_stand_by") || <>(LSL_Driver=="react"))))

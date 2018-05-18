@@ -1,0 +1,26 @@
+HOA: v1
+States: 4
+Start: 0
+AP: 3 "P_6=='NCS'" "P_0=='CS'" "t[4]!=5"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc
+--BODY--
+State: 0
+[0&!1&!2] 0
+[1 | 2] 0 {0}
+[!0&!1&!2] 1
+[!0&1&!2] 2
+[0&1&!2] 3
+State: 1
+[t] 1
+State: 2
+[!1&!2] 1
+[1&!2] 2
+State: 3
+[0&!1&!2] 0
+[!0&!1&!2] 1
+[!0&1&!2] 2
+[0&1&!2] 3
+[!0&1&!2] 3 {0}
+--END--

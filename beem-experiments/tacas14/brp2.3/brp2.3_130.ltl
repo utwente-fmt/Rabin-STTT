@@ -1,0 +1,1 @@
+!(<>(((L!="start") && ((!(Sender!="error") && [](File<=15)) R (!(Sender\.rc<23) || (!(Sender!="error") && [](File<=15))))) || (!(L!="start") && (((Sender!="error") || <>!(File<=15)) U ((Sender\.rc<23) && ((Sender!="error") || <>!(File<=15)))))))

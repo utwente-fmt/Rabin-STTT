@@ -1,0 +1,20 @@
+HOA: v1
+name: "TGBA"
+States: 3
+Start: 2
+AP: 5 "sleep_op<10" "AP_Interrupt_Handler!='ap_int_service'" "IOP!='issue_lsl_up'" "IOP!='enter_active'" "IOP!='send_active_command'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc deterministic
+properties: stutter-invariant weak
+--BODY--
+State: 0
+[!3&4] 0
+[3&4] 1
+State: 1
+[t] 1 {0}
+State: 2
+[!0&!1&2&!3&4 | !0&1&!2&!3&4 | 0&!1&!2&!3&4 | 0&1&2&!3&4] 0 {0}
+[3&4] 1 {0}
+[!0&!1&!2&!3 | !0&!1&!2&!4 | !0&1&2&!3 | !0&1&2&!4 | 0&!1&2&!3 | 0&!1&2&!4 | 0&1&!2&!3 | 0&1&!2&!4] 2 {0}
+--END--

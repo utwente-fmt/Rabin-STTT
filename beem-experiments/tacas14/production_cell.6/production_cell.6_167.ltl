@@ -1,0 +1,1 @@
+!(((!(Plate_3!="new") || (Robot=="Bdeposit")) && <>!(Table!="up_empty") && []!(Sensor\.count<=4)) || ([](Table!="up_empty") && (((Plate_3!="new") && !(Robot=="Bdeposit")) || <>(Sensor\.count<=4))))

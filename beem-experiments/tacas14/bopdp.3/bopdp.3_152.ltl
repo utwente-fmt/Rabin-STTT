@@ -1,0 +1,1 @@
+!((IOP!="active") || []((!(Interrupt_Generator\.no_lsl_ints!=12) && (!(IOP!="now_wait") U (!(IOP!="now_wait") && !(generated_lsl_interrupt<=17)))) || ((Interrupt_Generator\.no_lsl_ints!=12) && ((IOP!="now_wait") R ((IOP!="now_wait") || (generated_lsl_interrupt<=17))))))

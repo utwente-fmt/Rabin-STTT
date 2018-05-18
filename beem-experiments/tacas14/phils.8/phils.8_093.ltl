@@ -1,0 +1,1 @@
+!(([]!(fork\[2\]!=1) && ([](phil_8!="one") R (<>!(phil_8=="think") || [](phil_8!="one")))) || (<>(fork\[2\]!=1) && (<>!(phil_8!="one") U ([](phil_8=="think") && <>!(phil_8!="one")))))

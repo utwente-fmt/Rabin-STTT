@@ -1,0 +1,1 @@
+!(<>[](((!(Elevator=="move_next") && (Servis\.floor<=2)) || ((Elevator=="move_next") && !(Servis\.floor<=2))) && <>(floor_queue_2\[2\]>0)))

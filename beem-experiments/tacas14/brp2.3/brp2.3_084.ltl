@@ -1,0 +1,1 @@
+!(((V!=5) && ((Sender\.i>8) U (U!=24)) && <>(Sender!="idle")) R (Receiver\.triple<13))

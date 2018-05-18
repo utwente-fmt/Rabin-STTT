@@ -1,0 +1,1 @@
+!([](!(P_2=="got_msg") && ((P_0=="got_msg") || (!(channel_link_2!="ready") && (channel_link_2!="tr")))))

@@ -1,0 +1,1 @@
+!((!(Plate_5!="wait_press") U ((Deposit=="wait") U ((Deposit=="wait") && (Plate_5!="new")))) U ([]!(Plate_2!="wait_deposit") && (!(Plate_5!="wait_press") U ((Deposit=="wait") U ((Deposit=="wait") && (Plate_5!="new"))))))

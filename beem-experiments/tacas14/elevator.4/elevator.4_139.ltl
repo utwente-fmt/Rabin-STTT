@@ -1,0 +1,1 @@
+!(!(floor_queue_1_act<=0) || []((<>[](floor_queue_0\[3\]>0) && (!(floor_queue_0\[1\]!=0) R (!(Servis!="r") || !(floor_queue_0\[1\]!=0)))) || ([]<>!(floor_queue_0\[3\]>0) && ((floor_queue_0\[1\]!=0) U ((Servis!="r") && (floor_queue_0\[1\]!=0))))))

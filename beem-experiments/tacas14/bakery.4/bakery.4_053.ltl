@@ -1,0 +1,1 @@
+!((!(P_1!="NCS") && []!(choosing\[0\]>1) && (!(P_1!="for_loop") R (!(P_2\.max!=4) || !(choosing\[2\]<=1)))) || (<>(choosing\[0\]>1) && ((P_1!="NCS") || ((P_1!="for_loop") U ((P_2\.max!=4) && (choosing\[2\]<=1))))))

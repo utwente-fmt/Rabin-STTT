@@ -1,0 +1,1 @@
+!(!(phil_15=="finish") || (<>!(phil_6=="finish") && ((fork\[6\]<=1) R ((fork\[6\]<=1) || !(phil_1=="finish")))) || ([](phil_6=="finish") && (!(fork\[6\]<=1) U (!(fork\[6\]<=1) && (phil_1=="finish")))))

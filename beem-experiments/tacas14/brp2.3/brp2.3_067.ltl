@@ -1,0 +1,1 @@
+!((((Receiver=="new_file") R (Receiver\.triple<13)) && ((File<=15) U ((File<=15) && !(Sender\.rc<=15)))) R ((Sender!="next_frame") || (((Receiver=="new_file") R (Receiver\.triple<13)) && ((File<=15) U ((File<=15) && !(Sender\.rc<=15))))))

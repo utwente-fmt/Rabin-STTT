@@ -1,0 +1,1 @@
+!(<>((IOP=="wait_for_down") && (generated_lsl_interrupt!=27) && (<>!(Interrupt_Generator=="generate") U !(LSL_Interrupt_Handler!="clear_stand_by"))))

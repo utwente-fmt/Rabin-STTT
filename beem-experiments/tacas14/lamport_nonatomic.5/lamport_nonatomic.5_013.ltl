@@ -1,0 +1,1 @@
+!((((!(NonatomicVar_4\.x<=8) && <>!(P_0=="p9")) || ((NonatomicVar_4\.x<=8) && [](P_0=="p9"))) && <>(!(P_4=="p61") && [](NonatomicVar_3\.x<=2))) || (((!(NonatomicVar_4\.x<=8) && [](P_0=="p9")) || ((NonatomicVar_4\.x<=8) && <>!(P_0=="p9"))) && []((P_4=="p61") || <>!(NonatomicVar_3\.x<=2))))

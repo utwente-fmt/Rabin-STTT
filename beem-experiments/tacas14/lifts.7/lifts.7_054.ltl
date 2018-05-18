@@ -1,0 +1,1 @@
+!((Lift_2\.nos<26) R (<>(Lift_2!="a_send") R ((!(Bus\.m<=6) && !(Lift_1=="r1")) || ((Bus\.m<=6) && (Lift_1=="r1")) || <>(Lift_2!="a_send"))))

@@ -1,0 +1,1 @@
+!(<>[](!(lsl_command<1) && ((!(IOP!="back_to_active") && !(IOP=="down_verified")) || ((IOP!="back_to_active") && (IOP=="down_verified")))))

@@ -1,0 +1,1 @@
+!((!(Lift_1=="active") && ((!(relay\[1\]<=19) && <>(!(Lift_0\.m!=17) || []!(Environment!="pressed_up_0"))) || ((relay\[1\]<=19) && []((Lift_0\.m!=17) && <>(Environment!="pressed_up_0"))))) || ((Lift_1=="active") && ((!(relay\[1\]<=19) && []((Lift_0\.m!=17) && <>(Environment!="pressed_up_0"))) || ((relay\[1\]<=19) && <>(!(Lift_0\.m!=17) || []!(Environment!="pressed_up_0"))))))

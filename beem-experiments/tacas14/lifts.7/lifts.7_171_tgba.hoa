@@ -1,0 +1,45 @@
+HOA: v1
+name: "TGBA"
+States: 8
+Start: 0
+AP: 3 "Lift_0!='r4'" "Lift_0!='a_send'" "Lift_1=='a_msg'"
+acc-name: generalized-Buchi 2
+Acceptance: 2 Inf(0)&Inf(1)
+properties: trans-labels explicit-labels trans-acc stutter-invariant
+--BODY--
+State: 0
+[0&!1&!2] 1
+[0] 2
+[!0] 3
+[0&1&2] 4
+[!0&1&2] 5
+[0&!1&2] 6
+[!0&!1&2] 7
+State: 1
+[!1&!2] 1 {0 1}
+[1&2] 4
+[!1&2] 6 {1}
+State: 2
+[!1&!2] 1
+[t] 2
+[1&2] 4
+[!1&2] 6
+State: 3
+[1&!2] 3 {0 1}
+[!1 | 2] 3 {0}
+[1&2] 5 {1}
+[!1&2] 7
+State: 4
+[1&2] 4 {0 1}
+State: 5
+[!1&!2] 3 {0}
+[1&!2] 3 {0 1}
+[!1&2] 5
+[1&2] 5 {1}
+State: 6
+[!1&!2] 1 {0 1}
+[!1&2] 6 {1}
+State: 7
+[!1&2] 7 {0 1}
+[1&2] 7 {0}
+--END--

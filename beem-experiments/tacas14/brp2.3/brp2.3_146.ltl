@@ -1,0 +1,1 @@
+!((<>(Sender=="success") && (!(Receiver=="frame_received") || []!(K=="BAD"))) R ((Sender!="success") || (<>(Sender=="success") && (!(Receiver=="frame_received") || []!(K=="BAD")))))

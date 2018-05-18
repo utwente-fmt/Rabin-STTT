@@ -1,0 +1,1 @@
+!(<>(!(control=="writer_active") || (reader_5=="idle")) U ([](writer_0!="writing") U [](writer_6=="writing")))

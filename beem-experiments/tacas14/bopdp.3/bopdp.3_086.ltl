@@ -1,0 +1,1 @@
+!(<>[](IOP!="clear_int") U (<>[](IOP!="clear_int") && ((Calc=="calc_running") U ((Calc=="calc_running") && ((IOP!="noise") U (some_interrupt<=25))))))

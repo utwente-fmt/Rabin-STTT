@@ -1,0 +1,1 @@
+!((floor_queue_2\[1\]!=1) && (([](floor_queue_3_act>3) && <>(!(Elevator\.who<3) || <>!(floor_queue_2\[2\]<3))) || ([]((Elevator\.who<3) && [](floor_queue_2\[2\]<3)) && <>!(floor_queue_3_act>3))))

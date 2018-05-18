@@ -1,0 +1,1 @@
+!([]((((Lift_1!="r4") || !(Wheels=="moving_up")) && <>!(Lift_2!="a_msg")) || (!(Lift_1!="r4") && (Wheels=="moving_up") && [](Lift_2!="a_msg"))))

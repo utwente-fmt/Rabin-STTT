@@ -1,0 +1,1 @@
+!([]((choosing\[1\]!=1) U ((choosing\[1\]!=1) && (number\[2\]<=3))) U ((P_1\.max<2) && (P_1=="for_loop") && []((choosing\[1\]!=1) U ((choosing\[1\]!=1) && (number\[2\]<=3)))))

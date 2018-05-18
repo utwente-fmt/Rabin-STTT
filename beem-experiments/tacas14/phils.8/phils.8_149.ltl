@@ -1,0 +1,1 @@
+!((phil_9!="finish") R <>(!(fork\[8\]<=0) && !(fork\[10\]<=1) && !(phil_4!="finish")))

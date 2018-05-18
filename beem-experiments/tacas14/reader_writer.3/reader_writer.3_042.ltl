@@ -1,0 +1,1 @@
+!(!(control!="writer_active") || (writer_6=="idle") || []!(reader_4=="reading"))

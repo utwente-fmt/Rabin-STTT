@@ -1,0 +1,1 @@
+!((!(Environment!="q") && (Lift_3\.pos>30) && [](Wheels!="error_state")) || (((Environment!="q") || !(Lift_3\.pos>30)) && <>!(Wheels!="error_state")))

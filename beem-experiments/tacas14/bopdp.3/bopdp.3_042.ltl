@@ -1,0 +1,1 @@
+!((IOP=="send_active_command") R (<>(LSL_Driver!="react") R ((!(AP=="stand_by") && !(IOP=="now_wait")) || ((AP=="stand_by") && (IOP=="now_wait")) || <>(LSL_Driver!="react"))))

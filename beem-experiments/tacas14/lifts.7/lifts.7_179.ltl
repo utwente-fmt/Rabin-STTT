@@ -1,0 +1,1 @@
+!(<>((<>(Lift_0!="a_move") && <>(Lift_3\.count!=32)) || [](!(Lift_0!="a_move") && !(Lift_3\.count!=32))) U (<>((<>(Lift_0!="a_move") && <>(Lift_3\.count!=32)) || [](!(Lift_0!="a_move") && !(Lift_3\.count!=32))) && ((atomic>10) R ((Lift_0=="wait") || (atomic>10)))))

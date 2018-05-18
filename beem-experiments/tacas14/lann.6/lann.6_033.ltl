@@ -1,0 +1,1 @@
+!([](P_0!="got_msg") && <>((P_3=="CS") && ([](P_2\.status<1) R ((channel_link_0!="tr") || [](P_2\.status<1)))))

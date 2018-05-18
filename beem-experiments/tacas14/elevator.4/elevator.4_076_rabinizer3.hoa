@@ -1,0 +1,37 @@
+HOA: v1
+States: 7
+Start: 0
+AP: 5 "floor_queue_0_act<1" "floor_queue_1[2]>3" "floor_queue_3[3]!=3" "Person_3=='in_elevator'" "floor_queue_3[1]<2"
+acc-name: generalized-Rabin 4 2 1 0 1
+Acceptance: 8 (Fin(0) & (Inf(1)&Inf(2))) | (Fin(3) & Inf(4)) | Fin(5) | (Fin(6) & Inf(7))
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0&!1&2&3&4 | 0&!2&3&4 | 1&!2&3&4] 1 {0 3 5 6}
+[!0&!1&2&3&!4 | 0&!2&3&!4 | 1&!2&3&!4] 2 {0 3 5 6}
+[!0&!1&2&!3 | 0&!2&!3 | 1&!2&!3] 3 {0 3 5 6}
+[!0&!1&!2&3&4 | 0&2&3&4 | 1&2&3&4] 4 {0 3 5 6}
+[!0&!1&!2&3&!4 | 0&2&3&!4 | 1&2&3&!4] 5 {0 3 5 6}
+[!0&!1&!2&!3 | 0&2&!3 | 1&2&!3] 6 {0 3 5 6}
+State: 1
+[t] 1 {0 3 5 6}
+State: 2
+[4] 1 {0 3 5 6}
+[!4] 2 {1 4 5 6}
+State: 3
+[3&4] 1 {0 3 5 6}
+[3&!4] 2 {1 4 5 6}
+[!3&4] 3 {0 3 5 6}
+[!3&!4] 3 {1 4 5 6}
+State: 4
+[t] 4
+State: 5
+[4] 4 {2 3 5 7}
+[!4] 5 {3 5}
+State: 6
+[3&4] 4 {2 3 5 7}
+[3&!4] 5 {3 5}
+[!3&4] 6 {2 3 5 7}
+[!3&!4] 6 {3 5}
+--END--

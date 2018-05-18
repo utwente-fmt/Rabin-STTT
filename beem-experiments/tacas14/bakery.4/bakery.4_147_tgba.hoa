@@ -1,0 +1,20 @@
+HOA: v1
+name: "TGBA"
+States: 3
+Start: 1
+AP: 5 "P_1=='CS'" "P_1=='choose'" "P_1=='for_loop'" "P_2=='for_loop'" "number[1]<0"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic stutter-invariant terminal
+--BODY--
+State: 0
+[t] 0 {0}
+State: 1
+[0&1&2&4 | 0&1&3&4] 0
+[!0 | !1 | !2&!3] 1
+[0&1&2&!4 | 0&1&3&!4] 2
+State: 2
+[4] 0
+[!4] 2
+--END--

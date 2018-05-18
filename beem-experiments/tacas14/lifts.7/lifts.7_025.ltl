@@ -1,0 +1,1 @@
+!(((Lift_2=="r3") && (([]!(relay\[0\]<28) U !(Lift_2!="r2")) R <>!(Lift_1=="a_move"))) || (!(Lift_2=="r3") && ((<>(relay\[0\]<28) R (Lift_2!="r2")) U [](Lift_1=="a_move"))))

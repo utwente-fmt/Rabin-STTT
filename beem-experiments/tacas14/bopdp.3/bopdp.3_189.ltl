@@ -1,0 +1,1 @@
+!(<>(sleep_op!=27) U (([]!(IOP!="going_down") && (!(AP\.no_ap_ints!=0) U []!(some_running>2))) || (<>(IOP!="going_down") && ((AP\.no_ap_ints!=0) R <>(some_running>2)))))

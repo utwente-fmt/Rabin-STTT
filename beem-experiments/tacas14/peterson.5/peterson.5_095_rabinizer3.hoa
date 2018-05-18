@@ -1,0 +1,30 @@
+HOA: v1
+States: 5
+Start: 0
+AP: 3 "P_1.k<0" "step[2]<=2" "pos[3]<=2"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0&!1&2] 1 {0}
+[!0&1] 0 {0}
+[0&1] 2 {0}
+[!1&!2] 3 {0}
+[0&!1&2] 4 {0}
+State: 1
+[!0&2] 1 {0}
+[!2] 3 {0}
+[0&2] 4 {0}
+State: 2
+[1&2] 2
+[!1&2] 4
+[1&!2] 2 {0}
+[!1&!2] 3 {0}
+State: 3
+[t] 3 {0}
+State: 4
+[2] 4
+[!2] 3 {0}
+--END--

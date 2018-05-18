@@ -1,0 +1,1 @@
+!((SClient=="send_req") R ((SClient=="send_req") || <>(((!(L!="BAD") && (Sender!="next_frame")) || ((L!="BAD") && !(Sender!="next_frame"))) && ((Receiver=="frame_reported") R ((K!="start") || (Receiver=="frame_reported"))))))

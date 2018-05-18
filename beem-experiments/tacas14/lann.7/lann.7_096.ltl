@@ -1,0 +1,1 @@
+!((!(P_3!="CS") || !(channel_link_3=="ready") || []!(P_3=="wait")) R (!(P_3!="CS") || !(P_4=="got_msg") || !(channel_link_3=="ready") || []!(P_3=="wait")))

@@ -1,0 +1,1 @@
+!(<>(((phil_10!="finish") && ((!(phil_7!="think") && [](phil_2=="think")) R (!(phil_1!="one") || (!(phil_7!="think") && [](phil_2=="think"))))) || (!(phil_10!="finish") && (((phil_7!="think") || <>!(phil_2=="think")) U ((phil_1!="one") && ((phil_7!="think") || <>!(phil_2=="think")))))))

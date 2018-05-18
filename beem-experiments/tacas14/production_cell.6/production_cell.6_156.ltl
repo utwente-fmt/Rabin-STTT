@@ -1,0 +1,1 @@
+!(((Belt=="wait") || (Plate_3!="wait_deposit") || (Press=="done")) R (!(Plate_0!="new") || (Plate_2!="wait_press")))

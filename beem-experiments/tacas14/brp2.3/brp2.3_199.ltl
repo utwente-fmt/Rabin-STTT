@@ -1,0 +1,1 @@
+!(((L!="start") || <>(clock!="time")) U (((L!="start") || <>(clock!="time")) && ((!(L=="in_transit") && (!(RClient!="inc") R (!(RClient!="inc") || !(Receiver=="new_file")))) || ((L=="in_transit") && ((RClient!="inc") U ((RClient!="inc") && (Receiver=="new_file")))))))

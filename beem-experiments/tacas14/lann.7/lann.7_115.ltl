@@ -1,0 +1,1 @@
+!(([](P_0\.v!=4) && ((!(channel_link_1!="tr") && <>!(channel_link_0=="ready")) || ((channel_link_1!="tr") && [](channel_link_0=="ready")))) || (<>!(P_0\.v!=4) && ((!(channel_link_1!="tr") && [](channel_link_0=="ready")) || ((channel_link_1!="tr") && <>!(channel_link_0=="ready")))))

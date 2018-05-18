@@ -1,0 +1,1 @@
+!(((Sender!="next_frame") R ((L=="start") R ((L=="start") || (RClient=="nok")))) R <>((K=="BAD") && (Receiver!="idle")))

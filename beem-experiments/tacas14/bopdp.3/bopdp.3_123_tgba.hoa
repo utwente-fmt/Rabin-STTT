@@ -1,0 +1,16 @@
+HOA: v1
+name: "TGBA"
+States: 2
+Start: 0
+AP: 4 "IOP=='clear_lsl_interrupt'" "ap_interrupt<=18" "IOP=='wait_init_response'" "LSL_Interrupt_Handler=='awake'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc stutter-invariant
+properties: inherently-weak
+--BODY--
+State: 0
+[!0] 0
+[!1&!2&3 | !1&2&!3] 1
+State: 1
+[!2&3 | 2&!3] 1 {0}
+--END--

@@ -1,0 +1,34 @@
+HOA: v1
+States: 6
+Start: 0
+AP: 3 "P_2!='CS'" "P_0=='q2'" "P_0!='wait'"
+acc-name: generalized-Rabin 4 2 1 1 0
+Acceptance: 8 (Fin(0) & (Inf(1)&Inf(2))) | (Fin(3) & Inf(4)) | (Fin(5) & Inf(6)) | Fin(7)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0&!2] 1 {0 3 5 7}
+[!0&!1&2] 2 {0 3 5 7}
+[0&2] 3 {0 3 5 7}
+[!0&1&2 | 0&!2] 4 {0 3 5 7}
+State: 1
+[t] 1
+State: 2
+[1&2] 4 {0 3 5 7}
+[1&!2] 1 {0 3 5 7}
+[!1&2] 2 {1 4 5 7}
+[!1&!2] 1 {1 4 5 7}
+State: 3
+[!0&1&2] 1 {2 3 6 7}
+[!0&!1&2] 5 {3 7}
+[!2] 4 {0 3 5 7}
+[0&1&2] 3 {2 3 6 7}
+[0&!1&2] 3 {3 7}
+State: 4
+[t] 4 {0 3 5 7}
+State: 5
+[!2] 4 {0 3 5 7}
+[1&2] 1 {0 3 5 7}
+[!1&2] 5 {0 3 5 7}
+--END--

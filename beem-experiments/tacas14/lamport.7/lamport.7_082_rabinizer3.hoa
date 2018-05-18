@@ -1,0 +1,18 @@
+HOA: v1
+States: 3
+Start: 0
+AP: 5 "P_1!='q5'" "P_1.j!=0" "P_4=='q3'" "P_4!='q2'" "b[4]>2"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0&!3&4 | !0&3&!4 | !1&!2&!3&4 | !1&!2&3&!4 | 1&2&!3&4 | 1&2&3&!4] 0 {0}
+[0&!1&2&!3&4 | 0&!1&2&3&!4 | 0&1&!2&!3&4 | 0&1&!2&3&!4] 1 {0}
+[!3&!4 | 3&4] 2 {0}
+State: 1
+[t] 1 {0}
+State: 2
+[t] 2
+--END--

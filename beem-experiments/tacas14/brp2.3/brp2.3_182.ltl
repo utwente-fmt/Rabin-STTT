@@ -1,0 +1,1 @@
+!(<>((((SClient=="nok") && !(Sender!="next_frame")) || (!(SClient=="nok") && (Sender!="next_frame"))) && ((RClient=="ok") || <>(L!="in_transit"))))

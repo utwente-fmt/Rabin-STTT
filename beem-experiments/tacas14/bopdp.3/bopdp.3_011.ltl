@@ -1,0 +1,1 @@
+!(<>((IOP=="re_issue_lsl_down") && (some_running>2)) R (<>((IOP=="re_issue_lsl_down") && (some_running>2)) || (!(IOP!="clear_lsl_interrupt") R (!(IOP!="clear_lsl_interrupt") || !(IOP=="clear_interrupts")))))

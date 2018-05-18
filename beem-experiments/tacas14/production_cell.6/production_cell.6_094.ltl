@@ -1,0 +1,1 @@
+!((!(Plate_6=="wait_belt") || !(Plate_7=="wait_belt")) && <>(((Plate_6=="new") && !(Press=="done")) || (!(Plate_6=="new") && (Press=="done"))))

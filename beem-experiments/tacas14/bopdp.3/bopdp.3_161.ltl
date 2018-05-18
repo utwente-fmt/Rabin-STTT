@@ -1,0 +1,1 @@
+!((<>!(IOP!="disable_lsl_interrupt") || ((generated_ap_interrupt<=0) U (AP=="stand_by"))) U ([](ap_interrupt>2) && (<>!(IOP!="disable_lsl_interrupt") || ((generated_ap_interrupt<=0) U (AP=="stand_by")))))

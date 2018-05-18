@@ -1,0 +1,1 @@
+!((reader_12=="idle") && (([]!(control=="q_error") && ((!(reader_6!="reading") && <>(reader_13=="idle")) || ((reader_6!="reading") && []!(reader_13=="idle")))) || (<>(control=="q_error") && ((!(reader_6!="reading") && []!(reader_13=="idle")) || ((reader_6!="reading") && <>(reader_13=="idle"))))))

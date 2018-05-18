@@ -1,0 +1,1 @@
+!(<>(!(sender==s1_2) || ((TXW_TRAIL<=0) && (receiver==r0))) || (!(NR==q_out_3) R (!(NR\.buf_2\[3\]>9) || !(NR==q_out_3))))

@@ -1,0 +1,38 @@
+HOA: v1
+States: 7
+Start: 0
+AP: 4 "enabled_lsl_interrupt>9" "IOP=='set_stand_by'" "IOP!='send_nack'" "LSL_Interrupt_Handler=='awake'"
+acc-name: generalized-Rabin 6 1 2 2 3 0 1
+Acceptance: 15 (Fin(0) & Inf(1)) | (Fin(2) & (Inf(3)&Inf(4))) | (Fin(5) & (Inf(6)&Inf(7))) | (Fin(8) & (Inf(9)&Inf(10)&Inf(11))) | Fin(12) | (Fin(13) & Inf(14))
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0&!3] 1 {0 2 5 8 12 13}
+[!0&2&3] 2 {0 2 5 8 12 13}
+[0&2&3] 3 {0 2 5 8 12 13}
+[0&!2&3] 4 {0 2 5 8 12 13}
+[0&!3] 5 {0 2 5 8 12 13}
+[!0&!2&3] 6 {0 2 5 8 12 13}
+State: 1
+[1] 1 {1 4 7 11 12 13}
+[!1] 1 {12 13}
+State: 2
+[1&2&!3] 1 {0 2 6 7 10 11 12 13}
+[!1&2&3] 2 {0 2 6 10 12 13}
+[!1&2&!3] 1 {0 2 6 10 12 13}
+[!2&3] 6 {0 2 5 8 12 13}
+[!2&!3] 1 {0 2 5 8 12 13}
+[1&2&3] 2 {0 2 6 7 10 11 12 13}
+State: 3
+[!3] 5 {0 2 5 8 12 13}
+[2&3] 3 {0 2 5 8 12 13}
+[!2&3] 4 {0 2 5 8 12 13}
+State: 4
+[t] 4
+State: 5
+[t] 5 {0 2 5 8 12 13}
+State: 6
+[1] 6 {0 2 5 8 12 13}
+[!1] 6 {0 3 5 9 12 14}
+--END--

@@ -1,0 +1,1 @@
+!((phil_8!="eat") && ((fork\[2\]!=1) U ((phil_0!="think") && (phil_7!="finish") && [](phil_2=="finish"))))

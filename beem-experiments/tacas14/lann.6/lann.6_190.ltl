@@ -1,0 +1,1 @@
+!(<>(!(channel_link_3=="ready") R (!(channel_link_3=="ready") || (!(channel_link_0=="ready") U (!(channel_link_0=="ready") && !(channel_link_2=="ready"))))))

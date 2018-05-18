@@ -1,0 +1,1 @@
+!(<>(((!(AP!="prepare_ack") && ((!(IOP=="clear_lsl_interrupt") && !(enabled_lsl_interrupt>9)) || ((IOP=="clear_lsl_interrupt") && (enabled_lsl_interrupt>9)))) || ((AP!="prepare_ack") && (((IOP=="clear_lsl_interrupt") && !(enabled_lsl_interrupt>9)) || (!(IOP=="clear_lsl_interrupt") && (enabled_lsl_interrupt>9))))) R ((IOP=="noise") U (AP_Interrupt_Handler!="interrupt_received"))))

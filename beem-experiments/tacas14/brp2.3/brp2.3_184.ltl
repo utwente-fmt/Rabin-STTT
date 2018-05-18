@@ -1,0 +1,1 @@
+!((K!="in_transit") || <>(Receiver=="idle") || (!(W<=5) && (!(Receiver\.triple<=23) U !(L=="in_transit"))) || ((W<=5) && ((Receiver\.triple<=23) R (L=="in_transit"))))

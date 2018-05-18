@@ -1,0 +1,1 @@
+!([]((<>!(receiver=="r1") && <>(((RN==q_out_1) && [](receiver==r0)) || (!(RN==q_out_1) && <>!(receiver==r0)))) || []((receiver=="r1") && (((RN==q_out_1) && <>!(receiver==r0)) || (!(RN==q_out_1) && [](receiver==r0))))))

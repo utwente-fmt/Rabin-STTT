@@ -1,0 +1,1 @@
+!(((!(Deposit\.k<=1) R ((Belt=="wait") || (Robot!="wait"))) && <>!(Plate_4!="wait_belt")) || ([](Plate_4!="wait_belt") && ((Deposit\.k<=1) U (!(Belt=="wait") && !(Robot!="wait")))))

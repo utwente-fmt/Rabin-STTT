@@ -1,0 +1,1 @@
+!(((RN_time\[5\]>9) || <>(sender==s0_4)) R ((RN_time\[5\]>9) || <>(sender==s0_4) || ((NS==q_in_1) U ((NR==q_in_3) && (NS==q_in_1) && (clock==tick)))))

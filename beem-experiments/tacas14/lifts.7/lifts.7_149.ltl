@@ -1,0 +1,1 @@
+!(((!(Lift_3!="error_state") && [](Lift_2\.count!=17)) || ((Lift_3!="error_state") && <>!(Lift_2\.count!=17))) && (<>(Lift_3!="wait") R (!(Lift_2=="p_msg") || <>(Lift_3!="wait"))))

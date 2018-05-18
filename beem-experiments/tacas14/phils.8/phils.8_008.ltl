@@ -1,0 +1,1 @@
+!(((((phil_4!="finish") && !(phil_7=="finish")) || (!(phil_4!="finish") && (phil_7=="finish"))) && <>(!(fork\[3\]!=1) && (phil_11!="eat"))) || (((!(phil_4!="finish") && !(phil_7=="finish")) || ((phil_4!="finish") && (phil_7=="finish"))) && []((fork\[3\]!=1) || !(phil_11!="eat"))))

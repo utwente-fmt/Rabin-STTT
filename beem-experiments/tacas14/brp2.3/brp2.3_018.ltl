@@ -1,0 +1,1 @@
+!((!(K=="BAD") || (Receiver\.exp_ab<=3)) && ((Receiver\.exp_ab<=3) || !(SClient!="nok") || !(Sender=="idle")))

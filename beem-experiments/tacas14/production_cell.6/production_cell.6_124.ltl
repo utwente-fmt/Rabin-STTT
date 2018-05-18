@@ -1,0 +1,1 @@
+!(((Plate_4!="wait_deposit") || (Press\.k!=4)) && <>(!(Belt=="q2") && !(Plate_3!="wait_press")))

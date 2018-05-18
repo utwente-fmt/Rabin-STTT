@@ -1,0 +1,1 @@
+!((!(Lift_1!="r3") && !(Lift_2\.nos<26)) || ((Lift_1!="r3") && (Lift_2\.nos<26)) || (!(Lift_2=="active") && []!(Lift_1=="passive")) || ((Lift_2=="active") && <>(Lift_1=="passive")))

@@ -1,0 +1,1 @@
+!(<>((IOP!="w_stand_by") || [](IOP!="enable_lsl_interrupt")) U ((IOP!="issue_active_commands") R !(generated_lsl_interrupt<=17)))

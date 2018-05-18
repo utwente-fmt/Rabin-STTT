@@ -1,0 +1,1 @@
+!((Plate_2!="new") || (!(Plate_4=="new") && !(Plate_7!="wait_deposit")) || ((Plate_4=="new") && (Plate_7!="wait_deposit")) || (!(Plate_4=="new") R (Press=="done")))

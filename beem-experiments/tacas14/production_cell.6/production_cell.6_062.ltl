@@ -1,0 +1,1 @@
+!((!(Plate_4!="wait_deposit") || (!(Press\.k<=5) && !(Sensor\.count!=0)) || ((Press\.k<=5) && (Sensor\.count!=0))) U ((!(Plate_0=="wait_press") && !(Press!="wait")) || ((Plate_0=="wait_press") && (Press!="wait"))))

@@ -1,0 +1,1 @@
+!(<>((AP_Interrupt_Handler!="clear_stand_by") && (IOP=="wait_init_response") && ((!(AP=="stand_by") && (((IOP!="issue_lsl_up") && !(lsl_command<=12)) || (!(IOP!="issue_lsl_up") && (lsl_command<=12)))) || ((AP=="stand_by") && ((!(IOP!="issue_lsl_up") && !(lsl_command<=12)) || ((IOP!="issue_lsl_up") && (lsl_command<=12)))))))

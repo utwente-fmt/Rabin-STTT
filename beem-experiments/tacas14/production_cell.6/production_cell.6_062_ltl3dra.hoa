@@ -1,0 +1,18 @@
+HOA: v1
+States: 3
+Start: 2
+AP: 5 "Plate_4!='wait_deposit'" "Press.k<=5" "Sensor.count!=0" "Plate_0=='wait_press'" "Press!='wait'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[t] 0 {0}
+State: 1
+[t] 1
+State: 2
+[!0&!3&4 | !0&3&!4 | !1&!2&!3&4 | !1&!2&3&!4 | 1&2&!3&4 | 1&2&3&!4] 2 {0}
+[!3&!4 | 3&4] 1
+[0&!1&2&!3&4 | 0&!1&2&3&!4 | 0&1&!2&!3&4 | 0&1&!2&3&!4] 0 {0}
+--END--

@@ -1,0 +1,1 @@
+!(<>((((!(Belt\.k<=4) && !(Robot\.at_press<=1)) || ((Belt\.k<=4) && (Robot\.at_press<=1))) && <>(Table=="up_full")) || (((!(Belt\.k<=4) && (Robot\.at_press<=1)) || ((Belt\.k<=4) && !(Robot\.at_press<=1))) && []!(Table=="up_full"))))

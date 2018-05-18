@@ -1,0 +1,1 @@
+!(((!(P_3!="wait") && (channel_link_3=="ready")) || ((P_3!="wait") && !(channel_link_3=="ready"))) U []((channel_link_2!="ready") && <>(channel_link_1=="tr")))

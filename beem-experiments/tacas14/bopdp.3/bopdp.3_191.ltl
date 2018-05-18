@@ -1,0 +1,1 @@
+!(<>!(sleep_op!=27) && <>((<>!(LSL_Driver!="up_down_received") && <>!(AP_Interrupt_Handler=="clear_stand_by")) || []((AP_Interrupt_Handler=="clear_stand_by") && (LSL_Driver!="up_down_received"))))

@@ -1,0 +1,1 @@
+!([](Receiver!="first_safe_frame") R ((!(SClient!="send_req") || <>(U!=7)) U ((Sender\.i>8) && (!(SClient!="send_req") || <>(U!=7)))))

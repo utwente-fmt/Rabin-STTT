@@ -1,0 +1,1 @@
+!((reader_8=="idle") U ([](writer_10=="idle") && <>[](writer_3=="writing")))

@@ -1,0 +1,1 @@
+!(((P_1=="CS") && ((P_1=="NCS") R ((P_1=="NCS") || <>(P_0=="for_loop")))) U ((P_1!="for_loop") U (P_2=="for_loop")))

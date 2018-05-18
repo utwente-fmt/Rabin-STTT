@@ -1,0 +1,1 @@
+!(<>((Lift_3!="a_msg") && []!(Lift_2\.count!=17)) U (((!(Lift_0!="wait") && !(Lift_1!="p_send")) || ((Lift_0!="wait") && (Lift_1!="p_send"))) && <>((Lift_3!="a_msg") && []!(Lift_2\.count!=17))))

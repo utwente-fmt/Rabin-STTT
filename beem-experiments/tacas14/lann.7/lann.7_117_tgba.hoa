@@ -1,0 +1,23 @@
+HOA: v1
+name: "TGBA"
+States: 4
+Start: 3
+AP: 3 "P_2!='got_msg'" "P_4!='CS'" "P_4.v<=4"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc colored
+properties: deterministic stutter-invariant weak
+--BODY--
+State: 0
+[!1&2] 0 {0}
+[!1&!2] 2 {0}
+State: 1
+[0] 1 {0}
+State: 2
+[t] 2 {0}
+State: 3
+[!0&!1&2] 0 {0}
+[0&1] 1 {0}
+[!1&!2] 2 {0}
+[0&!1&2] 3 {0}
+--END--

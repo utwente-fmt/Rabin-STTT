@@ -1,0 +1,1 @@
+!((!(Lift_1=="r2") R (Lift_3!="p_msg")) && (<>!(Environment=="pressed_down_3") U !(Lift_3!="a_move")))

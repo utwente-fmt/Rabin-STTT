@@ -1,0 +1,1 @@
+!(<>((!(channel_link_0=="tr") && !(channel_link_2\.v!=19) && (channel_link_3\.v<=0)) R (!(P_1!="wait") || (!(channel_link_0=="tr") && !(channel_link_2\.v!=19) && (channel_link_3\.v<=0)))))

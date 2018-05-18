@@ -1,0 +1,1 @@
+!(((reader_2!="idle") || []!(control=="q_error")) R <>(writer_4=="writing"))

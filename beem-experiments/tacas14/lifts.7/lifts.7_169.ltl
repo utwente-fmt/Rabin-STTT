@@ -1,0 +1,1 @@
+!((!(Environment=="pressed_up_3") && !(Lift_3\.m<12) && <>[](Lift_3!="q3")) || ((Lift_3\.m<12) && ((Environment=="pressed_up_3") || []<>!(Lift_3!="q3"))))

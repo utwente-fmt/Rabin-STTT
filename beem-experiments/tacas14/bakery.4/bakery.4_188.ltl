@@ -1,0 +1,1 @@
+!((P_1=="for_loop") R ((<>!(P_0!="choose") && <>(number\[1\]<4)) || []((P_0!="choose") && !(number\[1\]<4))))

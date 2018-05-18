@@ -1,0 +1,1 @@
+!(([]!(U!=24) && ([](Sender=="wait_ack") R ((Sender\.i>8) R ((Receiver\.exp_ab<=3) || (Sender\.i>8))))) || (<>(U!=24) && (<>!(Sender=="wait_ack") U (!(Sender\.i>8) U (!(Receiver\.exp_ab<=3) && !(Sender\.i>8))))))

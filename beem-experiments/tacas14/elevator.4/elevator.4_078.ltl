@@ -1,0 +1,1 @@
+!((!(floor_queue_2\[3\]>3) || (!(floor_queue_0\[2\]!=0) && !(floor_queue_0\[2\]<=3)) || ((floor_queue_0\[2\]!=0) && (floor_queue_0\[2\]<=3))) U ((!(Elevator\.who<=0) && !(Servis!="q")) || ((Elevator\.who<=0) && (Servis!="q"))))

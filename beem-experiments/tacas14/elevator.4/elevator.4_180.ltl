@@ -1,0 +1,1 @@
+!((!(Servis\.floor<=2) && []!(Person_0!="in_elevator") && (<>!(Person_1!="waiting") R (!(Person_0!="waiting") || <>!(Person_1!="waiting")))) || (((Servis\.floor<=2) || <>(Person_0!="in_elevator")) && ([](Person_1!="waiting") U ((Person_0!="waiting") && [](Person_1!="waiting")))))

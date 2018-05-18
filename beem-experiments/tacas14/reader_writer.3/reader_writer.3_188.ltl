@@ -1,0 +1,1 @@
+!(<>((reader_5!="idle") && (writer_12=="writing")) R (<>((reader_5!="idle") && (writer_12=="writing")) || (!(writer_13!="writing") R (!(writer_3=="writing") || !(writer_13!="writing")))))

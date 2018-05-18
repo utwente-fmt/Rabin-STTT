@@ -1,0 +1,1 @@
+!(((((Lift_2!="r4") && !(Lift_3=="r4")) || (!(Lift_2!="r4") && (Lift_3=="r4"))) && <>((Lift_0\.pos!=33) && !(Wheels=="moving_up"))) || (((!(Lift_2!="r4") && !(Lift_3=="r4")) || ((Lift_2!="r4") && (Lift_3=="r4"))) && [](!(Lift_0\.pos!=33) || (Wheels=="moving_up"))))

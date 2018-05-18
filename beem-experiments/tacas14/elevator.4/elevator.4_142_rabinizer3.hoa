@@ -1,0 +1,25 @@
+HOA: v1
+States: 4
+Start: 0
+AP: 4 "Person_0!='waiting'" "Person_1!='out'" "Person_1=='in_elevator'" "floor_queue_2[1]!=1"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[0&1&2&!3] 1 {0}
+[!0&!2 | !0&3 | !1&!2 | !1&3] 2 {0}
+[!0&2&!3 | !1&2&!3] 3 {0}
+[0&1&!2 | 0&1&3] 0 {0}
+State: 1
+[0&1&3] 0 {0}
+[0&1&!3] 1 {0}
+[!0&3 | !1&3] 2 {0}
+[!0&!3 | !1&!3] 3 {0}
+State: 2
+[t] 2
+State: 3
+[3] 2 {0}
+[!3] 3 {0}
+--END--

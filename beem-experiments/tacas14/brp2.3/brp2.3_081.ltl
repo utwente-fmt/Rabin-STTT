@@ -1,0 +1,1 @@
+!([]<>(clock!="time") && ((!(RClient=="ok") && []!(Sender!="next_frame")) || ((RClient=="ok") && <>(Sender!="next_frame"))))

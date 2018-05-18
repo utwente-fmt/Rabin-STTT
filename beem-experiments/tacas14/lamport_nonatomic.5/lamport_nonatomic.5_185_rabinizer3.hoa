@@ -1,0 +1,22 @@
+HOA: v1
+States: 4
+Start: 0
+AP: 4 "NonatomicVar_4=='q'" "P_4=='CS'" "P_4=='p3'" "P_0.v>1"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[2] 1 {0}
+[!0&1&!2&3] 2 {0}
+[0&!2 | !1&!2] 0 {0}
+[!0&1&!2&!3] 3 {0}
+State: 1
+[t] 1 {0}
+State: 2
+[3] 2 {0}
+[!3] 3 {0}
+State: 3
+[t] 3
+--END--

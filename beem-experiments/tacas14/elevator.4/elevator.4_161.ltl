@@ -1,0 +1,1 @@
+!(((floor_queue_1\[2\]>3) U (floor_queue_1\[2\]<2)) U ((!(Elevator=="q") U (!(Person_3=="out") && !(floor_queue_2\[0\]<=3))) && ((floor_queue_1\[2\]>3) U (floor_queue_1\[2\]<2))))

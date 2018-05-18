@@ -1,0 +1,27 @@
+HOA: v1
+States: 6
+Start: 3
+AP: 3 "clock!='time'" "RClient=='ok'" "Sender!='next_frame'"
+Acceptance: 3 (Inf(0)&Inf(2)) | (Inf(1)&Inf(2))
+properties: trans-labels explicit-labels trans-acc
+--BODY--
+State: 0
+[!0] 0 {2}
+[0] 0 {1 2}
+[0] 4
+State: 1
+[2] 0
+[!2] 1
+State: 2
+[!0&!2] 2 {2}
+[0&!2] 2 {1 2}
+[0&!2] 5
+State: 3
+[1&2] 0
+[1&!2] 1
+[!1&!2] 2
+State: 4
+[0] 4 {0 2}
+State: 5
+[0&!2] 5 {0 2}
+--END--

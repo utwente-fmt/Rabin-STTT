@@ -1,0 +1,1 @@
+!([]<>((!(IOP!="enter_active") && ([](IOP=="wait_for_down") R (!(AP=="stand_by") || [](IOP=="wait_for_down")))) || ((IOP!="enter_active") && (<>!(IOP=="wait_for_down") U ((AP=="stand_by") && <>!(IOP=="wait_for_down"))))))

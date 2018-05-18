@@ -1,0 +1,1 @@
+!((P_0=="CS") R ((((channel_link_0=="ready") U !(P_3\.status<=12)) && (!(P_3=="got_msg") R (!(P_1!="wait") || !(P_3=="got_msg")))) || ((!(channel_link_0=="ready") R (P_3\.status<=12)) && ((P_3=="got_msg") U ((P_1!="wait") && (P_3=="got_msg"))))))

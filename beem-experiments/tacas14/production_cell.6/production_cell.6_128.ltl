@@ -1,0 +1,1 @@
+!(<>(!(Robot!="wait") || ((Plate_3!="wait_belt") && (Plate_7=="wait_table")) || [](Plate_6=="wait_deposit")))

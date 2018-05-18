@@ -1,0 +1,1 @@
+!([]<>((Plate_2=="wait_belt") || !(Plate_2=="wait_press") || []!(Plate_7=="wait_belt")))

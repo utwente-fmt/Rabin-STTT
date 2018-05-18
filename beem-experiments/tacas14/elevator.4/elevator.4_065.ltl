@@ -1,0 +1,1 @@
+!([]([](Elevator!="transporting") || (((!(floor_queue_0\[0\]>0) && <>(Servis\.floor!=2)) || ((floor_queue_0\[0\]>0) && []!(Servis\.floor!=2))) R (Elevator!="move_next"))))

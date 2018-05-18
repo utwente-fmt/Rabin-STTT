@@ -1,0 +1,1 @@
+!((phil_1!="one") U ((fork\[11\]<=1) && ((phil_2!="think") || ((phil_8=="finish") R <>(phil_13!="one")))))

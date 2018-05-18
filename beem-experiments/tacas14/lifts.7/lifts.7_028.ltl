@@ -1,0 +1,1 @@
+!((!(Environment=="pressed_down_1") || (Lift_0!="r1")) && (!(Bus\.sender!=3) || (Lift_0!="r1") || !(Lift_3=="p_msg")))

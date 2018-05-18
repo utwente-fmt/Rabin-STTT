@@ -1,0 +1,1 @@
+!((channel_link_2!="tr") U (((((P_3!="CS") || (channel_link_2!="tr")) && <>!(channel_link_1=="tr")) || (!(P_3!="CS") && !(channel_link_2!="tr") && [](channel_link_1=="tr"))) R ((channel_link_4!="ready") || (((P_3!="CS") || (channel_link_2!="tr")) && <>!(channel_link_1=="tr")) || (!(P_3!="CS") && !(channel_link_2!="tr") && [](channel_link_1=="tr")))))

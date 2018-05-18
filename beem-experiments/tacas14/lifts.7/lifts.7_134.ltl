@@ -1,0 +1,1 @@
+!((!(Lift_0\.count!=0) || <>(Lift_2=="error_state")) U ((!(Environment!="pressed_up_1") || !(Lift_3!="a_send")) && (!(Lift_0\.count!=0) || <>(Lift_2=="error_state"))))

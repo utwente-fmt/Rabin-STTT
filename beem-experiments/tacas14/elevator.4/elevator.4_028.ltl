@@ -1,0 +1,1 @@
+!((((floor_queue_3\[3\]<=1) R !(floor_queue_3\[0\]!=3)) && ([](Servis\.floor<=2) U (!(Person_1=="in_elevator") && [](Servis\.floor<=2)))) || ((!(floor_queue_3\[3\]<=1) U (floor_queue_3\[0\]!=3)) && (<>!(Servis\.floor<=2) R ((Person_1=="in_elevator") || <>!(Servis\.floor<=2)))))

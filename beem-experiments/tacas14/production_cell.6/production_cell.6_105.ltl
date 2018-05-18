@@ -1,0 +1,1 @@
+!((<>[](Plate_8=="wait_press") && (!(Plate_1=="wait_table") || <>(Sensor\.count<=4))) || ((Plate_1=="wait_table") && [](!(Sensor\.count<=4) && <>!(Plate_8=="wait_press"))))

@@ -1,0 +1,1 @@
+!(<>(!(LSL_Driver!="stand_by") || ((IOP!="disable_lsl_interrupt") && (Interrupt_Generator\.no_lsl_ints!=12))) || (!(IOP!="enter_active") R (!(IOP!="enter_active") || !(sw_stand_by<12))))

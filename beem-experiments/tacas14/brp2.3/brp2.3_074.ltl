@@ -1,0 +1,1 @@
+!(([](SClient!="file_req") && ((!(Sender!="wait_ack") && (Sender=="init_state")) || []!(RClient!="ok"))) || (((Sender!="wait_ack") || !(Sender=="init_state")) && <>!(SClient!="file_req") && <>(RClient!="ok")))

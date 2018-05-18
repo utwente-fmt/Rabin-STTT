@@ -1,0 +1,1 @@
+!(<>((!(floor_queue_2\[0\]<=3) && !(floor_queue_3\[1\]<2)) || ((floor_queue_2\[0\]<=3) && (floor_queue_3\[1\]<2))) R (<>(Elevator\.serving<2) U ([](Person_3!="out") && <>(Elevator\.serving<2))))

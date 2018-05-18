@@ -1,0 +1,1 @@
+!((<>[]!(lsl_data<=25) && <>(!(IOP!="issue_active_commands") || []<>!(IOP!="down_verified"))) || (<>[](IOP!="down_verified") && []((IOP!="issue_active_commands") && <>(lsl_data<=25))))

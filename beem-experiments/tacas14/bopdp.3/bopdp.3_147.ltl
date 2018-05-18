@@ -1,0 +1,1 @@
+!((IOP=="send_active_command") || ((IOP!="data_expected") U ((IOP!="data_expected") && [](LSL_Driver!="stand_by"))))

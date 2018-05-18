@@ -1,0 +1,1 @@
+!([](receiver\.sqn<=12) R ([](receiver\.sqn<=12) || (!(receiver==r_out) && (!(NR\.buf_0\[1\]<=0) U (!(NR\.buf_0\[1\]<=0) && (element==e0_1)))) || ((receiver==r_out) && ((NR\.buf_0\[1\]<=0) R ((NR\.buf_0\[1\]<=0) || !(element==e0_1))))))

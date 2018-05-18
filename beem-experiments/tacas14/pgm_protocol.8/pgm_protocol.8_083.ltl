@@ -1,0 +1,1 @@
+!((!(SN\.buf_2\[3\]>1) U ((NS_time\[5\]!=0) && !(SN\.buf_2\[3\]>1))) R (!(element\.rs_len>6) && !(element==e0_1)))

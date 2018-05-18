@@ -1,0 +1,1 @@
+!(((Lift_0\.pos!=33) && (!(Lift_0\.pos!=33) R ((Lift_2!="a_move") U ((Lift_2!="a_move") && (Lift_3=="q2"))))) || (!(Lift_0\.pos!=33) && ((Lift_0\.pos!=33) U (!(Lift_2!="a_move") R (!(Lift_2!="a_move") || !(Lift_3=="q2"))))))

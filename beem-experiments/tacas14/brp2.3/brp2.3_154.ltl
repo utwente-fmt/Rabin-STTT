@@ -1,0 +1,1 @@
+!(<>(((!(Sender\.rc<23) && ((!(Receiver\.triple<13) && !(SClient=="file_req")) || ((Receiver\.triple<13) && (SClient=="file_req")))) || ((Sender\.rc<23) && ((!(Receiver\.triple<13) && (SClient=="file_req")) || ((Receiver\.triple<13) && !(SClient=="file_req"))))) R ((SClient=="dk") U (Receiver!="frame_received"))))

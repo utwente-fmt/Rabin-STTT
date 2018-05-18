@@ -1,0 +1,25 @@
+HOA: v1
+States: 5
+Start: 3
+AP: 5 "Sender.rc<23" "K.triple!=11" "Sender=='wait_ack'" "K=='BAD'" "Sender=='next_frame'"
+acc-name: generalized-co-Buchi 2
+Acceptance: 2 Fin(0)|Fin(1)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[t] 0 {0 1}
+State: 1
+[t] 1 {1}
+State: 2
+[!3&!4 | 3&4] 2 {0 1}
+[!3&4 | 3&!4] 1 {1}
+State: 3
+[!0&!3&!4 | !0&3&4 | !1&!2&!3&!4 | !1&!2&3&4 | 1&2&!3&!4 | 1&2&3&4] 4 {0}
+[0&!1&2&!3&!4 | 0&!1&2&3&4 | 0&1&!2&!3&!4 | 0&1&!2&3&4] 2 {0 1}
+[!0&!3&4 | !0&3&!4 | !1&!2&!3&4 | !1&!2&3&!4 | 1&2&!3&4 | 1&2&3&!4] 0 {0 1}
+[0&!1&2&!3&4 | 0&!1&2&3&!4 | 0&1&!2&!3&4 | 0&1&!2&3&!4] 1 {1}
+State: 4
+[!3&!4 | 3&4] 4 {0}
+[!3&4 | 3&!4] 0 {0 1}
+--END--

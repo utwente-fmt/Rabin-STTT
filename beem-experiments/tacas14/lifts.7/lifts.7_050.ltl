@@ -1,0 +1,1 @@
+!(((!(Bus!="send_down") R ((Lift_0\.nos!=6) || (Lift_3\.m<=26))) && <>!(Lift_2!="q3")) || ([](Lift_2!="q3") && ((Bus!="send_down") U (!(Lift_0\.nos!=6) && !(Lift_3\.m<=26)))))

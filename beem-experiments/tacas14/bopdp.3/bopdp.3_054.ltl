@@ -1,0 +1,1 @@
+!((!(AP\.no_ap_ints<22) && !(AP_Interrupt_Handler!="awake") && !(LSL_Driver=="stand_by")) || ((AP\.no_ap_ints<22) && ((AP_Interrupt_Handler!="awake") || (LSL_Driver=="stand_by"))) || ([]!(AP=="prepare_ack") U (!(IOP!="enable_lsl_interrupt") && []!(AP=="prepare_ack"))))

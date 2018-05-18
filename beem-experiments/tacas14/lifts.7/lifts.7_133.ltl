@@ -1,0 +1,1 @@
+!(<>((!(Lift_0!="error_state") && <>(Bus!="send_down")) || ((Lift_0!="error_state") && []!(Bus!="send_down"))) U ((Lift_0\.nos<=26) && <>((!(Lift_0!="error_state") && <>(Bus!="send_down")) || ((Lift_0!="error_state") && []!(Bus!="send_down")))))

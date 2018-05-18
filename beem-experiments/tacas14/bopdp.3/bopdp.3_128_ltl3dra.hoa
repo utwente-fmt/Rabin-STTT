@@ -1,0 +1,15 @@
+HOA: v1
+States: 2
+Start: 1
+AP: 5 "AP_Interrupt_Handler!='clear_stand_by'" "IOP=='wait_init_response'" "AP=='stand_by'" "IOP!='issue_lsl_up'" "lsl_command<=12"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[t] 0
+State: 1
+[!0 | !1 | !2&!3&!4 | !2&3&4 | 2&!3&4 | 2&3&!4] 1 {0}
+[0&1&!2&!3&4 | 0&1&!2&3&!4 | 0&1&2&!3&!4 | 0&1&2&3&4] 0
+--END--

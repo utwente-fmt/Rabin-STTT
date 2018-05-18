@@ -1,0 +1,1 @@
+!(!(Bus!="wait") || (<>!(Lift_3=="q3") && ((Lift_0=="q2") R ((Lift_0=="q2") || !(Lift_1=="passive")))) || ([](Lift_3=="q3") && (!(Lift_0=="q2") U (!(Lift_0=="q2") && (Lift_1=="passive")))))

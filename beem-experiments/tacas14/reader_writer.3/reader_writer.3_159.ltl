@@ -1,0 +1,1 @@
+!(((reader_2=="idle") || (!(reader_3!="reading") && !(writer_11=="writing"))) U []((writer_5=="writing") || (writer_8=="writing")))

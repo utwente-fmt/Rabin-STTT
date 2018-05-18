@@ -1,0 +1,1 @@
+!((((Plate_8!="wait_table") && [](Plate_8=="wait_press")) U (Plate_9=="wait_table")) R (<>!(Robot\.at_press<=1) || (((Plate_8!="wait_table") && [](Plate_8=="wait_press")) U (Plate_9=="wait_table"))))

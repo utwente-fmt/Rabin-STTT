@@ -1,0 +1,1 @@
+!(<>[]((!(Receiver!="new_file") && ((!(L=="start") && ((K!="in_transit") || (Sender=="init_state"))) || (!(K!="in_transit") && (L=="start") && !(Sender=="init_state")))) || ((Receiver!="new_file") && ((!(K!="in_transit") && !(L=="start") && !(Sender=="init_state")) || ((L=="start") && ((K!="in_transit") || (Sender=="init_state")))))))

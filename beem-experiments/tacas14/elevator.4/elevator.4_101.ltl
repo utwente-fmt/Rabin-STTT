@@ -1,0 +1,1 @@
+!((<>[](Person_0=="waiting") && (!(Person_1\.at_floor<=2) || <>(Elevator=="q"))) || ((Person_1\.at_floor<=2) && [](!(Elevator=="q") && <>!(Person_0=="waiting"))))

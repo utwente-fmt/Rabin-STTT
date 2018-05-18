@@ -1,0 +1,1 @@
+!(<>((!(channel_link_1=="ready") R ((P_3=="CS") || !(channel_link_1=="ready"))) R ((!(P_2!="CS") U (!(P_0=="wait") && !(P_2!="CS"))) || (!(channel_link_1=="ready") R ((P_3=="CS") || !(channel_link_1=="ready"))))))

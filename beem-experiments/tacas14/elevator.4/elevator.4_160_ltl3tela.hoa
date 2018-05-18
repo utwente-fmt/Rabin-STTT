@@ -1,0 +1,17 @@
+HOA: v1
+States: 3
+Start: 2
+AP: 5 "floor_queue_2[1]>2" "floor_queue_0[1]!=0" "floor_queue_2[0]<=3" "floor_queue_2[2]>0" "floor_queue_1[3]!=1"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc deterministic
+--BODY--
+State: 0
+[3&!4] 0
+[4] 1
+State: 1
+[t] 1
+State: 2
+[!0&!1&2&3&!4 | !0&1&!2&3&!4 | 0&!1&!2&3&!4 | 0&1&2&3&!4] 0
+[!0&!1&!2 | !0&1&2 | 0&!1&2 | 0&1&!2 | 4] 1
+--END--

@@ -1,0 +1,1 @@
+!(([](control!="q_error") && ((!(control!="ready") && (reader_2!="idle")) U (!(control!="ready") && (reader_2!="idle") && !(writer_5!="writing")))) || (<>!(control!="q_error") && (((control!="ready") || !(reader_2!="idle")) R ((control!="ready") || !(reader_2!="idle") || (writer_5!="writing")))))

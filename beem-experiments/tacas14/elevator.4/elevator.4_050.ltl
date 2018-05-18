@@ -1,0 +1,1 @@
+!([](Person_2\.at_floor<=2) U ([](floor_queue_2_act<=0) && [](Person_2\.at_floor<=2)))

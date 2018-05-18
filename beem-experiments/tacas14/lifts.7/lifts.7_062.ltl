@@ -1,0 +1,1 @@
+!((Lift_1!="q4") U ((Lift_0=="passive") && ((Lift_1!="passive") || ((Lift_3=="error_state") R <>(Lift_1\.pos<=31)))))

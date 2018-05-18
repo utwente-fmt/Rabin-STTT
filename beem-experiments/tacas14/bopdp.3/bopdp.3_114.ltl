@@ -1,0 +1,1 @@
+!(!(AP\.no_ap_ints<22) || (<>!(Calc=="calc_data") && ((sw_stand_by<=18) R (!(LSL_Interrupt_Handler=="interrupt_received") || (sw_stand_by<=18)))) || ([](Calc=="calc_data") && (!(sw_stand_by<=18) U ((LSL_Interrupt_Handler=="interrupt_received") && !(sw_stand_by<=18)))))

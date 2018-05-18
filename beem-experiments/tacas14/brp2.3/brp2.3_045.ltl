@@ -1,0 +1,1 @@
+!([](Sender!="error") U ([]((Sender=="wait_ack") || !(Z!=24)) && [](Sender!="error")))

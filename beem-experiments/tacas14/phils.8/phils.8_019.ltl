@@ -1,0 +1,1 @@
+!(((phil_11!="eat") && (!(phil_11!="eat") R ((phil_6!="one") U ((phil_6!="one") && (phil_6=="eat"))))) || (!(phil_11!="eat") && ((phil_11!="eat") U (!(phil_6!="one") R (!(phil_6!="one") || !(phil_6=="eat"))))))

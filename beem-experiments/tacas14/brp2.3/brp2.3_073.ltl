@@ -1,0 +1,1 @@
+!(((Receiver!="first_safe_frame") || <>(K\.triple<=17)) U ([](Receiver=="frame_reported") && ((Receiver!="first_safe_frame") || <>(K\.triple<=17))))

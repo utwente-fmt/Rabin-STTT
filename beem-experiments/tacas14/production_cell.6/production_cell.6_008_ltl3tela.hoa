@@ -1,0 +1,16 @@
+HOA: v1
+States: 2
+Start: 0
+AP: 4 "Plate_6!='wait_belt'" "Plate_8!='wait_deposit'" "Plate_3!='wait_deposit'" "Belt!='got_new'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[0&!2&3] 0
+[0&!3] 0 {0}
+[!0 | 2&3] 1
+State: 1
+[t] 1
+--END--

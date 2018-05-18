@@ -1,0 +1,1 @@
+!((((!(P_1=="got_msg") && !(P_3=="CS") && !(channel_link_0\.v>2)) || ((P_3=="CS") && ((P_1=="got_msg") || (channel_link_0\.v>2)))) && ((P_4!="got_msg") R <>(P_1!="got_msg"))) || (((!(P_3=="CS") && ((P_1=="got_msg") || (channel_link_0\.v>2))) || (!(P_1=="got_msg") && (P_3=="CS") && !(channel_link_0\.v>2))) && (!(P_4!="got_msg") U []!(P_1!="got_msg"))))

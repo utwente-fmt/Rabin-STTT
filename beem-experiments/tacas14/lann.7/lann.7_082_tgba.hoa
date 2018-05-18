@@ -1,0 +1,18 @@
+HOA: v1
+name: "TGBA"
+States: 2
+Start: 0
+AP: 2 "P_2.v<=13" "P_4.v<=4"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: stutter-invariant
+--BODY--
+State: 0
+[!0] 0 {0}
+[0] 0
+[0&!1] 1
+State: 1
+[!1] 1 {0}
+[1] 1
+--END--

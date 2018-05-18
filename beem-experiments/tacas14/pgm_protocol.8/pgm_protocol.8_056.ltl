@@ -1,0 +1,1 @@
+!(((SN\.buf_2\[4\]!=10) U (NS\.buf_0\[2\]!=10)) && ((<>!(NR==q_in_1) && (!(element==e_rdata2) R (!(RN_size!=12) || !(element==e_rdata2)))) || ([](NR==q_in_1) && ((element==e_rdata2) U ((RN_size!=12) && (element==e_rdata2))))))

@@ -1,0 +1,1 @@
+!((channel_link_2=="ready") || ((((P_2!="CS") R (channel_link_0\.v>2)) U !(channel_link_2!="ready")) R (P_1!="CS")))

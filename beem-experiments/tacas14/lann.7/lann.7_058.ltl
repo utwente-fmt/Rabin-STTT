@@ -1,0 +1,1 @@
+!((channel_link_3\.v<=0) U ((P_1\.status<10) && ((P_2!="wait") R <>(channel_link_2=="tr"))))

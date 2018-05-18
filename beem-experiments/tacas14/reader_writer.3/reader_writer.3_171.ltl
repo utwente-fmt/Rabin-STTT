@@ -1,0 +1,1 @@
+!(((!(reader_2!="reading") && (writer_0!="idle")) || ((reader_2!="reading") && !(writer_0!="idle"))) U ((writer_13=="idle") && ((writer_8!="idle") U [](writer_10!="idle"))))

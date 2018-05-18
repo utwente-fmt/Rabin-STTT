@@ -1,0 +1,1 @@
+!(<>((receiver\.outdata>0) || ((SN\.buf_0\[6\]<1) && (!(receiver==r_trail) R !(sender==s0)))))

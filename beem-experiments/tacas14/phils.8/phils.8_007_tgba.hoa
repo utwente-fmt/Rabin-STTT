@@ -1,0 +1,34 @@
+HOA: v1
+name: "TGBA"
+States: 7
+Start: 2
+AP: 4 "phil_15!='finish'" "fork[5]<0" "phil_10=='finish'" "fork[7]<0"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc deterministic
+properties: stutter-invariant weak
+--BODY--
+State: 0
+[0] 0 {0}
+State: 1
+[0&!2] 1 {0}
+State: 2
+[0&1&3] 0
+[0&!1&3] 3
+[0&1&!2&!3] 4
+[0&!1&!2&!3] 5
+State: 3
+[0&1] 0
+[0&!1] 3
+State: 4
+[0&!2&3] 1
+[0&!2&!3] 4
+State: 5
+[0&1&!2&3] 1
+[0&1&!2&!3] 4
+[0&!1&!2&!3] 5
+[0&!1&!2&3] 6
+State: 6
+[0&1&!2] 1
+[0&!1&!2] 6
+--END--

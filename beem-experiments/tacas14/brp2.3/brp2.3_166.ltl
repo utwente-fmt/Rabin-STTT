@@ -1,0 +1,1 @@
+!((Sender!="idle") || []((!(X<=0) && (!(SClient!="send_req") U (!(SClient!="send_req") && !(U!=24)))) || ((X<=0) && ((SClient!="send_req") R ((SClient!="send_req") || (U!=24))))))

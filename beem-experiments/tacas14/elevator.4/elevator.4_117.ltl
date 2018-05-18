@@ -1,0 +1,1 @@
+!([]([]!(Elevator=="choose_next") || (!(Person_1=="in_elevator") U (!(Person_1=="in_elevator") && [](Elevator!="q")))))

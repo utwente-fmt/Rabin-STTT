@@ -1,0 +1,1 @@
+!((<>!(Z>2) && <>(!(L=="start") && ((!(Sender!="next_frame") && !(X<=0)) || ((Sender!="next_frame") && (X<=0))))) || []((Z>2) && ((L=="start") || ((Sender!="next_frame") && !(X<=0)) || (!(Sender!="next_frame") && (X<=0)))))

@@ -1,0 +1,1 @@
+!((!(Plate_7!="wait_belt") && (Table\.k<4) && (<>!(Deposit!="loaded") R (!(Plate_0!="wait_belt") || <>!(Deposit!="loaded")))) || (((Plate_7!="wait_belt") || !(Table\.k<4)) && ([](Deposit!="loaded") U ((Plate_0!="wait_belt") && [](Deposit!="loaded")))))

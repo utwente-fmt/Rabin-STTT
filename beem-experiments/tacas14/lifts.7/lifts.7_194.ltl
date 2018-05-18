@@ -1,0 +1,1 @@
+!((Lift_3!="active") || <>(Lift_2=="r2") || (!(Bus!="send_down") && (!(Lift_0!="r2") U !(Environment=="pressed_down_2"))) || ((Bus!="send_down") && ((Lift_0!="r2") R (Environment=="pressed_down_2"))))

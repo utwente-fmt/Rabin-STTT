@@ -1,0 +1,1 @@
+!((<>(receiver\.RXW\[2\]<11) && <>((NR_time\[1\]>8) && []!(receiver==r4))) || [](!(receiver\.RXW\[2\]<11) && (!(NR_time\[1\]>8) || <>(receiver==r4))))

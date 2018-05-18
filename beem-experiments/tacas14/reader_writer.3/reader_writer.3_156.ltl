@@ -1,0 +1,1 @@
+!(((writer_10=="writing") && ((writer_6=="idle") R ((writer_6=="idle") || <>(writer_1=="writing")))) U ((reader_8!="reading") U (writer_13=="writing")))

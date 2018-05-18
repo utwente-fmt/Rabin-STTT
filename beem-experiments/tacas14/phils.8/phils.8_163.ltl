@@ -1,0 +1,1 @@
+!(([](phil_0!="think") && ((!(phil_10=="finish") && []!(fork\[7\]<0)) || ((phil_10=="finish") && <>(fork\[7\]<0)))) || (<>!(phil_0!="think") && ((!(phil_10=="finish") && <>(fork\[7\]<0)) || ((phil_10=="finish") && []!(fork\[7\]<0)))))

@@ -1,0 +1,1 @@
+!(((Sender\.ab<1) U (clock!="time")) && <>[](!(Receiver!="first_safe_frame") || (Receiver\.exp_ab!=14)))

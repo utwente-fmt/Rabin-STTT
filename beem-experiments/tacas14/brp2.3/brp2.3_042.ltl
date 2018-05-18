@@ -1,0 +1,1 @@
+!(<>(Sender\.rc<=15) || (((Receiver=="frame_reported") && (!(Z!=24) U (!(RClient!="nok") && !(Z!=24)))) R (!(K\.triple<=17) || ((Receiver=="frame_reported") && (!(Z!=24) U (!(RClient!="nok") && !(Z!=24)))))))

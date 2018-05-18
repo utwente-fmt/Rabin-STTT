@@ -1,0 +1,1 @@
+!(<>((((IOP=="s_active") && !(LSL_Driver!="up_down_received")) || (!(IOP=="s_active") && (LSL_Driver!="up_down_received"))) && ((IOP=="send_active_command") || <>(IOP!="set_stand_by"))))

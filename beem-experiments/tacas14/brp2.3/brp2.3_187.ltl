@@ -1,0 +1,1 @@
+!([]((K=="in_transit") || ([](Sender\.ab<1) U ([]!(Receiver\.exp_ab<=3) && [](Sender\.ab<1)))))

@@ -1,0 +1,1 @@
+!([]((IOP!="set_stand_by") || ([](AP_Interrupt_Handler=="interrupt_received") R ([](sleep_op!=27) U ((IOP=="issue_lsl_up") && [](sleep_op!=27))))))

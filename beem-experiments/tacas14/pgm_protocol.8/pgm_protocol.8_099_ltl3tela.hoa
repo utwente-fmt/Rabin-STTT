@@ -1,0 +1,13 @@
+HOA: v1
+States: 1
+Start: 0
+AP: 4 "NR.buf_1[4]!=10" "packet!=4" "NR.buf_1[6]<7" "NR.buf_1[5]<=8"
+Acceptance: 5 (Fin(0)|Fin(1)) | (Fin(2) & Inf(3)) | (Fin(4) & Inf(3))
+properties: trans-labels explicit-labels trans-acc complete
+--BODY--
+State: 0
+[t] 0 {0 1 2 4}
+[!0&!1&2 | 0&1&2] 0 {0 1 2}
+[!2] 0 {0 2 3}
+[!3] 0 {1 4}
+--END--

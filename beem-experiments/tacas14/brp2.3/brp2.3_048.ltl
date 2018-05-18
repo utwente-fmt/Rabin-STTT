@@ -1,0 +1,1 @@
+!(<>(((Receiver!="frame_received") && (SClient=="file_req") && !(Z!=24)) || ((Z!=24) && (!(Receiver!="frame_received") || !(SClient=="file_req")))) R (<>!(SClient!="dk") || <>(((Receiver!="frame_received") && (SClient=="file_req") && !(Z!=24)) || ((Z!=24) && (!(Receiver!="frame_received") || !(SClient=="file_req"))))))

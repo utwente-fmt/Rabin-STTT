@@ -1,0 +1,23 @@
+HOA: v1
+States: 4
+Start: 2
+AP: 4 "P_0!='got_msg'" "P_1=='wait'" "P_3=='wait'" "P_3=='got_msg'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[t] 0 {0}
+State: 1
+[0] 1
+[!0] 0 {0}
+State: 2
+[0&!1&2 | 0&1&!2 | 0&3] 1
+[!0] 0 {0}
+[0&!1&!2&!3 | 0&1&2&!3] 3 {0}
+State: 3
+[0&3] 1
+[!0] 0 {0}
+[0&!3] 3 {0}
+--END--

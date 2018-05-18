@@ -1,0 +1,1 @@
+!(((<>!(Receiver\.exp_ab!=14) && (<>!(SClient=="ok") U (!(W!=0) && <>!(SClient=="ok")))) || ([](Receiver\.exp_ab!=14) && ([](SClient=="ok") R ((W!=0) || [](SClient=="ok"))))) U [](RClient=="nok"))

@@ -1,0 +1,1 @@
+!([]([]!(Robot\.B<=5) && ((Plate_5!="wait_belt") U ((Plate_1=="wait_belt") && (Plate_5!="wait_belt")))))

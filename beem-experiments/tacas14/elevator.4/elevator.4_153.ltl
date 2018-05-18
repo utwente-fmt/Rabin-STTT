@@ -1,0 +1,1 @@
+!(<>(Person_2\.at_floor<=3) && []((!(Person_3!="out") && []<>!(Person_3\.at_floor<=3)) || ((Person_3!="out") && <>[](Person_3\.at_floor<=3))))

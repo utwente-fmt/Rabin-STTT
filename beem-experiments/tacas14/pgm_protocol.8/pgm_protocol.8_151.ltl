@@ -1,0 +1,1 @@
+!(((element\.nloss<10) && (<>!(NS\.buf_0\[4\]<=6) R (<>!(NS\.buf_0\[4\]<=6) || (!(NR==q_out_3) U (!(NR==q_out_3) && (SN_time\[1\]!=6)))))) || (!(element\.nloss<10) && ([](NS\.buf_0\[4\]<=6) U ([](NS\.buf_0\[4\]<=6) && ((NR==q_out_3) R ((NR==q_out_3) || !(SN_time\[1\]!=6)))))))

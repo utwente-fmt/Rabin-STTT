@@ -1,0 +1,1 @@
+!((((!(NonatomicVar_1\.v<4) && !(P_2=="w2") && !(P_3=="p8")) || ((P_3=="p8") && ((NonatomicVar_1\.v<4) || (P_2=="w2")))) && ((P_0=="CS") R <>(NonatomicVar_3=="r"))) || (((!(P_3=="p8") && ((NonatomicVar_1\.v<4) || (P_2=="w2"))) || (!(NonatomicVar_1\.v<4) && !(P_2=="w2") && (P_3=="p8"))) && (!(P_0=="CS") U []!(NonatomicVar_3=="r"))))

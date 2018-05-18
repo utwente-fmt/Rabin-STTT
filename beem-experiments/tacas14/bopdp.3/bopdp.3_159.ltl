@@ -1,0 +1,1 @@
+!((<>[](IOP=="down_verified") && (!(lsl_running!=8) || <>(AP\.no_ap_ints<22))) || ((lsl_running!=8) && [](!(AP\.no_ap_ints<22) && <>!(IOP=="down_verified"))))

@@ -1,0 +1,1 @@
+!((!(IOP=="send_active_command") && !(LSL_Interrupt_Handler!="lsl_int_service")) || ((IOP=="send_active_command") && (LSL_Interrupt_Handler!="lsl_int_service")) || (!(LSL_Driver=="stand_by") && []!(LSL_Interrupt_Handler=="interrupt_received")) || ((LSL_Driver=="stand_by") && <>(LSL_Interrupt_Handler=="interrupt_received")))

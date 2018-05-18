@@ -1,0 +1,1 @@
+!([](Servis\.caller!=3) U (!(floor_queue_3\[2\]!=3) R (!(Servis!="r") || []!(Elevator=="q"))))

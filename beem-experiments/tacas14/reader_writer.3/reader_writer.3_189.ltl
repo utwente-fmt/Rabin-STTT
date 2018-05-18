@@ -1,0 +1,1 @@
+!([]((control=="readers_active") || (reader_6!="reading")) U ([](writer_4!="idle") && []((control=="readers_active") || (reader_6!="reading"))))

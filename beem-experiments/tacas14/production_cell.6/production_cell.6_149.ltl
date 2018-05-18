@@ -1,0 +1,1 @@
+!((<>(done>2) && <>((Plate_2=="wait_belt") R ((Plate_2=="wait_belt") || ((done<6) U ((Plate_6!="wait_table") && (done<6)))))) || [](!(done>2) && (!(Plate_2=="wait_belt") U (!(Plate_2=="wait_belt") && (!(done<6) R (!(Plate_6!="wait_table") || !(done<6)))))))

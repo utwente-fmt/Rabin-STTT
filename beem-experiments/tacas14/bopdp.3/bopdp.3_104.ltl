@@ -1,0 +1,1 @@
+!(((sleep_op<10) || []!(IOP=="send_nack")) R <>(IOP=="issue_down_lsl"))

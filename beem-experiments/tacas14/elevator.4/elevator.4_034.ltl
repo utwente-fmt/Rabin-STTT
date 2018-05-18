@@ -1,0 +1,1 @@
+!(!(Elevator!="transporting") || (Person_0=="waiting") || (((Elevator\.serving<=2) && (floor_queue_2\[1\]>2)) R !(current<0)))

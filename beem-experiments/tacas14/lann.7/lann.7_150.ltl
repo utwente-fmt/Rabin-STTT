@@ -1,0 +1,1 @@
+!(<>(((!(P_0=="CS") && ((!(P_1\.v!=11) && !(channel_link_0!="ready")) || ((P_1\.v!=11) && (channel_link_0!="ready")))) || ((P_0=="CS") && ((!(P_1\.v!=11) && (channel_link_0!="ready")) || ((P_1\.v!=11) && !(channel_link_0!="ready"))))) R ((P_4!="CS") U (P_1=="got_msg"))))

@@ -1,0 +1,1 @@
+!((((Lift_0=="wait") R (Lift_2!="q3")) U ((relay\[0\]<28) && ((Lift_0=="wait") R (Lift_2!="q3")))) R ((Lift_3=="p_send") || <>!(Lift_3!="p_send") || (((Lift_0=="wait") R (Lift_2!="q3")) U ((relay\[0\]<28) && ((Lift_0=="wait") R (Lift_2!="q3"))))))

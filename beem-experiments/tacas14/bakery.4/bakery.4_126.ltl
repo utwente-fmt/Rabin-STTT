@@ -1,0 +1,1 @@
+!((!(P_0=="choose") || !(P_0=="wait")) && <>(((P_0=="choose") && !(P_2=="choose")) || (!(P_0=="choose") && (P_2=="choose"))))

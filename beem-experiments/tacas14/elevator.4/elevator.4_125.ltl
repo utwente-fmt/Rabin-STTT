@@ -1,0 +1,1 @@
+!((<>(Person_0!="waiting") U (Person_2!="waiting")) && ([](floor_queue_2\[2\]<3) U ([](Person_2=="in_elevator") && [](floor_queue_2\[2\]<3))))

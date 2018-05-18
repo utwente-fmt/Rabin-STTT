@@ -1,0 +1,1 @@
+!((Sender!="success") || <>(Sender=="success") || ([]!(K!="in_transit") && <>(K!="start")) || (<>(K!="in_transit") && []!(K!="start")))

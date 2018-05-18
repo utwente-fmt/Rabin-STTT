@@ -1,0 +1,1 @@
+!((IOP!="disable_lsl_interrupt") && <>!(IOP=="send_nack") && <>(!(IOP!="issue_active_commands") && !(IOP!="s_active")))

@@ -1,0 +1,1 @@
+!([]<>((!(control!="q_error") && ([](writer_5=="idle") R (!(reader_8=="idle") || [](writer_5=="idle")))) || ((control!="q_error") && (<>!(writer_5=="idle") U ((reader_8=="idle") && <>!(writer_5=="idle"))))))

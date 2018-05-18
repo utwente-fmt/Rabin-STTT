@@ -1,0 +1,1 @@
+!([](P_3=="CS") U ((!(P_3\.status<=12) && (P_3=="got_msg")) || ((P_3\.status<=12) && !(P_3=="got_msg")) || (!(P_1!="CS") && !(channel_link_1=="tr")) || ((P_1!="CS") && (channel_link_1=="tr"))))

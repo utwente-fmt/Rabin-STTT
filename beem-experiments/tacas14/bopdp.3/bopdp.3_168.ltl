@@ -1,0 +1,1 @@
+!((IOP!="issue_down_lsl") || <>(AP_Interrupt_Handler=="reset_cur") || (!(generated_ap_interrupt<=0) && (!(enabled_lsl_interrupt<22) U !(IOP=="check_interrupts"))) || ((generated_ap_interrupt<=0) && ((enabled_lsl_interrupt<22) R (IOP=="check_interrupts"))))

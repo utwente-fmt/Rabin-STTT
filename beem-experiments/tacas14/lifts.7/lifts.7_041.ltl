@@ -1,0 +1,1 @@
+!((((!(Lift_1=="q1") && !(Lift_2!="q3")) || ((Lift_1=="q1") && (Lift_2!="q3"))) && [](!(Lift_3=="a_move") || !(Lift_3=="passive"))) || (((!(Lift_1=="q1") && (Lift_2!="q3")) || ((Lift_1=="q1") && !(Lift_2!="q3"))) && <>((Lift_3=="a_move") && (Lift_3=="passive"))))

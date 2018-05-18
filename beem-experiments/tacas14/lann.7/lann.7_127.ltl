@@ -1,0 +1,1 @@
+!([]((((P_1!="wait") && (([]!(channel_link_1=="ready") && <>(channel_link_2\.v!=19)) || (<>(channel_link_1=="ready") && []!(channel_link_2\.v!=19)))) || (!(P_1!="wait") && ((<>(channel_link_2\.v!=19) && <>(channel_link_1=="ready")) || [](!(channel_link_1=="ready") && !(channel_link_2\.v!=19))))) U (P_2=="CS")))

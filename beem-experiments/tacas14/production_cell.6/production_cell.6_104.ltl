@@ -1,0 +1,1 @@
+!(((!(Robot\.at_press<=1) || <>[]!(Belt!="got_new")) && ((Plate_6=="wait_table") R ((Plate_6=="wait_table") || (Press\.k<=5)))) || ((Robot\.at_press<=1) && []<>(Belt!="got_new") && (!(Plate_6=="wait_table") U (!(Plate_6=="wait_table") && !(Press\.k<=5)))))

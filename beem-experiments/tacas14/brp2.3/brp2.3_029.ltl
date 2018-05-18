@@ -1,0 +1,1 @@
+!([](!(Receiver=="frame_received") U (!(RClient=="ok") && !(Receiver=="frame_received"))) U ((clock=="time") && [](!(Receiver=="frame_received") U (!(RClient=="ok") && !(Receiver=="frame_received")))))

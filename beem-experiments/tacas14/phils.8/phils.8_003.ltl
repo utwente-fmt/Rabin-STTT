@@ -1,0 +1,1 @@
+!((phil_12=="think") U ((phil_12!="think") && (phil_12=="think") && (!(fork\[0\]!=0) || !(phil_0=="eat") || (phil_2=="think"))))

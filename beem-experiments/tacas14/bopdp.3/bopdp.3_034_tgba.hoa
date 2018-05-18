@@ -1,0 +1,24 @@
+HOA: v1
+name: "TGBA"
+States: 4
+Start: 3
+AP: 2 "IOP=='clear_interrupts'" "sleep_op<10"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic stutter-invariant weak
+--BODY--
+State: 0
+[t] 0 {0}
+State: 1
+[1] 0
+[!1] 1
+State: 2
+[!0] 0
+[0] 2
+State: 3
+[!0&1] 0 {0}
+[!0&!1] 1 {0}
+[0&1] 2 {0}
+[0&!1] 3 {0}
+--END--

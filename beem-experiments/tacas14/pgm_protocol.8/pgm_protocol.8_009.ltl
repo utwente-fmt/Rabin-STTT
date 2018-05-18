@@ -1,0 +1,1 @@
+!([](((!(NS_time\[3\]!=6) || (receiver\.RXW\[4\]!=2)) && <>!(clock==tick)) || ((NS_time\[3\]!=6) && !(receiver\.RXW\[4\]!=2) && [](clock==tick))))

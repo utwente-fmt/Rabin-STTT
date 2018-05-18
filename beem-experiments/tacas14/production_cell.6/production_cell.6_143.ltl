@@ -1,0 +1,1 @@
+!([](!(Robot!="wait") || ([](Plate_1!="wait_deposit") U [](Table!="up_empty"))))

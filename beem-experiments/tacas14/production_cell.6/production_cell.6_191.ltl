@@ -1,0 +1,1 @@
+!(!(Belt!="q2") R (!(Belt!="q2") || ((!(Plate_6!="new") R !(Plate_1=="wait_press")) && []!(Press=="pressing"))))

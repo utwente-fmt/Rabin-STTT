@@ -1,0 +1,45 @@
+HOA: v1
+States: 8
+Start: 0
+AP: 5 "writer_12!='writing'" "writer_9!='writing'" "reader_5=='idle'" "writer_9=='writing'" "writer_5!='writing'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0&1&2&!3 | !0&1&!4] 0
+[!0&!1&!4] 1
+[!0&!1&2&!3&4] 2
+[0&!2&4 | 0&3&4] 3
+[!0&!2&4 | !0&3&4] 4
+[0&1&2&!3 | 0&1&!4] 5
+[0&!1&2&!3&4] 6
+[0&!1&!4] 7
+State: 1
+[!0] 1 {0}
+[0] 7
+State: 2
+[!0&!4] 1
+[!0&2&!3&4] 2
+[0&!2&4 | 0&3&4] 3
+[!0&!2&4 | !0&3&4] 4
+[0&2&!3&4] 6
+[0&!4] 7
+State: 3
+[t] 3 {0}
+State: 4
+[0] 3
+[!0] 4
+State: 5
+[!2&4 | 3&4] 3
+[1&2&!3 | 1&!4] 5 {0}
+[!1&2&!3&4] 6
+[!1&!4] 7
+State: 6
+[!2&4 | 3&4] 3
+[2&!3&4] 6 {0}
+[!4] 7
+State: 7
+[t] 7
+--END--

@@ -1,0 +1,1 @@
+!([](Calc!="calc_running") U ([]((LSL_Driver=="call") || !(sw_stand_by<12)) && [](Calc!="calc_running")))

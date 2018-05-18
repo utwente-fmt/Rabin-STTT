@@ -1,0 +1,1 @@
+!([](NR==q_in_2) R ((!(receiver\.RXW\[0\]>3) && !(sender==s1_2)) || ((receiver\.RXW\[0\]>3) && (sender==s1_2)) || [](NR==q_in_2) || ((sender==s1) U ((NR==q_out_3) && (sender==s1)))))

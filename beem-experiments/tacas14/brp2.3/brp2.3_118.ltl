@@ -1,0 +1,1 @@
+!((!(Sender=="init_state") || !(Sender=="wait_ack")) && <>((!(SClient=="send_req") && (Sender=="wait_ack")) || ((SClient=="send_req") && !(Sender=="wait_ack"))))

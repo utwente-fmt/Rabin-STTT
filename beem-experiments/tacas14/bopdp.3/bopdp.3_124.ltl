@@ -1,0 +1,1 @@
+!(([](IOP=="down_expected") || (!(LSL_Interrupt_Handler=="awake") && <>!(lsl_command<1)) || ((LSL_Interrupt_Handler=="awake") && [](lsl_command<1))) R <>(IOP=="noise"))

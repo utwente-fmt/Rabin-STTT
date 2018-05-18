@@ -1,0 +1,15 @@
+HOA: v1
+States: 1
+Start: 0
+AP: 3 "IOP=='wait_init_response'" "IOP=='re_issue_lsl_down'" "Calc=='calc_running'"
+Acceptance: 10 (Fin(0)|Fin(1)) | (Fin(2) & Inf(3)) | (Fin(4) & Inf(3)) | (Fin(5) & Inf(6)) | (Fin(7) & Inf(6)) | (Fin(8) & (Inf(3)&Inf(6))) | (Fin(9) & (Inf(3)&Inf(6)))
+properties: trans-labels explicit-labels trans-acc complete
+--BODY--
+State: 0
+[t] 0 {0 1 2 4 5 7 8 9}
+[!1&2] 0 {0 1 2 4 5 7 8}
+[!1&!2] 0 {0 1 2 5 6 7 8}
+[1&2] 0 {0 1 2 3 4 5 8}
+[1&!2] 0 {0 2 3 5 6 8}
+[0] 0 {1 4 7 9}
+--END--

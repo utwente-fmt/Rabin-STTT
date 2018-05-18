@@ -1,0 +1,1 @@
+!((!(P_2!="got_msg") || !(channel_link_2=="tr") || []!(P_2=="CS")) R (!(P_2!="got_msg") || !(P_3=="got_msg") || !(channel_link_2=="tr") || []!(P_2=="CS")))

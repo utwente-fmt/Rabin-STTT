@@ -1,0 +1,1 @@
+!((!(clock=="time") && ((!(SClient=="ok") && <>(!(L=="BAD") || []!(K!="BAD"))) || ((SClient=="ok") && []((L=="BAD") && <>(K!="BAD"))))) || ((clock=="time") && ((!(SClient=="ok") && []((L=="BAD") && <>(K!="BAD"))) || ((SClient=="ok") && <>(!(L=="BAD") || []!(K!="BAD"))))))

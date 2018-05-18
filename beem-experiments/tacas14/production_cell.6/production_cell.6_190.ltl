@@ -1,0 +1,1 @@
+!((!(Robot\.A!=2) && !(Sensor\.count!=0) && !(Table!="up_full")) || ((Table!="up_full") && ((Robot\.A!=2) || (Sensor\.count!=0))) || []<>!(Robot=="Apress"))

@@ -1,0 +1,1 @@
+!((<>(receiver\.RXW\[0\]>3) && [](!(NR_time\[3\]<2) || (close<=10))) U ([](SN\.buf_0\[1\]<=4) && <>(receiver\.RXW\[0\]>3) && [](!(NR_time\[3\]<2) || (close<=10))))

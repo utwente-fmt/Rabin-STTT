@@ -1,0 +1,20 @@
+HOA: v1
+States: 4
+Start: 3
+AP: 4 "Table=='down_full'" "Belt!='q2'" "Plate_2=='wait_deposit'" "Robot!='Atable'"
+acc-name: Rabin 1
+Acceptance: 2 Fin(0) & Inf(1)
+properties: trans-labels explicit-labels trans-acc
+--BODY--
+State: 0
+[0] 0 {1}
+State: 1
+[!1] 1
+[2 | 3] 2
+State: 2
+[2 | 3] 2 {1}
+State: 3
+[0] 0
+[!1] 1
+[2 | 3] 2
+--END--

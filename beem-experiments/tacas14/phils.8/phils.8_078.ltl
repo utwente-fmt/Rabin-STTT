@@ -1,0 +1,1 @@
+!(((phil_14!="think") R !(phil_14=="eat")) || (((fork\[12\]<=0) && (phil_9=="eat")) R (phil_13!="one")))

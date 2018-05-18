@@ -1,0 +1,1 @@
+!((((!(Lift_2=="wait") && <>!(Lift_1\.status<=4)) || ((Lift_2=="wait") && [](Lift_1\.status<=4))) && <>(!(Lift_2\.pos!=16) && [](Lift_1=="r1"))) || (((!(Lift_2=="wait") && [](Lift_1\.status<=4)) || ((Lift_2=="wait") && <>!(Lift_1\.status<=4))) && []((Lift_2\.pos!=16) || <>!(Lift_1=="r1"))))

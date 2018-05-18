@@ -1,0 +1,21 @@
+HOA: v1
+States: 3
+Start: 0
+AP: 4 "IOP=='wake_up'" "AP_Interrupt_Handler!='ap_int_service'" "LSL_Interrupt_Handler=='lsl_int_service'" "Calc!='idle'"
+Acceptance: 3 Fin(0) & (Inf(1)&Inf(2))
+properties: trans-labels explicit-labels trans-acc
+--BODY--
+State: 0
+[0&!1&2&!3 | 0&1&!2&!3] 0 {1 2}
+[!0&!1&2&!3 | !0&1&!2&!3] 1 {1}
+[!0&!1&!2&!3 | !0&1&2&!3] 1
+[0&!1&!2&!3 | 0&1&2&!3] 1 {2}
+[!0&!1&!2 | !0&1&2 | !0&3] 2
+State: 1
+[0&!1&2&!3 | 0&1&!2&!3] 0 {1 2}
+[!0&!1&2&!3 | !0&1&!2&!3] 1 {1}
+[!0&!1&!2&!3 | !0&1&2&!3] 1
+[0&!1&!2&!3 | 0&1&2&!3] 1 {2}
+State: 2
+[!0&!1&!2 | !0&1&2 | !0&3] 2 {1 2}
+--END--

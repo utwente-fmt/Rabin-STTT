@@ -1,0 +1,1 @@
+!((!(channel_link_3\.v<=0) R (P_4=="wait")) && (<>!(P_3!="wait") U !(P_4=="got_msg")))

@@ -1,0 +1,18 @@
+HOA: v1
+States: 3
+Start: 0
+AP: 5 "relay[0]<28" "Bus=='wait'" "Lift_1=='passive'" "Lift_1=='q2'" "relay[1]<=19"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!4] 1 {0}
+[0&!1&4 | 0&2&4 | 0&!3&4] 2 {0}
+[!0&4 | 1&!2&3&4] 0 {0}
+State: 1
+[t] 1 {0}
+State: 2
+[t] 2
+--END--

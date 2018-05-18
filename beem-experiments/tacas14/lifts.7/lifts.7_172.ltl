@@ -1,0 +1,1 @@
+!((!(Lift_1=="r2") R ((Lift_0=="r3") || !(Lift_1=="r2") || (Lift_2!="p_send"))) R (((Lift_0!="error_state") R ((Lift_0!="error_state") || (Lift_1!="q5"))) || (!(Lift_1=="r2") R ((Lift_0=="r3") || !(Lift_1=="r2") || (Lift_2!="p_send")))))

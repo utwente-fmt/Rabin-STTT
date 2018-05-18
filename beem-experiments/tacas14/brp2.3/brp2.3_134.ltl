@@ -1,0 +1,1 @@
+!((Z!=24) U (((((L=="start") || (Z!=24)) && <>!(SClient!="ok")) || (!(L=="start") && !(Z!=24) && [](SClient!="ok"))) R ((K\.triple!=11) || (((L=="start") || (Z!=24)) && <>!(SClient!="ok")) || (!(L=="start") && !(Z!=24) && [](SClient!="ok")))))

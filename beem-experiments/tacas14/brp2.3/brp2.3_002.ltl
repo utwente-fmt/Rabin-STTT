@@ -1,0 +1,1 @@
+!(((((Receiver!="new_file") && !(Sender=="init_state")) || (!(Receiver!="new_file") && (Sender=="init_state"))) && <>((L!="BAD") && !(V!=5))) || (((!(Receiver!="new_file") && !(Sender=="init_state")) || ((Receiver!="new_file") && (Sender=="init_state"))) && [](!(L!="BAD") || (V!=5))))

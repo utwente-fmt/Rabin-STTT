@@ -1,0 +1,23 @@
+HOA: v1
+States: 4
+Start: 1
+AP: 5 "writer_4!='idle'" "writer_6=='idle'" "writer_1=='writing'" "writer_5!='writing'" "reader_8=='reading'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc deterministic weak
+--BODY--
+State: 0
+[t] 0
+State: 1
+[4] 0
+[!0&1&!4 | 0&!1&!4 | !3&!4] 1
+[!0&!1&2&3&!4 | 0&1&2&3&!4] 3
+State: 2
+[!3] 0
+[2&3] 2
+State: 3
+[!3&4] 0
+[!3&!4] 1
+[2&3&4] 2
+[2&3&!4] 3
+--END--

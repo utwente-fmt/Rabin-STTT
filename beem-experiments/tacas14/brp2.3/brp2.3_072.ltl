@@ -1,0 +1,1 @@
+!((!(Receiver=="idle") && ([](SClient=="dk") || ((V<=17) && <>!(Sender!="init_state")))) || ((Receiver=="idle") && <>!(SClient=="dk") && (!(V<=17) || [](Sender!="init_state"))))

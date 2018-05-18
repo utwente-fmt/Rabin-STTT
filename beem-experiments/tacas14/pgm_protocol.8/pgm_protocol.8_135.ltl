@@ -1,0 +1,1 @@
+!([]((((SN_time\[1\]!=6) && ((<>(x<=1) && []!(receiver==r_out)) || (<>(receiver==r_out) && []!(x<=1)))) || (!(SN_time\[1\]!=6) && ((<>(x<=1) && <>(receiver==r_out)) || [](!(receiver==r_out) && !(x<=1))))) U (sender==s1_1)))

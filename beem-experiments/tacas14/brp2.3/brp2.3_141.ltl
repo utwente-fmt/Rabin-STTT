@@ -1,0 +1,1 @@
+!(<>(<>((Receiver!="first_safe_frame") || (clock=="time")) && (!(K\.triple<=17) U (!(K\.triple<=17) && !(Receiver\.exp_ab!=14)))))

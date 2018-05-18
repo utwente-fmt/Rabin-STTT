@@ -1,0 +1,1 @@
+!((((Sender=="error") R !(K=="in_transit")) && ([](Sender\.rc<=15) U (!(L=="start") && [](Sender\.rc<=15)))) || ((!(Sender=="error") U (K=="in_transit")) && (<>!(Sender\.rc<=15) R ((L=="start") || <>!(Sender\.rc<=15)))))

@@ -1,0 +1,1 @@
+!(((Lift_1\.m!=24) U (Lift_2\.pos!=13)) || ((Bus\.sender!=3) && (Lift_1=="a_move") && <>(Lift_3=="wait")))

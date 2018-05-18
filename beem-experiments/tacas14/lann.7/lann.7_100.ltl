@@ -1,0 +1,1 @@
+!(((channel_link_4=="ready") && (<>(channel_link_0\.v>2) U !(P_2=="got_msg"))) || (!(channel_link_4=="ready") && ([]!(channel_link_0\.v>2) R (P_2=="got_msg"))))

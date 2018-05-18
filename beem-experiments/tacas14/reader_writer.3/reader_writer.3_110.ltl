@@ -1,0 +1,1 @@
+!((!(writer_9=="idle") || !(writer_12!="writing") || []!(writer_1!="idle")) R (!(writer_6!="idle") || !(writer_9=="idle") || !(writer_12!="writing") || []!(writer_1!="idle")))

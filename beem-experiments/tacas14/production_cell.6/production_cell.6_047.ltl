@@ -1,0 +1,1 @@
+!((((Plate_3=="wait_table") R !(Belt\.k<=4)) && (<>(Table=="up_empty") || [](Plate_5!="wait_deposit"))) || ([]!(Table=="up_empty") && <>!(Plate_5!="wait_deposit") && (!(Plate_3=="wait_table") U (Belt\.k<=4))))

@@ -1,0 +1,1 @@
+!((!(Servis\.caller!=3) && ((!(Person_2=="waiting") && <>(!(Person_2=="out") || []!(Person_1!="out"))) || ((Person_2=="waiting") && []((Person_2=="out") && <>(Person_1!="out"))))) || ((Servis\.caller!=3) && ((!(Person_2=="waiting") && []((Person_2=="out") && <>(Person_1!="out"))) || ((Person_2=="waiting") && <>(!(Person_2=="out") || []!(Person_1!="out"))))))

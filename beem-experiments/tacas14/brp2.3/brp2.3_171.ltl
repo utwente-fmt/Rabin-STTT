@@ -1,0 +1,1 @@
+!(([]!(K=="start") && <>([]!(Sender=="wait_ack") R (<>(Receiver!="frame_received") || []!(Sender=="wait_ack")))) || (<>(K=="start") && [](<>(Sender=="wait_ack") U ([]!(Receiver!="frame_received") && <>(Sender=="wait_ack")))))

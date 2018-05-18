@@ -1,0 +1,1 @@
+!(((RClient!="inc") && (<>(Z>2) U !(Sender!="next_frame"))) || (!(RClient!="inc") && ([]!(Z>2) R (Sender!="next_frame"))))

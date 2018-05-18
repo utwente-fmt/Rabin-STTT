@@ -1,0 +1,1 @@
+!(<>((Receiver!="new_file") && (SClient=="ok") && ((!(Sender\.rc<=15) && (((SClient!="ok") && !(Z!=24)) || (!(SClient!="ok") && (Z!=24)))) || ((Sender\.rc<=15) && ((!(SClient!="ok") && !(Z!=24)) || ((SClient!="ok") && (Z!=24)))))))

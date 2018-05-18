@@ -1,0 +1,24 @@
+HOA: v1
+States: 4
+Start: 0
+AP: 4 "fork[7]<0" "phil_4!='one'" "phil_9=='finish'" "phil_9=='one'"
+acc-name: generalized-Rabin 2 0 1
+Acceptance: 3 Fin(0) | (Fin(1) & Inf(2))
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0&1 | !0&!2&3 | !0&2&!3] 0 {0 1}
+[0&1&!2&!3 | 0&1&2&3] 1 {0 1}
+[!1&!2&!3 | !1&2&3] 2 {0 1}
+[0&!2&3 | 0&2&!3] 3 {0 1}
+State: 1
+[1&!2&3 | 1&2&!3] 3 {0 2}
+[!1&!2&3 | !1&2&!3] 3 {0 1}
+[!1&!2&!3 | !1&2&3] 2 {0 1}
+[1&!2&!3 | 1&2&3] 1 {0 2}
+State: 2
+[t] 2 {0 1}
+State: 3
+[t] 3
+--END--

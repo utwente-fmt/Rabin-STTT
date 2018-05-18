@@ -1,0 +1,1 @@
+!((((IOP!="disable_lsl_interrupt") && [](IOP=="down_verified")) U (IOP=="check_interrupts")) R (<>!(sleep_op<10) || (((IOP!="disable_lsl_interrupt") && [](IOP=="down_verified")) U (IOP=="check_interrupts"))))

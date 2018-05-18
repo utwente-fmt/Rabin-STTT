@@ -1,0 +1,1 @@
+!(<>!(writer_8!="idle") U ((control=="writer_active") || <>(reader_7=="reading")))

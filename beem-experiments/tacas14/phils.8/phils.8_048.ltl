@@ -1,0 +1,1 @@
+!((((phil_7!="think") || !(phil_9!="finish")) && (!(fork\[7\]!=1) U [](phil_8!="finish"))) || (!(phil_7!="think") && (phil_9!="finish") && ((fork\[7\]!=1) R <>!(phil_8!="finish"))))

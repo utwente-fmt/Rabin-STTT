@@ -1,0 +1,24 @@
+HOA: v1
+States: 4
+Start: 0
+AP: 5 "P_1!='for_loop'" "P_1.max<2" "P_0.j<=3" "choosing[0]<0" "P_0.max<4"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0&4] 0 {0}
+[!4] 1 {0}
+[0&2&3&4] 2 {0}
+[0&!2&4 | 0&!3&4] 3 {0}
+State: 1
+[t] 1 {0}
+State: 2
+[4] 2
+[!4] 1 {0}
+State: 3
+[!4] 1 {0}
+[2&3&4] 2 {0}
+[!2&4 | !3&4] 3 {0}
+--END--

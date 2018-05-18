@@ -1,0 +1,1 @@
+!(<>((((floor_queue_2\[1\]>2) R (floor_queue_1\[3\]<=1)) U (current<3)) && [](Person_0=="in_elevator")))

@@ -1,0 +1,1 @@
+!(<>[](((SClient!="send_req") && !(clock=="time")) || (!(SClient!="send_req") && (clock=="time"))))

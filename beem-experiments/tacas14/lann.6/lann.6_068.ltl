@@ -1,0 +1,1 @@
+!(((!(P_2!="CS") && !(channel_link_1!="tr") && ((!(P_0=="CS") && (channel_link_2=="ready")) || ((P_0=="CS") && !(channel_link_2=="ready")))) || ((P_2!="CS") && ((channel_link_1!="tr") || (!(P_0=="CS") && !(channel_link_2=="ready")) || ((P_0=="CS") && (channel_link_2=="ready"))))) U (channel_link_0!="ready"))

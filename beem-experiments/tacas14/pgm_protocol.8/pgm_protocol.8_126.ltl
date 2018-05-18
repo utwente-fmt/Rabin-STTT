@@ -1,0 +1,1 @@
+!((!(sender==s1_2) && ((!(NS_time\[6\]>1) && !(element==e0_1)) || ((NS_time\[6\]>1) && (element==e0_1)))) || ((sender==s1_2) && (((NS_time\[6\]>1) && !(element==e0_1)) || (!(NS_time\[6\]>1) && (element==e0_1)))) || ((SN\.buf_2\[0\]>7) R ((SN\.buf_2\[0\]>7) || (sender==s0_5))))

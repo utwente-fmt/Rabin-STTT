@@ -1,0 +1,1 @@
+!(<>(!(Sender!="success") || (<>[](K!="BAD") U ((Receiver!="frame_received") R (L!="BAD")))))

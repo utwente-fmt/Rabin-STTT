@@ -1,0 +1,20 @@
+HOA: v1
+name: "TGBA"
+States: 3
+Start: 2
+AP: 3 "Elevator=='move_next'" "floor_queue_1_act!=0" "floor_queue_2[1]>2"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic stutter-invariant weak
+--BODY--
+State: 0
+[!0] 0
+[0] 1
+State: 1
+[t] 1 {0}
+State: 2
+[!0&!1&!2] 0 {0}
+[0] 1 {0}
+[!0&1 | !0&2] 2 {0}
+--END--

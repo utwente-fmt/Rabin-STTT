@@ -1,0 +1,1 @@
+!((([](atomic<33) && (!(Lift_0!="q3") R (!(Lift_0!="q3") || !(Lift_1\.status<=4)))) || (<>!(atomic<33) && ((Lift_0!="q3") U ((Lift_0!="q3") && (Lift_1\.status<=4))))) U ((Lift_3\.pos>30) U ((Lift_1=="q2") && (Lift_3\.pos>30))))

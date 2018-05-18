@@ -1,0 +1,1 @@
+!((!(Receiver!="idle") && ([](RClient=="inc") R <>!(Sender!="idle"))) || ((Receiver!="idle") && (<>!(RClient=="inc") U [](Sender!="idle"))))

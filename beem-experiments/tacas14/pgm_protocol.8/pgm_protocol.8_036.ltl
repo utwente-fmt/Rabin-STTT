@@ -1,0 +1,1 @@
+!(((!(NR\.buf_1\[2\]!=11) R ((NR==q_out_2) || (element\.nloss<10))) && <>!(sender==s0_1)) || ([](sender==s0_1) && ((NR\.buf_1\[2\]!=11) U (!(NR==q_out_2) && !(element\.nloss<10)))))

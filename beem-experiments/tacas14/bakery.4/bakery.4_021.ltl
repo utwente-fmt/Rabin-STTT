@@ -1,0 +1,1 @@
+!([]((!(P_2=="NCS") && [](!(P_2!="NCS") && (((P_1!="choose") && !(P_1=="choose")) || (!(P_1!="choose") && (P_1=="choose"))))) || ((P_2=="NCS") && <>((P_2!="NCS") || (!(P_1!="choose") && !(P_1=="choose")) || ((P_1!="choose") && (P_1=="choose"))))))

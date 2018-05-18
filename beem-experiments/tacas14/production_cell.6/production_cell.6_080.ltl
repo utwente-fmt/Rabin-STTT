@@ -1,0 +1,1 @@
+!(((Robot!="wait") && (<>(Robot\.at_press!=7) U !(Plate_5!="wait_table"))) || (!(Robot!="wait") && ([]!(Robot\.at_press!=7) R (Plate_5!="wait_table"))))

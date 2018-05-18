@@ -1,0 +1,25 @@
+HOA: v1
+States: 6
+Start: 2
+AP: 3 "Person_0!='out'" "Person_1!='in_elevator'" "floor_queue_1[2]>3"
+Acceptance: 2 Inf(1) | Inf(0)
+properties: trans-labels explicit-labels trans-acc
+--BODY--
+State: 0
+[!2] 0 {0}
+[2] 0
+[!2] 3
+State: 1
+[t] 1
+[2] 4
+[2] 5
+State: 2
+[0 | !1] 0
+[!0&1] 1
+State: 3
+[!2] 3 {1}
+State: 4
+[2] 4
+State: 5
+[2] 5 {1}
+--END--

@@ -1,0 +1,1 @@
+!((packet!=4) U [](((!(sender==s1_1) && ((SN==q_in_2) U ((RN\.buf_0\[3\]<=10) && (SN==q_in_2)))) || ((sender==s1_1) && (!(SN==q_in_2) R (!(RN\.buf_0\[3\]<=10) || !(SN==q_in_2))))) U ((NR_time\[6\]<9) && ((!(sender==s1_1) && ((SN==q_in_2) U ((RN\.buf_0\[3\]<=10) && (SN==q_in_2)))) || ((sender==s1_1) && (!(SN==q_in_2) R (!(RN\.buf_0\[3\]<=10) || !(SN==q_in_2))))))))

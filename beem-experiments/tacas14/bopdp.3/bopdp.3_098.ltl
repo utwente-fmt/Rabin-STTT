@@ -1,0 +1,1 @@
+!(((IOP!="issue_active_commands") && (<>(sleep_op!=27) U !(LSL_Driver!="stand_by"))) || (!(IOP!="issue_active_commands") && ([]!(sleep_op!=27) R (LSL_Driver!="stand_by"))))

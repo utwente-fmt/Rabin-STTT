@@ -1,0 +1,1 @@
+!(!(SN\.buf_0\[3\]<4) || (receiver\.RXW\[1\]>8) || ((SN==q_in_1) U [](RXW_TRAIL<=7)))

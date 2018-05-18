@@ -1,0 +1,29 @@
+HOA: v1
+name: "TGBA"
+States: 5
+Start: 0
+AP: 5 "Person_0!='out'" "floor_queue_1[2]<2" "Elevator=='transporting'" "Person_0.at_floor>2" "Person_1=='out'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic stutter-invariant weak
+--BODY--
+State: 0
+[!0&!1&2&!3&4] 1
+[!0&!1&!2&!3&4] 2
+[!0&!1&!2&3&4 | !0&!1&2&!4] 3
+[0 | 1 | !2&!4 | 2&3&4] 4
+State: 1
+[!1&!3&4] 1 {0}
+[!1&!4] 3 {0}
+[1 | 3&4] 4 {0}
+State: 2
+[!1&!3&4] 2
+[!1&3&4] 3
+[1 | !4] 4
+State: 3
+[!1] 3
+[1] 4
+State: 4
+[t] 4 {0}
+--END--

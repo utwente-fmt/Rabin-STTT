@@ -1,0 +1,1 @@
+!(((L=="start") && (<>!(Receiver\.triple<13) R (<>!(Receiver\.triple<13) || (!(RClient!="nok") U (!(RClient!="nok") && (Sender=="success")))))) || (!(L=="start") && ([](Receiver\.triple<13) U ([](Receiver\.triple<13) && ((RClient!="nok") R ((RClient!="nok") || !(Sender=="success")))))))

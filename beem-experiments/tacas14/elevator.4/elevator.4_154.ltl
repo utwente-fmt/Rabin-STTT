@@ -1,0 +1,1 @@
+!(((Person_2=="in_elevator") && ((Person_0=="waiting") R ((Person_0=="waiting") || <>(floor_queue_2\[0\]<1)))) U ((Servis\.floor!=2) U (Servis=="r")))

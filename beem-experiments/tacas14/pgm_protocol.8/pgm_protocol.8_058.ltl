@@ -1,0 +1,1 @@
+!((SN\.buf_0\[2\]<4) R ((SN\.buf_0\[2\]<4) || (!(RN_size!=12) && (element==e_nak)) || ((RN_size!=12) && !(element==e_nak)) || (!(element==e_spm2) R ((SN_time\[5\]!=2) || !(element==e_spm2)))))

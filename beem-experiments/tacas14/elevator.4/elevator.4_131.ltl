@@ -1,0 +1,1 @@
+!(((!(Person_0\.at_floor!=3) && !(floor_queue_0\[3\]!=1)) || ((Person_0\.at_floor!=3) && (floor_queue_0\[3\]!=1))) U (!(floor_queue_3\[3\]!=3) && ((!(Person_0\.at_floor!=3) && !(floor_queue_0\[3\]!=1)) || ((Person_0\.at_floor!=3) && (floor_queue_0\[3\]!=1))) && [](floor_queue_1\[1\]<=3)))

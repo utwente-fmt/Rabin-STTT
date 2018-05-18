@@ -1,0 +1,1 @@
+!((AP=="prepare_ack") || [](sw_stand_by<12))

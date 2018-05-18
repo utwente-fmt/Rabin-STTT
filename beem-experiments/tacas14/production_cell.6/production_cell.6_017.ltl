@@ -1,0 +1,1 @@
+!([](Press!="done") && ((!(Plate_0=="wait_belt") && ([](Plate_6!="wait_deposit") R ((Robot!="Apress") || [](Plate_6!="wait_deposit")))) || ((Plate_0=="wait_belt") && (<>!(Plate_6!="wait_deposit") U (!(Robot!="Apress") && <>!(Plate_6!="wait_deposit"))))))

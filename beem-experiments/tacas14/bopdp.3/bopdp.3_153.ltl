@@ -1,0 +1,1 @@
+!((LSL_Driver!="stand_by") R ((LSL_Driver!="stand_by") || (!(sleep_op<10) && (((LSL_Driver!="call") && [](some_interrupt<=25)) || (!(LSL_Driver!="call") && <>!(some_interrupt<=25)))) || ((sleep_op<10) && (((LSL_Driver!="call") && <>!(some_interrupt<=25)) || (!(LSL_Driver!="call") && [](some_interrupt<=25))))))

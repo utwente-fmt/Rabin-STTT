@@ -1,0 +1,26 @@
+HOA: v1
+name: "TGBA"
+States: 5
+Start: 0
+AP: 4 "Lift_1=='active'" "relay[1]<=19" "Lift_0.m!=17" "Environment!='pressed_up_0'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc stutter-invariant
+--BODY--
+State: 0
+[!0&!1&!2 | 0&1&!2] 1
+[!0&!1&2&!3 | 0&1&2&!3] 2
+[!0&!1&2 | 0&1&2] 3
+[!0&1&2 | 0&!1&2] 4
+State: 1
+[t] 1 {0}
+State: 2
+[!3] 2 {0}
+State: 3
+[!2] 1
+[2&!3] 2
+[2] 3
+State: 4
+[2&!3] 4
+[2&3] 4 {0}
+--END--

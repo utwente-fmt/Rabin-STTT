@@ -1,0 +1,17 @@
+HOA: v1
+States: 3
+Start: 2
+AP: 5 "sender=='s1_2'" "NS_time[6]>1" "element=='e0_1'" "sender=='s0_5'" "SN.buf_2[0]>7"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc deterministic
+--BODY--
+State: 0
+[3&!4] 0
+[4] 1
+State: 1
+[t] 1
+State: 2
+[!0&!1&2&3&!4 | !0&1&!2&3&!4 | 0&!1&!2&3&!4 | 0&1&2&3&!4] 0
+[!0&!1&!2 | !0&1&2 | 0&!1&2 | 0&1&!2 | 4] 1
+--END--

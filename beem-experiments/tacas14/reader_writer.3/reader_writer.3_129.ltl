@@ -1,0 +1,1 @@
+!((writer_12=="writing") || <>([](writer_4=="writing") && ([](reader_7!="reading") U (writer_7!="writing"))))

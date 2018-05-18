@@ -1,0 +1,1 @@
+!(!(Person_3!="out") U (!(Person_3!="out") && []((floor_queue_2_act<=0) && (floor_queue_3_act>3))))

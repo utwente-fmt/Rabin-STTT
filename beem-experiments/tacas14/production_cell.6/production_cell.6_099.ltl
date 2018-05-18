@@ -1,0 +1,1 @@
+!(<>((Plate_8!="new") && []!(Robot=="Bpress")) U (((!(Plate_2!="wait_deposit") && !(Robot\.at_press<=1)) || ((Plate_2!="wait_deposit") && (Robot\.at_press<=1))) && <>((Plate_8!="new") && []!(Robot=="Bpress"))))

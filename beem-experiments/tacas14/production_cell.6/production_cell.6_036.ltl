@@ -1,0 +1,1 @@
+!([]((Plate_7=="wait_belt") && !(Robot\.at_press<=1)) || (<>(Robot\.at_press<=1) && <>!(Plate_7=="wait_belt")))

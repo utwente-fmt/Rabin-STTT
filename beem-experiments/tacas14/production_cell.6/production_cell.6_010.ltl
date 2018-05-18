@@ -1,0 +1,1 @@
+!(<>(Deposit=="wait") && (<>(Deposit!="wait") || (!(Plate_7=="wait_table") && [](Plate_5=="wait_press")) || ((Plate_7=="wait_table") && <>!(Plate_5=="wait_press"))))

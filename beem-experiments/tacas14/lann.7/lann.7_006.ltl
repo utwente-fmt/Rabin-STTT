@@ -1,0 +1,1 @@
+!(((!(P_3\.status<=12) && !(channel_link_2!="tr")) || ((P_3\.status<=12) && (channel_link_2!="tr"))) R ((!(channel_link_4=="ready") R (channel_link_0!="tr")) U ((P_2=="CS") && (!(channel_link_4=="ready") R (channel_link_0!="tr")))))

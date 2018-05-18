@@ -1,0 +1,1 @@
+!([]((((Calc=="calc_data") && (([]!(ap_interrupt<=18) && <>(IOP!="w_stand_by")) || (<>(ap_interrupt<=18) && []!(IOP!="w_stand_by")))) || (!(Calc=="calc_data") && ((<>(IOP!="w_stand_by") && <>(ap_interrupt<=18)) || [](!(IOP!="w_stand_by") && !(ap_interrupt<=18))))) U (Interrupt_Generator!="generate")))

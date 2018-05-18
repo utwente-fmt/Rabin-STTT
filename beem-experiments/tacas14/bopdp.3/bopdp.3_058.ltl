@@ -1,0 +1,1 @@
+!(<>([](IOP!="now_wait") && (!(IOP!="send_nack") || ((cur<14) R ((cur<14) || (lsl_data>18))))))

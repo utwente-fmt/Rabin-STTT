@@ -1,0 +1,1 @@
+!(((Lift_0=="q3") && (((!(Lift_1=="r2") && []!(Lift_2\.nos<26)) || ((Lift_1=="r2") && <>(Lift_2\.nos<26))) R (Bus\.sender<=18))) || (!(Lift_0=="q3") && (((!(Lift_1=="r2") && <>(Lift_2\.nos<26)) || ((Lift_1=="r2") && []!(Lift_2\.nos<26))) U !(Bus\.sender<=18))))

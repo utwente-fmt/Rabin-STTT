@@ -1,0 +1,1 @@
+!((P_3=="CS") || <>(P_3\.status<=12) || (!(channel_link_1!="ready") && (!(channel_link_2!="tr") U !(P_2!="CS"))) || ((channel_link_1!="ready") && ((channel_link_2!="tr") R (P_2!="CS"))))

@@ -1,0 +1,1 @@
+!(!(Lift_1=="p_send") R ([](Lift_1=="a_move") R ((relay\[1\]<=19) && <>(Lift_3=="q1"))))

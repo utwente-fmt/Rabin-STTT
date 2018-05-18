@@ -1,0 +1,1 @@
+!(([]!(receiver\.packet!=0) && (!(element\.i<=11) R ((element\.nloss<10) R ((element\.nloss<10) || (receiver==r0_1))))) || (<>(receiver\.packet!=0) && ((element\.i<=11) U (!(element\.nloss<10) U (!(element\.nloss<10) && !(receiver==r0_1))))))

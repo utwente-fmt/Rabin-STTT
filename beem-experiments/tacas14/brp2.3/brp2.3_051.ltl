@@ -1,0 +1,1 @@
+!(([]!(Receiver!="first_safe_frame") && (((!(L!="in_transit") && <>(Sender\.ab<1)) || ((L!="in_transit") && []!(Sender\.ab<1))) R <>(Receiver\.triple<13))) || (<>(Receiver!="first_safe_frame") && (((!(L!="in_transit") && []!(Sender\.ab<1)) || ((L!="in_transit") && <>(Sender\.ab<1))) U []!(Receiver\.triple<13))))

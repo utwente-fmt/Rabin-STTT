@@ -1,0 +1,1 @@
+!([]<>(LSL_Interrupt_Handler!="awake") && ((!(IOP=="send_active_command") && []!(LSL_Driver!="stand_by")) || ((IOP=="send_active_command") && <>(LSL_Driver!="stand_by"))))

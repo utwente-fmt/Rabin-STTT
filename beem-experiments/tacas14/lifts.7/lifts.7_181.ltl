@@ -1,0 +1,1 @@
+!([](!(Lift_3\.pos>30) && ((!(Lift_0!="p_send") && (Wheels\.count<25)) || ((Lift_0!="p_send") && !(Wheels\.count<25)))) || (<>(Lift_3\.pos>30) && <>((!(Lift_0!="p_send") && !(Wheels\.count<25)) || ((Lift_0!="p_send") && (Wheels\.count<25)))))

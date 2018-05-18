@@ -1,0 +1,1 @@
+!(((control=="readers_active") R ((control=="readers_active") || (reader_4=="reading"))) R ([](writer_6=="idle") U ((reader_2=="reading") && (writer_9=="writing"))))

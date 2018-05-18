@@ -1,0 +1,23 @@
+HOA: v1
+States: 5
+Start: 4
+AP: 3 "Elevator!='choose_next'" "floor_queue_2[0]<=3" "floor_queue_3[2]<1"
+acc-name: Rabin 1
+Acceptance: 2 Fin(0) & Inf(1)
+properties: trans-labels explicit-labels trans-acc deterministic weak
+--BODY--
+State: 0
+[t] 0 {1}
+State: 1
+[0] 1 {1}
+State: 2
+[!0] 0
+[0] 2
+State: 3
+[0] 0
+[!0] 3
+State: 4
+[0&!1&2] 1
+[0&1 | 0&!2] 2
+[!0&1 | !0&!2] 3
+--END--

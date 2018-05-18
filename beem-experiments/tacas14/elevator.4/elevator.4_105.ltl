@@ -1,0 +1,1 @@
+!(<>(floor_queue_1\[1\]<1) && <>(current<0) && <>((Person_2!="in_elevator") R ((Person_2!="in_elevator") || (Servis\.floor!=2))))

@@ -1,0 +1,1 @@
+!((<>!(some_data<26) U (!(AP!="active") || !(cur<14))) R (IOP!="send_active_command"))

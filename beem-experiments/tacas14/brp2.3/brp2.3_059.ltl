@@ -1,0 +1,1 @@
+!([]((K!="start") || (((!(Sender=="error") && ((clock=="time") U (Sender\.i>8))) || ((Sender=="error") && (!(clock=="time") R !(Sender\.i>8)))) U (Sender=="wait_ack"))))

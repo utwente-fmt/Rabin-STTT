@@ -1,0 +1,1 @@
+!((((!(K!="BAD") && !(Receiver\.exp_ab<=3) && (Sender=="wait_ack")) || ((K!="BAD") && ((Receiver\.exp_ab<=3) || !(Sender=="wait_ack")))) && <>(RClient!="ok")) U (Receiver=="idle"))

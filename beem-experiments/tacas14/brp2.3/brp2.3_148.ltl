@@ -1,0 +1,1 @@
+!(((SClient=="dk") && ((K=="start") R ((K=="start") || <>(Sender=="wait_ack")))) U ((File!=14) U (SClient=="file_req")))

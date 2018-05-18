@@ -1,0 +1,1 @@
+!(((clock!="time") && (((Receiver!="frame_reported") || [](V<=17)) U [](File<=15))) || (!(clock!="time") && ((!(Receiver!="frame_reported") && <>!(V<=17)) R <>!(File<=15))))

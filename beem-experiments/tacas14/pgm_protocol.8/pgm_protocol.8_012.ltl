@@ -1,0 +1,1 @@
+!([](element==e_nak) U ((!(SN\.buf_2\[1\]<10) && (receiver==r0)) || ((SN\.buf_2\[1\]<10) && !(receiver==r0)) || (!(RN_time\[3\]>10) && !(SN==q_out_2)) || ((RN_time\[3\]>10) && (SN==q_out_2))))

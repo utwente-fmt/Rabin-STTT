@@ -1,0 +1,1 @@
+!(((!(Plate_3=="wait_press") || (Plate_3=="wait_table")) && ((((Robot\.at_press<=1) R (Press=="done")) && <>!(done<6)) || ([](done<6) && (!(Robot\.at_press<=1) U !(Press=="done"))))) || ((Plate_3=="wait_press") && !(Plate_3=="wait_table") && ((<>!(done<6) && (!(Robot\.at_press<=1) U !(Press=="done"))) || (((Robot\.at_press<=1) R (Press=="done")) && [](done<6)))))

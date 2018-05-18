@@ -1,0 +1,1 @@
+!((Lift_2=="active") || ((Bus!="send_up") R (Lift_2!="r1")) || (!(Lift_0=="q1") R (!(Lift_0=="q1") || (Lift_0=="r4"))))

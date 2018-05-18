@@ -1,0 +1,1 @@
+!(((Lift_3=="error_state") || <>(Lift_3=="wait")) R ((Lift_3!="a_move") U ((Lift_3!="a_move") && ((Bus!="wait") R (Lift_1=="r2")))))

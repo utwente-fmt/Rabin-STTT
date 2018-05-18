@@ -1,0 +1,1 @@
+!([](P_1=="wait") || ([](P_3=="wait") U (((P_0\.v!=4) || (channel_link_0=="ready")) && [](P_3=="wait"))))

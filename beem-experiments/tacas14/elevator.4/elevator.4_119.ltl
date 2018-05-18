@@ -1,0 +1,1 @@
+!((Person_0!="in_elevator") && <>!(Elevator=="move_next") && <>(!(Elevator!="q") && !(Person_3!="in_elevator")))

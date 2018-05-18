@@ -1,0 +1,1 @@
+!((!(RClient!="inc") && (((!(SClient=="dk") && [](K=="BAD")) U !(Sender!="idle")) R !(K\.triple!=11))) || ((RClient!="inc") && ((((SClient=="dk") || <>!(K=="BAD")) R (Sender!="idle")) U (K\.triple!=11))))

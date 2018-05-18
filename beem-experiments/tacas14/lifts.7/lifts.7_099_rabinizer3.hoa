@@ -1,0 +1,21 @@
+HOA: v1
+States: 3
+Start: 0
+AP: 4 "Lift_0.nos!=6" "Environment!='pressed_up_2'" "Environment=='pressed_down_1'" "Lift_2=='q5'"
+acc-name: generalized-Rabin 2 0 1
+Acceptance: 3 Fin(0) | (Fin(1) & Inf(2))
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0&!3] 1 {0 1}
+[0 | !1&2&3 | 1&!2&3] 0 {0 1}
+[!0&!1&!2&3 | !0&1&2&3] 2 {0 1}
+State: 1
+[t] 1
+State: 2
+[!1&2&3 | 1&!2&3] 0 {0 1}
+[!1&!2&3 | 1&2&3] 2 {0 2}
+[!1&2&!3 | 1&!2&!3] 1 {0 1}
+[!1&!2&!3 | 1&2&!3] 1 {0 2}
+--END--

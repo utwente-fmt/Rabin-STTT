@@ -1,0 +1,1 @@
+!(((Sender=="wait_ack") && (((Sender=="init_state") U (RClient!="ok")) || (!(Receiver\.exp_ab!=14) U !(RClient!="nok")))) || (!(Sender=="wait_ack") && ((Receiver\.exp_ab!=14) R (RClient!="nok")) && (!(Sender=="init_state") R !(RClient!="ok"))))

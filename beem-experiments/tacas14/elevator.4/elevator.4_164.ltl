@@ -1,0 +1,1 @@
+!((floor_queue_2\[2\]<3) || ((Elevator=="transporting") R (floor_queue_2_act<2)) || (!(floor_queue_0\[3\]!=1) R ((Elevator\.serving<=2) || !(floor_queue_0\[3\]!=1))))

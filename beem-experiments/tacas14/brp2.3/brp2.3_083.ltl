@@ -1,0 +1,1 @@
+!([]<>((L!="start") R ([](K=="start") U ((K!="in_transit") && (Receiver=="frame_received")))))

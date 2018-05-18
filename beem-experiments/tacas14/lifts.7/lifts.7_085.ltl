@@ -1,0 +1,1 @@
+!(((Lift_1!="error_state") || <>(Lift_0=="p_send")) U ([](Lift_2=="r1") && ((Lift_1!="error_state") || <>(Lift_0=="p_send"))))

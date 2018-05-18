@@ -1,0 +1,1 @@
+!(<>((<>(Plate_6!="wait_belt") && <>[]((!(Plate_0=="wait_belt") && !(Robot=="Bpress")) || ((Plate_0=="wait_belt") && (Robot=="Bpress")))) || [](!(Plate_6!="wait_belt") && <>((!(Plate_0=="wait_belt") && (Robot=="Bpress")) || ((Plate_0=="wait_belt") && !(Robot=="Bpress"))))))

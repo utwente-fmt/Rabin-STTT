@@ -1,0 +1,1 @@
+!(((Receiver=="idle") && (([]!(SClient!="ok") U !(Receiver!="idle")) R <>!(Receiver=="first_safe_frame"))) || (!(Receiver=="idle") && ((<>(SClient!="ok") R (Receiver!="idle")) U [](Receiver=="first_safe_frame"))))

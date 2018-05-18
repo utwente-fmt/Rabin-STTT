@@ -1,0 +1,1 @@
+!(((!(Elevator=="transporting") R ((Elevator!="q") || (Person_1=="in_elevator"))) && <>!(floor_queue_1\[2\]>3)) || ([](floor_queue_1\[2\]>3) && ((Elevator=="transporting") U (!(Elevator!="q") && !(Person_1=="in_elevator")))))

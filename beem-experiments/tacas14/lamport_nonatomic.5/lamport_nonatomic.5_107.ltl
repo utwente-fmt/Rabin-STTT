@@ -1,0 +1,1 @@
+!(((!(P_4=="CS") && (!(P_1=="p6") R (NonatomicVar_2=="q"))) || ((P_4=="CS") && ((P_1=="p6") U !(NonatomicVar_2=="q")))) U (((!(P_4=="CS") && (!(P_1=="p6") R (NonatomicVar_2=="q"))) || ((P_4=="CS") && ((P_1=="p6") U !(NonatomicVar_2=="q")))) && ((P_4=="p9") R ((P_2=="p9") || (P_4=="p9")))))

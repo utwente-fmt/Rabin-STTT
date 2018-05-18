@@ -1,0 +1,1 @@
+!((<>(Person_1=="out") && ((!(floor_queue_2\[3\]>3) && [](Person_0=="out")) || ((floor_queue_2\[3\]>3) && <>!(Person_0=="out")))) U !(Person_3\.at_floor<=3))

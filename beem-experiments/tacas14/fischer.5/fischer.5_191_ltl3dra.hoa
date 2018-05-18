@@ -1,0 +1,30 @@
+HOA: v1
+States: 5
+Start: 4
+AP: 3 "P_4=='try'" "P_5=='wait'" "P_5=='NCS'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[t] 0 {0}
+State: 1
+[2] 1
+[!2] 0 {0}
+State: 2
+[0&2] 1
+[0&!2] 0 {0}
+[!0&2] 2
+[!0&!2] 4 {0}
+State: 3
+[1&2] 1
+[!1&2] 3 {0}
+[!2] 0 {0}
+State: 4
+[0&1&2] 1
+[0&!1&2] 3 {0}
+[0&!2] 0 {0}
+[!0&1&2] 2
+[!0&!1 | !0&!2] 4 {0}
+--END--

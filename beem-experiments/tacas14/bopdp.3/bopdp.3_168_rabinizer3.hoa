@@ -1,0 +1,29 @@
+HOA: v1
+States: 5
+Start: 0
+AP: 5 "IOP!='issue_down_lsl'" "AP_Interrupt_Handler=='reset_cur'" "generated_ap_interrupt<=0" "enabled_lsl_interrupt<22" "IOP=='check_interrupts'"
+acc-name: generalized-Rabin 2 1 0
+Acceptance: 3 (Fin(0) & Inf(1)) | Fin(2)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0&!1&2&!3&4] 1 {0 2}
+[0 | 1 | !2&!4 | 2&3&4] 2 {0 2}
+[!0&!1&!2&!3&4] 3 {0 2}
+[!0&!1&!2&3&4 | !0&!1&2&!4] 4 {0 2}
+State: 1
+[!1&!4] 4 {0 2}
+[1&4 | 3&4] 2 {1 2}
+[1&!4] 2 {0 2}
+[!1&!3&4] 1 {1 2}
+State: 2
+[t] 2
+State: 3
+[!1&3&4] 4 {0 2}
+[!1&!3&4] 3 {0 2}
+[1 | !4] 2 {0 2}
+State: 4
+[1] 2 {0 2}
+[!1] 4 {0 2}
+--END--

@@ -1,0 +1,1 @@
+!(((((L!="start") && !(Sender!="next_frame")) || (!(L!="start") && (Sender!="next_frame"))) R (Z!=24)) U ((File!=14) U [](Sender=="idle")))

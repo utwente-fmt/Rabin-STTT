@@ -1,0 +1,1 @@
+!((((!(L=="BAD") && !(RClient!="inc")) || ((L=="BAD") && (RClient!="inc")) || []!(L=="BAD")) && (!(SClient=="nok") R !(K!="BAD"))) || (((!(L=="BAD") && (RClient!="inc")) || ((L=="BAD") && !(RClient!="inc"))) && <>(L=="BAD") && ((SClient=="nok") U (K!="BAD"))))

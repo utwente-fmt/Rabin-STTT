@@ -1,0 +1,1 @@
+!((Robot!="Bpress") && (((Plate_2=="wait_table") && !(Plate_9=="wait_table") && []<>(Press=="wait")) || (!(Plate_2=="wait_table") && ((Plate_9=="wait_table") || <>[]!(Press=="wait")))))

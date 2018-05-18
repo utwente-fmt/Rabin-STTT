@@ -1,0 +1,1 @@
+!(<>((!(Belt!="wait") R (!(Belt!="wait") || (Plate_7!="wait_press"))) R ((!(Plate_9=="new") U (!(Plate_1!="wait_press") && !(Plate_9=="new"))) || (!(Belt!="wait") R (!(Belt!="wait") || (Plate_7!="wait_press"))))))

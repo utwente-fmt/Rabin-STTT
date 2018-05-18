@@ -1,0 +1,1 @@
+!(([]!(Sender\.ab<1) && (((Sender\.i>8) R ((Sender!="wait_ack") || (Sender\.i>8))) R (File<=15))) || (<>(Sender\.ab<1) && ((!(Sender\.i>8) U (!(Sender!="wait_ack") && !(Sender\.i>8))) U !(File<=15))))

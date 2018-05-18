@@ -1,0 +1,15 @@
+HOA: v1
+States: 2
+Start: 1
+AP: 5 "Plate_5!='new'" "Sensor=='q'" "Plate_2=='wait_belt'" "Belt!='q2'" "Robot.A!=2"
+acc-name: Rabin 1
+Acceptance: 2 Fin(0) & Inf(1)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic weak
+--BODY--
+State: 0
+[t] 0 {1}
+State: 1
+[0&1&!2&!3&4 | 0&1&!2&3&!4 | 0&1&2&!3&!4 | 0&1&2&3&4] 0
+[!0 | !1 | !2&!3&!4 | !2&3&4 | 2&!3&4 | 2&3&!4] 1
+--END--

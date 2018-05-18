@@ -1,0 +1,1 @@
+!(((Sender=="idle") || <>(Receiver!="idle")) R ((Sender=="idle") || <>(Receiver!="idle") || ((SClient!="send_req") U ((RClient!="nok") && (SClient!="send_req") && (Sender!="next_frame")))))

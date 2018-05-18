@@ -1,0 +1,1 @@
+!(<>(SClient=="ok") R (((!(SClient!="dk") && (Sender\.i<3)) || ((SClient!="dk") && !(Sender\.i<3))) R <>(Sender=="success")))

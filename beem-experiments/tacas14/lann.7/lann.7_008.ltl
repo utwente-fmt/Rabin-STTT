@@ -1,0 +1,1 @@
+!((P_1=="wait") || (!(P_0!="got_msg") U []((!(P_2=="CS") && !(channel_link_3\.v<=0)) || ((P_2=="CS") && (channel_link_3\.v<=0)))))

@@ -1,0 +1,1 @@
+!(<>!(channel_link_0=="tr") U ((channel_link_1!="ready") || <>(channel_link_3\.v<=0)))

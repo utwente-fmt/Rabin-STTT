@@ -1,0 +1,35 @@
+HOA: v1
+name: "TGBA"
+States: 6
+Start: 0
+AP: 4 "writer_5!='writing'" "writer_7!='idle'" "control!='writer_active'" "writer_5=='writing'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc deterministic
+properties: stutter-invariant
+--BODY--
+State: 0
+[!0&!1&2&!3] 0
+[!0&!1&2&3] 1
+[0&2&3 | 1&2&3] 2
+[0&!2&3 | 1&!2&3] 3
+[0&2&!3 | 1&2&!3] 4
+[0&!2&!3 | 1&!2&!3] 5
+State: 1
+[!0&!1&2] 1 {0}
+[0&2 | 1&2] 2
+[0&!2 | 1&!2] 3
+State: 2
+[!0&!1&2] 1 {0}
+[0&2 | 1&2] 2
+State: 3
+[0&!2 | 1&!2] 3 {0}
+State: 4
+[!0&!1&2&!3] 0
+[!0&!1&2&3] 1
+[0&2&3 | 1&2&3] 2
+[0&2&!3 | 1&2&!3] 4
+State: 5
+[0&!2&3 | 1&!2&3] 3
+[0&!2&!3 | 1&!2&!3] 5
+--END--

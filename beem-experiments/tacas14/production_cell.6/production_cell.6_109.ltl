@@ -1,0 +1,1 @@
+!(((Plate_1!="wait_deposit") && []<>((Robot\.B<=5) && [](Plate_9=="wait_belt"))) U ((Deposit\.k<=1) && (Plate_1!="wait_deposit") && []<>((Robot\.B<=5) && [](Plate_9=="wait_belt"))))

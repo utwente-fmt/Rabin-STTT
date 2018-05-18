@@ -1,0 +1,17 @@
+HOA: v1
+States: 3
+Start: 2
+AP: 4 "IOP=='insert_noop'" "enabled_lsl_interrupt<22" "IOP!='s_active'" "IOP=='enable_lsl_interrupt'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[t] 0 {0}
+State: 1
+[t] 1
+State: 2
+[!0&!2 | !0&!3 | 1] 1
+[0&!1 | !1&2&3] 0 {0}
+--END--

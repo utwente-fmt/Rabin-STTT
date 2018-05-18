@@ -1,0 +1,1 @@
+!(<>((!(Sender\.rc<=15) && (Sender=="init_state") && (!(Sender!="wait_ack") U []!(L=="BAD"))) || (((Sender\.rc<=15) || !(Sender=="init_state")) && ((Sender!="wait_ack") R <>(L=="BAD")))))

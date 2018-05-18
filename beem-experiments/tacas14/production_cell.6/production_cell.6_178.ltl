@@ -1,0 +1,1 @@
+!(<>(Plate_9=="new") R ((!(Belt!="wait") && ((Robot!="Bpress") || !(Table\.k<4))) || ((Belt!="wait") && !(Robot!="Bpress") && (Table\.k<4))))

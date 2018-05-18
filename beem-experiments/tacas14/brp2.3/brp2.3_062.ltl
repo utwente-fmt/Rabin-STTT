@@ -1,0 +1,1 @@
+!(((Receiver\.exp_ab<=3) && (Sender\.ab<20)) R ((Receiver\.triple<13) || !(Sender\.rc<=15) || !(Sender=="wait_ack")))

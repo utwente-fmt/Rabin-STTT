@@ -1,0 +1,1 @@
+!([]<>(receiver\.sqn<=12) U (!(receiver\.outloss>7) U (!(element\.nloss<10) && !(receiver\.outloss>7))))

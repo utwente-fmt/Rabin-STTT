@@ -1,0 +1,36 @@
+HOA: v1
+States: 7
+Start: 0
+AP: 4 "Lift_1!='q4'" "Lift_2!='error_state'" "Lift_1!='passive'" "Lift_3.nos!=29"
+acc-name: Rabin 1
+Acceptance: 2 Fin(0) & Inf(1)
+properties: trans-labels explicit-labels trans-acc
+--BODY--
+State: 0
+[3] 0
+[!0&2&3] 1
+[!0&1&!2&3] 2
+[!0&!2&3] 3
+[0&!1&!2&3] 4
+[0&1&!2&3] 5
+State: 1
+[!0&2] 1 {1}
+[!0&1&!2] 2
+[!0&!2] 3
+[0&!1&!2] 4
+[0&1&!2] 5
+State: 2
+[!0&1] 2 {1}
+State: 3
+[!0&2] 1 {1}
+[!0&!2] 3
+State: 4
+[0&!1&!2] 4 {1}
+[0&1&!2] 5
+[!0&1&!2] 6
+State: 5
+[0&!1&!2] 4 {1}
+[0&1&!2] 5
+State: 6
+[!0&1&!2] 6 {1}
+--END--

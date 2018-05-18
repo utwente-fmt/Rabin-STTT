@@ -1,0 +1,37 @@
+HOA: v1
+name: "TGBA"
+States: 8
+Start: 0
+AP: 3 "Lift_1=='error_state'" "Lift_0!='a_msg'" "Lift_0=='error_state'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc stutter-invariant
+--BODY--
+State: 0
+[!0&2] 1
+[0&!2] 2
+[0&!2] 3
+[!0&!2] 4
+[!0&!2] 5
+State: 1
+[!0] 1 {0}
+State: 2
+[!1] 2 {0}
+[1] 2
+State: 3
+[!2] 2
+[!2] 3 {0}
+State: 4
+[0&!2] 3
+[!0&!2] 4
+[!0&1&2] 6
+[!0&2] 7
+State: 5
+[0] 2
+[!0] 5
+State: 6
+[!0&1] 6 {0}
+State: 7
+[!0&1] 6
+[!0] 7
+--END--

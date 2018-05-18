@@ -1,0 +1,15 @@
+HOA: v1
+States: 2
+Start: 0
+AP: 5 "Plate_5!='new'" "Sensor=='q'" "Plate_2=='wait_belt'" "Belt!='q2'" "Robot.A!=2"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[0&1&!2&!3&4 | 0&1&!2&3&!4 | 0&1&2&!3&!4 | 0&1&2&3&4] 1 {0}
+[!0 | !1 | !2&!3&!4 | !2&3&4 | 2&!3&4 | 2&3&!4] 0 {0}
+State: 1
+[t] 1
+--END--

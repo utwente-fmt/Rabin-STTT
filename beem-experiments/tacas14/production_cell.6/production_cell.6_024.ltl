@@ -1,0 +1,1 @@
+!(((Press!="wait") U (Deposit=="wait")) || ((Plate_3=="wait_press") && (Table!="up_empty") && <>(Plate_6=="wait_belt")))

@@ -1,0 +1,1 @@
+!(<>((!(Lift_1\.nos!=6) && ([](Lift_3!="q2") U (Lift_0!="active"))) || ((Lift_1\.nos!=6) && (<>!(Lift_3!="q2") R !(Lift_0!="active")))))

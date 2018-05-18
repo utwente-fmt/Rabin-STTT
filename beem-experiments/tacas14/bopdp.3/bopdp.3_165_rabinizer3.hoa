@@ -1,0 +1,31 @@
+HOA: v1
+States: 4
+Start: 0
+AP: 3 "IOP=='clear_lsl_interrupt'" "Calc!='idle'" "lsl_interrupt_ex<25"
+acc-name: Rabin 2
+Acceptance: 4 (Fin(0) & Inf(1)) | (Fin(2) & Inf(3))
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[!0&!1&2] 2 {0}
+[1&2] 1 {0}
+[!0&!2 | 1&!2] 0 {0 3}
+[0&!1&!2] 0 {1 3}
+[0&!1&2] 2
+State: 1
+[t] 1 {0 2}
+State: 2
+[!0&!1&2] 2 {0}
+[1&2] 1 {0}
+[0&!1&!2] 3 {1 2}
+[!0&!1&!2] 3 {0 2}
+[1&!2] 1 {0 2}
+[0&!1&2] 2
+State: 3
+[!0&!1&2] 2 {0 2}
+[1] 1 {0 2}
+[0&!1&!2] 3 {1 2}
+[!0&!1&!2] 3 {0 2}
+[0&!1&2] 2 {2}
+--END--

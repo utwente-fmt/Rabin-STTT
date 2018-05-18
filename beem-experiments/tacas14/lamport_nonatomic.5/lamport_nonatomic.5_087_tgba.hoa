@@ -1,0 +1,21 @@
+HOA: v1
+name: "TGBA"
+States: 3
+Start: 0
+AP: 4 "NonatomicVar_3=='q'" "P_0=='w1'" "P_0=='CS'" "P_1.v<0"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc stutter-invariant
+--BODY--
+State: 0
+[0&1] 0
+[!0&2 | !1&2 | 2&3] 1
+[0&!1] 2
+State: 1
+[2&!3] 1
+[2&3] 1 {0}
+State: 2
+[0&1] 0
+[0&1&2&3] 1
+[0&!1] 2
+--END--

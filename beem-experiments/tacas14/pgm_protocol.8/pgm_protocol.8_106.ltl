@@ -1,0 +1,1 @@
+!((receiver\.trail!=7) || (!(SN\.buf_2\[2\]>0) && !(element==e_spm)) || ((SN\.buf_2\[2\]>0) && (element==e_spm)) || (!(SN\.buf_2\[2\]>0) R (NR\.buf_0\[4\]>0)))

@@ -1,0 +1,17 @@
+HOA: v1
+States: 3
+Start: 2
+AP: 4 "P_2=='p4'" "P_2=='p8'" "P_2=='p3'" "P_4=='p6'"
+acc-name: Rabin 1
+Acceptance: 2 Fin(0) & Inf(1)
+properties: trans-labels explicit-labels trans-acc deterministic weak
+--BODY--
+State: 0
+[t] 0 {1}
+State: 1
+[!2&3 | 2&!3] 0
+[!2&!3 | 2&3] 1
+State: 2
+[!0&!2&3 | !0&2&!3 | !1&!2&3 | !1&2&!3] 0
+[!0&!2&!3 | !0&2&3 | !1&!2&!3 | !1&2&3] 1
+--END--

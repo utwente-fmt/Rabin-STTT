@@ -1,0 +1,25 @@
+HOA: v1
+States: 5
+Start: 2
+AP: 5 "control!='writer_active'" "reader_11=='idle'" "reader_11=='reading'" "reader_8=='reading'" "reader_7!='reading'"
+acc-name: generalized-co-Buchi 2
+Acceptance: 2 Fin(0)|Fin(1)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[t] 0 {0 1}
+State: 1
+[t] 1 {1}
+State: 2
+[!0&!1&2&3&4 | !0&1&!2&3&4 | 0&!1&!2&3&4 | 0&1&2&3&4] 0 {0 1}
+[!0&!1&!2 | !0&1&2 | 0&!1&2 | 0&1&!2 | !3&4] 1 {1}
+[!0&!1&2&3&!4 | !0&1&!2&3&!4 | 0&!1&!2&3&!4 | 0&1&2&3&!4] 4 {0}
+[!0&!1&2&!3&!4 | !0&1&!2&!3&!4 | 0&!1&!2&!3&!4 | 0&1&2&!3&!4] 3 {0 1}
+State: 3
+[4] 1 {1}
+[!4] 3 {0 1}
+State: 4
+[4] 0 {0 1}
+[!4] 4 {0}
+--END--

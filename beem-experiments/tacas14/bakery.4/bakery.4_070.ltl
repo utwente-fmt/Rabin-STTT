@@ -1,0 +1,1 @@
+!(((choosing\[0\]<0) R !(P_2=="for_loop")) || (((P_1\.max<2) && (P_1=="choose")) R (number\[1\]<4)))

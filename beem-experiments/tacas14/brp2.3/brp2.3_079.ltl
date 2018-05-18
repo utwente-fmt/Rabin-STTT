@@ -1,0 +1,1 @@
+!((!(clock!="time") && ((<>[](SClient=="file_req") && (!(Sender!="wait_ack") U !(L!="start"))) || (((Sender!="wait_ack") R (L!="start")) && []<>!(SClient=="file_req")))) || ((clock!="time") && (((!(Sender!="wait_ack") U !(L!="start")) && []<>!(SClient=="file_req")) || (<>[](SClient=="file_req") && ((Sender!="wait_ack") R (L!="start"))))))

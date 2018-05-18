@@ -1,0 +1,1 @@
+!((!(Elevator\.going_to>1) && <>(!(Person_2!="in_elevator") R (!(Elevator\.going_to>1) && []!(Servis!="q")))) || ((Elevator\.going_to>1) && []((Person_2!="in_elevator") U ((Elevator\.going_to>1) || <>(Servis!="q")))))

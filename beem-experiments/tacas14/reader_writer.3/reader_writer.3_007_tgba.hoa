@@ -1,0 +1,16 @@
+HOA: v1
+name: "TGBA"
+States: 2
+Start: 1
+AP: 5 "writer_10!='idle'" "reader_0=='idle'" "reader_7=='idle'" "reader_9=='idle'" "writer_10=='idle'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc deterministic
+properties: stutter-invariant terminal
+--BODY--
+State: 0
+[t] 0 {0}
+State: 1
+[0&!1&4 | 0&!2&4 | 0&3&4] 0
+[!0&4 | 1&2&!3&4] 1
+--END--

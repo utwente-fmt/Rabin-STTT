@@ -1,0 +1,29 @@
+HOA: v1
+name: "TGBA"
+States: 4
+Start: 0
+AP: 4 "Elevator!='choose_next'" "Person_1.at_floor<=2" "floor_queue_3_act>3" "floor_queue_1[2]>3"
+acc-name: generalized-Buchi 2
+Acceptance: 2 Inf(0)&Inf(1)
+properties: trans-labels explicit-labels trans-acc complete
+properties: stutter-invariant
+--BODY--
+State: 0
+[!0&!1 | !2] 0
+[0&2 | 1&2] 1
+[!0&!1&2 | !0&!1&3] 2
+[0&!2 | 1&!2] 3
+State: 1
+[!3] 1 {1}
+[3] 1 {0 1}
+State: 2
+[0&2 | 1&2] 1
+[!0&!1&!2&!3] 2
+[!0&!1&2&!3] 2 {1}
+[!0&!1&!2&3] 2 {0}
+[!0&!1&2&3] 2 {0 1}
+[0&!2 | 1&!2] 3
+State: 3
+[2] 1
+[!2] 3
+--END--

@@ -1,0 +1,1 @@
+!(<>(((!(writer_3=="idle") && [](control!="q_error")) || ((writer_3=="idle") && <>!(control!="q_error"))) && (!(writer_10!="writing") U (!(writer_10!="writing") && (writer_10=="writing")))))

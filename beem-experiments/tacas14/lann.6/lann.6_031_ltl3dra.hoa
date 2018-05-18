@@ -1,0 +1,41 @@
+HOA: v1
+States: 7
+Start: 6
+AP: 3 "channel_link_3=='ready'" "P_2!='got_msg'" "P_0!='got_msg'"
+acc-name: generalized-co-Buchi 2
+Acceptance: 2 Fin(0)|Fin(1)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[t] 0 {0 1}
+State: 1
+[!1&2] 2 {1}
+[!2] 0 {0 1}
+[1&2] 1
+State: 2
+[!0&2 | !1&2] 2 {1}
+[!2] 0 {0 1}
+[0&1&2] 1
+State: 3
+[!1&2] 2 {1}
+[!2] 0 {0 1}
+[1&2] 3 {0}
+State: 4
+[0&1&2] 4 {0}
+[0&!1&2] 6 {0 1}
+[!0&!1&2] 2 {1}
+[!2] 0 {0 1}
+[!0&1&2] 3 {0}
+State: 5
+[!0&1&2] 5 {0 1}
+[!1&2] 2 {1}
+[!2] 0 {0 1}
+[0&1&2] 3 {0}
+State: 6
+[0&1&2] 4 {0}
+[!0&1&2] 5 {0 1}
+[0&!1&2] 6 {0 1}
+[!0&!1&2] 2 {1}
+[!2] 0 {0 1}
+--END--

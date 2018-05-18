@@ -1,0 +1,1 @@
+!(((P_4\.status<=12) && []!(channel_link_2=="tr")) U ((P_4\.status<=12) && []((!(P_3=="got_msg") && !(channel_link_1=="ready")) || ((P_3=="got_msg") && (channel_link_1=="ready"))) && []!(channel_link_2=="tr")))

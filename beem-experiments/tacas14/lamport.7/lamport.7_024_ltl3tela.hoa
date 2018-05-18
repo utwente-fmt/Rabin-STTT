@@ -1,0 +1,15 @@
+HOA: v1
+States: 2
+Start: 0
+AP: 3 "P_1!='q22'" "P_0=='CS'" "P_3!='p'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic weak
+--BODY--
+State: 0
+[!0&!1] 0 {0}
+[0 | 1] 1 {0}
+State: 1
+[t] 1
+--END--

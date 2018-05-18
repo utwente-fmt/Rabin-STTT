@@ -1,0 +1,1 @@
+!((((!(choosing\[0\]>1) && <>!(P_2=="choose")) || ((choosing\[0\]>1) && [](P_2=="choose"))) && <>(!(choosing\[0\]<0) && [](number\[1\]<0))) || (((!(choosing\[0\]>1) && [](P_2=="choose")) || ((choosing\[0\]>1) && <>!(P_2=="choose"))) && []((choosing\[0\]<0) || <>!(number\[1\]<0))))

@@ -1,0 +1,1 @@
+!([](((Deposit=="wait") && !(Plate_2=="wait_table")) || (!(Deposit=="wait") && (Plate_2=="wait_table"))) U (((Plate_9=="wait_belt") R !(Belt=="q1")) && [](((Deposit=="wait") && !(Plate_2=="wait_table")) || (!(Deposit=="wait") && (Plate_2=="wait_table")))))

@@ -1,0 +1,17 @@
+HOA: v1
+States: 3
+Start: 2
+AP: 5 "P_3=='p6'" "P_4=='w1'" "P_4=='NCS'" "NonatomicVar_2=='r'" "P_2=='p4'"
+acc-name: co-Buchi
+Acceptance: 1 Fin(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: deterministic
+--BODY--
+State: 0
+[t] 0 {0}
+State: 1
+[t] 1
+State: 2
+[!0 | !1&!2&3 | !1&!2&4 | !1&2&!3&!4 | 1&!2&!3&!4 | 1&2&3 | 1&2&4] 1
+[0&!1&!2&!3&!4 | 0&!1&2&3 | 0&!1&2&4 | 0&1&!2&3 | 0&1&!2&4 | 0&1&2&!3&!4] 0 {0}
+--END--

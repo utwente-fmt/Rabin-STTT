@@ -1,0 +1,1 @@
+!(((Lift_2!="q2") U (Lift_2=="q5")) U ((!(Bus!="send_up") U (!(Bus\.m<=6) && !(Lift_2!="a_msg"))) && ((Lift_2!="q2") U (Lift_2=="q5"))))

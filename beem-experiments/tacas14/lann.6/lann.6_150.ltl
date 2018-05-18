@@ -1,0 +1,1 @@
+!([](channel_link_2!="ready") || (!(channel_link_2=="ready") && []((P_3!="CS") && !(channel_link_2!="ready"))) || ((channel_link_2=="ready") && <>(!(P_3!="CS") || (channel_link_2!="ready"))))

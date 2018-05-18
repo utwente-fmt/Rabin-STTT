@@ -1,0 +1,20 @@
+HOA: v1
+name: "TGBA"
+States: 3
+Start: 0
+AP: 2 "P_1=='NCS'" "Timer=='q'"
+acc-name: Buchi
+Acceptance: 1 Inf(0)
+properties: trans-labels explicit-labels trans-acc complete
+properties: stutter-invariant
+--BODY--
+State: 0
+[0] 0
+[!0] 1
+[0&!1] 2
+State: 1
+[t] 1 {0}
+State: 2
+[!1] 2 {0}
+[1] 2
+--END--
